@@ -1,8 +1,8 @@
 ---
 type: pattern
 creation_date: 2026-08-04
-update_date: 2026-08-04
-related_sources: [aif_master_2020_05_alternanza_stimoli, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva]
+update_date: 2026-08-06
+related_sources: [aif_master_2020_05_alternanza_stimoli, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_2019_barbell_squat_routine]
 tags: [pattern, stimoli, microciclo, recupero]
 ---
 
@@ -22,8 +22,13 @@ Il pattern è visibile nelle tabelle delle tre fasi:
 - **[[fase_intensiva]]** — [[aif_master_2020_11_fase_intensiva]] mostra tabelle a 5 settimane con stressanti a 80-85% × 5-2 e stimolanti spesso in isocinetica/isometrica.
 - Le tabelle taper del [[taper]] non seguono lo stesso schema a 3 colonne (specificità pura).
 
+## Programmi documentati che applicano il pattern
+
+- **[[barbell_squat_routine]]** ([[antonio_contenta]], AIF blog ~2019) — microciclo esplicito a 4 sedute: Seduta 1 stressante (schema decrescente 50 → 35 → 20 → 9), Sedute 2 e 3 stimolanti (tempi modificati / ramping MAV), Seduta 4 rigenerante (pin o box squat). Fonte: [[aif_2019_barbell_squat_routine]].
+
 ## Fonti
 
 - [[aif_master_2020_05_alternanza_stimoli]]
 - [[aif_master_2020_10_fase_estensiva]]
 - [[aif_master_2020_11_fase_intensiva]]
+- [[aif_2019_barbell_squat_routine]]

@@ -9,10 +9,12 @@ Quick links: [[overview]] · [[log]]
 
 ## Entities
 
-- [[aif]] — Accademia Italiana della Forza — scuola dietro il MASTER PROGRAMMAZIONE 2020 (Parma) · 2026-08-06
+- [[aif]] — Accademia Italiana Forza — accademia italiana di formazione forza e powerlifting (accademiaitalianaforza.it) · 2026-08-06
 - [[forge_powerlifting]] — organizzazione italiana di coaching e divulgazione powerlifting (forgepowerlifting.com) · 2026-08-06
 - [[andrea_becattini]] — autore/coach Forge Powerlifting; enfasi su personalizzazione vs formule universali · 2026-08-06
 - [[alexander_prilepin]] — allenatore sovietico di weightlifting; autore della tabella di Prilepin · 2026-08-06
+- [[antonio_contenta]] — coach; Vice-Presidente AIF, fondatore Barbell Academy Roma, allenatore SS Lazio Powerlifting · 2026-08-06
+- [[barbell_academy_roma]] — palestra/accademia a Roma fondata da Antonio Contenta; ambiente di sviluppo del Barbell Squat Routine · 2026-08-06
 
 ## Concepts
 
@@ -42,6 +44,7 @@ Quick links: [[overview]] · [[log]]
 - [[metodo_cresco_facile]] — avvio per soggetti senza 1RM (test 15RM → 6×6 crescente)
 - [[milestone]] — progressione aciclica non lineare guidata da sedute chiave
 - [[dente_di_sega]] — progressione aciclica con IR variabile ai salti di carico
+- [[barbell_squat_routine]] — programma squat 4×4 settimane; dinamica volume −30% + carico +7.5% (Contenta, AIF blog ~2019) · 2026-08-06
 
 ## Reflections
 
@@ -75,7 +78,8 @@ Quick links: [[overview]] · [[log]]
 ### Articoli — Divulgazione
 
 - [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
+- [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane · 2026-08-06
 
 ## Analysis
 
-- _(no entries yet)_
+- [[barbell_squat_routine_vs_tabella_di_prilepin]] — Verifica settimana per settimana della coerenza tra la BSR e la Tabella di Prilepin: piena aderenza solo alla settimana 3, scostamento intenzionale nelle settimane a volume alto. · 2026-08-06

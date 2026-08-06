@@ -1,9 +1,9 @@
 ---
 type: source
 creation_date: 2026-08-04
-update_date: 2026-08-04
+update_date: 2026-08-06
 source_date: 2020-09-19
-related_sources: [aif_master_2020_01_filosofia_programmazione, aif_master_2020_02_costruzione_microciclo, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_05_alternanza_stimoli, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_08_avvio_senza_massimale, aif_master_2020_09_le_fasi_del_ciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper]
+related_sources: [aif_master_2020_01_filosofia_programmazione, aif_master_2020_02_costruzione_microciclo, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_05_alternanza_stimoli, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_08_avvio_senza_massimale, aif_master_2020_09_le_fasi_del_ciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, forge_2021_tabella_prilepin]
 tags: [aif, master_programmazione, forza, ipertrofia, programmazione]
 ---
 
@@ -18,7 +18,7 @@ tags: [aif, master_programmazione, forza, ipertrofia, programmazione]
 - I [[parametri_allenamento]] fondamentali sono quattro: intensità, volume, frequenza, [[intensita_relativa]].
 - Sei mezzi metodologici principali: rapporto percentuali/ripetizioni, carico fisso, piramidale, ramping (MAV/RPE), back-off e back-off alla rovescia.
 - Mezzi tecnici extra: isocinetiche, isometriche, variazione di angoli e range di lavoro.
-- La sorgente cita esplicitamente la tabella di Prilepin come riferimento per il rapporto %/serie/ripetizioni, ma non la riproduce.
+- La sorgente cita esplicitamente la [[tabella_prilepin]] come riferimento per il rapporto %/serie/ripetizioni, ma non la riproduce. La riproduzione integrale della tabella è ora disponibile via [[forge_2021_tabella_prilepin]].
 
 ## Parametri dell'allenamento
 
@@ -28,7 +28,7 @@ tags: [aif, master_programmazione, forza, ipertrofia, programmazione]
 - **Intensità relativa** — rapporto tra ripetizioni fatte e ripetizioni possibili
 
 > [!note] Tabella di Prilepin
-> Nella slide originale è riportata la **tabella di Prilepin** con il numero ideale di serie/ripetizioni per percentuale di carico. La tabella non è stata trasferita nella trascrizione — flag per possibile lint futuro (contenuto mancante rispetto alla fonte primaria).
+> Nella slide originale è riportata la **[[tabella_prilepin]]** con il numero ideale di serie/ripetizioni per percentuale di carico. La tabella non è stata trasferita nella trascrizione AIF. **Lacuna colmata da [[forge_2021_tabella_prilepin]]** (ingest 2026-08-06) — vedi [[tabella_prilepin]] per la riproduzione integrale e la discussione dei limiti applicativi.
 
 Esempio numerico proposto:
 

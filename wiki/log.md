@@ -20,3 +20,14 @@ Touched pages: [[forge_2021_tabella_prilepin]], [[tabella_prilepin]], [[forge_po
 
 ## [2026-08-06] meta | Espansione sigla AIF = Accademia Italiana della Forza (fonte: memoria utente, da consolidare con materiale scritto)
 Touched pages: [[aif]], [[index]]
+
+## [2026-08-06] lint | 0 contradictions, 0 orphans, 1 missing xref, 1 stale claim, 0 missing pages, 5 knowledge gaps (info), 0 frontmatter issues; auto-repaired 0; 2 finding pendenti approvazione utente (entrambi in aif_master_2020_03_parametri_e_mezzi: tabella Prilepin ora riprodotta altrove)
+
+## [2026-08-06] meta | Post-lint repair — aif_master_2020_03_parametri_e_mezzi: risolti 1 missing xref + 1 stale claim (tabella Prilepin ora linkata a [[tabella_prilepin]] e [[forge_2021_tabella_prilepin]]; callout riformulato da 'flag per lint futuro' a 'lacuna colmata')
+Touched pages: [[aif_master_2020_03_parametri_e_mezzi]]
+
+## [2026-08-06] ingest | Articolo AIF blog (~2019) — Barbell Squat Routine di Antonio Contenta; conferma espansione sigla AIF via fonte scritta ufficiale (chiude clausola 'da consolidare' del lint 2026-08-06); ciclo squat 4×4 settimane con dinamica volume −30% + carico +7.5%
+Touched pages: [[aif_2019_barbell_squat_routine]], [[barbell_squat_routine]], [[antonio_contenta]], [[barbell_academy_roma]], [[aif]], [[squat]], [[alternanza_stressante_stimolante_rigenerante]], [[index]]
+
+## [2026-08-06] query | Archiviata analisi: coerenza BSR vs Tabella di Prilepin
+Touched pages: [[barbell_squat_routine_vs_tabella_di_prilepin]]
