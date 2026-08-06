@@ -1,6 +1,7 @@
-# Obsidian
+# Obsidian — stato UI e preferenze locali per macchina
 .obsidian/workspace*
 .obsidian/cache
+.obsidian/appearance.json
 
 # macOS
 .DS_Store
