@@ -42,3 +42,10 @@ Touched pages: [[programma_11_francesco_valente_2024]], [[francesco_valente]], [
 
 ## [2026-08-06] ingest | Programma 11: aggiunta program page dettagliata + nuova sezione Programs nell'index
 Touched pages: [[piano_programma_11_valente_2024]], [[programma_11_francesco_valente_2024]], [[francesco_valente]]
+
+## [2026-08-06] query | Archiviata analisi: Programma 11 di Valente vs Tabella di Prilepin
+Touched pages: [[programma_11_di_valente_vs_tabella_di_prilepin]]
+
+## [2026-08-06] lint | 0 contradictions, 0 orphans, 0 stale, 0 missing_xrefs, 0 missing_pages, 14 knowledge-gap notes, 0 frontmatter issues, 0 dangling. Auto-repaired: 0.
+
+## [2026-08-06] other | Consolidamento convenzioni programmi: aggiunta regola doppia-pagina (source + program detail), documentati pattern native/legacy import, nuovo template raw_program_companion.md, promemoria in wiki-maintainer.agent.md

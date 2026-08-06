@@ -61,9 +61,10 @@ This wiki may contain personal or sensitive information. Treat all pages as pers
   - `check_bilancia.md` — rilevazione bilancia impedenziometrica.
   - Altri `.md` liberi per note contestuali (es. `sonno.md`, `alimentazione.md`, `note_generiche.md`).
   - Eventuali allegati binari (screenshot, foto) restano nella stessa cartella-giornata.
-- `programs/` — **piani di allenamento** (immutabili una volta bloccati). Un sottofolder per programma con nome `snake_case` (es. `raw/programs/pl_prep_2026q4/`), contenente:
-  - `README.md` — metadati del programma (obiettivi, date, mesocicli, 1RM iniziali).
-  - `mesociclo_XX.md` — uno per mesociclo, con target `settimana × giornata` per le fondamentali e i complementari.
+- `programs/` — **piani di allenamento**, raggruppati per anno di inizio: `raw/programs/YYYY/YYYY-MM-DD_coach_slug_programma/`. Due pattern possibili:
+  - **Native (authored nel wiki)**: programma scritto ex-novo usando i template. Struttura: `README.md` (metadati del programma) + `mesociclo_XX.md` (uno per mesociclo, con target `settimana × giornata` per fondamentali e complementari).
+  - **Legacy import (fonte esterna)**: programma ricevuto in formato monolitico (ODS/PDF/foglio del coach). Struttura: `companion.md` (metadati + verdetto a posteriori + retest inline) + il binario originale (`.ods`, `.pdf`, ecc.) con il nome originale del file.
+  I due pattern coesistono: usa native per programmi che scriverai giorno per giorno; usa legacy per programmi ricevuti già completi da un coach esterno.
 - `articles/` — articoli divulgativi o scientifici singoli (un file per articolo).
 - `podcasts/` — appunti/trascrizioni di episodi podcast (un file per episodio).
 - `courses/` — materiale strutturato di corsi, manuali o programmi multi-scheda. Un sottofolder per corso, con nome `snake_case` (es. `raw/courses/programmazione_forza_<autore>/`). Ogni sottofolder può contenere più file (PDF, note, slide) e opzionalmente un `README.md` con metadati del corso (autore, data, argomenti, licenza).
@@ -75,8 +76,9 @@ I seed per popolare `raw/` senza dover ricordare a memoria frontmatter e sezioni
 
 | Template | Copia in | Uso |
 |---|---|---|
-| `raw_program_readme.md` | `raw/programs/<program>/README.md` | Uno per programma. |
-| `raw_mesociclo.md` | `raw/programs/<program>/mesociclo_XX.md` | Uno per mesociclo. |
+| `raw_program_readme.md` | `raw/programs/YYYY/<program>/README.md` | Programma native, uno per programma. |
+| `raw_mesociclo.md` | `raw/programs/YYYY/<program>/mesociclo_XX.md` | Programma native, uno per mesociclo. |
+| `raw_program_companion.md` | `raw/programs/YYYY/<program>/companion.md` | Programma legacy import (fonte esterna). |
 | `raw_workout.md` | `raw/journal/YYYY/YYYY-MM-DD/workout.md` | Uno per seduta. |
 | `raw_check_bilancia.md` | `raw/journal/YYYY/YYYY-MM-DD/check_bilancia.md` | Quando misuri la composizione corporea. |
 
@@ -93,8 +95,20 @@ Il workout referenzia il piano tramite i campi frontmatter `program`, `mesociclo
 
 Ingest tipico:
 
-- All'apertura di un nuovo mesociclo: `/wiki-ingest raw/programs/<program>/mesociclo_XX.md` → nuova source page + eventuale entità/concetto dedicato al programma.
+- All'apertura di un nuovo mesociclo (pattern native): `/wiki-ingest raw/programs/YYYY/<program>/mesociclo_XX.md` → source page + eventuale program detail.
+- All'arrivo di un programma monolitico da coach esterno (pattern legacy): `/wiki-ingest raw/programs/YYYY/<program>/companion.md` → source page + program detail (vedi regola doppia-pagina sotto).
 - Dopo ogni seduta: `/wiki-ingest raw/journal/YYYY/YYYY-MM-DD/workout.md` → nuova source page journal.
+
+### Regola doppia-pagina per programmi
+
+Ogni sorgente sotto `raw/programs/**` produce **due pagine wiki**:
+
+1. **`wiki/sources/<slug>.md`** — scheda bibliografica (metadati, key points, provenance, cross-link). Prodotta automaticamente da `wiki-write-source-page` nel workflow di ingest standard.
+2. **`wiki/programs/piano_<slug_ridotto>.md`** — struttura dettagliata del piano: progressione settimanale (tabelle %/schemi/carichi calcolati sui 1RM di ingresso), compliance calcolata dall'eventuale log di esecuzione, ausiliari, cross-link ai concetti e all'entità coach.
+
+Naming: la source usa il nome pieno del programma (es. `programma_11_francesco_valente_2024`), il piano usa il prefisso `piano_` con lo slug ridotto per evitare collisioni di wikilink (es. `piano_programma_11_valente_2024`). Precedente analogo pattern nel vault: [[barbell_squat_routine]] (pattern) vs [[aif_2019_barbell_squat_routine]] (source).
+
+Senza la program detail il programma è solo un riferimento bibliografico e non risulta queryable come struttura (schemi, compliance, confronti con altri programmi). Il `@wiki-maintainer` deve produrre entrambe le pagine in ogni ingest di un programma.
 
 ## No ad-hoc changes
 
