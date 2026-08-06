@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-06
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo]
 tags: [stacco, deadlift, fondamentali, powerlifting, forza]
 ---
 
@@ -32,9 +32,28 @@ Alzata fondamentale la cui gestione, secondo il materiale AIF Master 2020, dipen
 - Salita in 5 sec
 - Dai blocchi bassi / dai blocchi max 5 cm (ramping MAV)
 
+## Stance di gara: classico vs sumo
+
+Scelta libera dell'atleta in competizione (fonte: [[project_invictus_2022_powerlifting_metodo]]):
+
+- **Stacco classico** — stance stretta, mani larghe fuori le ginocchia.
+- **Stacco sumo** — stance larga, mani strette dentro le ginocchia.
+
+La scelta influenza traiettoria del bilanciere, leve coinvolte e stress articolare; incide sulla % di lavoro effettiva ottimale coerentemente con la nota AIF sulla leva-dipendenza dello stacco.
+
+## Criteri di validità in gara
+
+Da [[project_invictus_2022_powerlifting_metodo]]:
+
+- Arrivo con **ginocchia completamente distese** e **anca più avanti della linea delle spalle**.
+- Il bilanciere non può scendere per poi risalire (no rebound).
+- Divieto di **"infilata"** (appoggio del bilanciere sulle cosce per completare la chiusura) — causa annullamento della prova.
+- Alzata dichiarata **"neurale"** — richiede la massima forza bruta tra le tre; è la più impattante come stress sistemico.
+
 ## Fonti
 
 - [[aif_master_2020_02_costruzione_microciclo]]
 - [[aif_master_2020_10_fase_estensiva]]
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
+- [[project_invictus_2022_powerlifting_metodo]]

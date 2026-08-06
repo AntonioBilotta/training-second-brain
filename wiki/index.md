@@ -15,6 +15,8 @@ Quick links: [[overview]] · [[log]]
 - [[alexander_prilepin]] — allenatore sovietico di weightlifting; autore della tabella di Prilepin · 2026-08-06
 - [[antonio_contenta]] — coach; Vice-Presidente AIF, fondatore Barbell Academy Roma, allenatore SS Lazio Powerlifting · 2026-08-06
 - [[barbell_academy_roma]] — palestra/accademia a Roma fondata da Antonio Contenta; ambiente di sviluppo del Barbell Squat Routine · 2026-08-06
+- [[davide_casappa]] — autore divulgativo Project inVictus; introduzione al PL (regolamento gara + schede sample) · 2026-08-06
+- [[project_invictus]] — piattaforma italiana di divulgazione fitness/forza (projectinvictus.it) · 2026-08-06
 
 ## Concepts
 
@@ -79,6 +81,7 @@ Quick links: [[overview]] · [[log]]
 
 - [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
 - [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane · 2026-08-06
+- [[project_invictus_2022_powerlifting_metodo]] — articolo Project inVictus (Casappa, 2022) — intro PL, regolamento gara, schede sample principianti/intermedi/avanzati · 2026-08-06
 
 ## Analysis
 

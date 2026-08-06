@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-06
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo]
 tags: [panca_piana, fondamentali, powerlifting, forza]
 ---
 
