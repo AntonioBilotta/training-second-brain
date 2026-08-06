@@ -11,3 +11,6 @@ Touched pages: [[journal_2026_08_04_check_bilancia]], [[composizione_corporea]],
 
 ## [2026-08-05] meta | Aggiunti template raw + convenzione raw/programs + workflow iPad
 Touched pages: [[overview]]. Nuovi file: .github/templates/{README,raw_program_readme,raw_mesociclo,raw_workout,raw_check_bilancia}.md. Esteso .github/instructions/wiki-conventions.instructions.md con raw/programs/, schema raw/journal/YYYY/YYYY-MM-DD/, sezione Templates, pattern plan-vs-actual.
+
+## [2026-08-06] ingest | Journal 2026-08-05 massimali stimati (Squat 175 / Panca 125 / Stacco 190 kg, calcolati qualche mese prima)
+Touched pages: [[journal_2026_08_05_massimali]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[index]]

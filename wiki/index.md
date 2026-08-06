@@ -1,6 +1,6 @@
 ---
 type: index
-update_date: 2026-08-04
+update_date: 2026-08-06
 ---
 
 # Wiki Index — Strength training, Powerlifting, Conditioning, Iron Log
@@ -63,6 +63,10 @@ Quick links: [[overview]] · [[log]]
 ### Journal — Check bilancia
 
 - [[journal_2026_08_04_check_bilancia]] — screenshot bilancia impedenziometrica, sera rest day, 87,7 kg / 16,8 % grasso / BMR 1946 kcal
+
+### Journal — Massimali
+
+- [[journal_2026_08_05_massimali]] — massimali stimati (calcolati mesi prima) — Squat 175, Panca 125, Stacco 190 kg · 2026-08-06
 
 ## Analysis
 

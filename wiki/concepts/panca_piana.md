@@ -1,14 +1,17 @@
 ---
 type: concept
 creation_date: 2026-08-04
-update_date: 2026-08-04
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper]
+update_date: 2026-08-06
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali]
 tags: [panca_piana, fondamentali, powerlifting, forza]
 ---
 
 # Panca piana
 
 Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2020: tre giornate nella [[fase_intensiva]] e un taper dedicato.
+
+> [!note] Massimale personale di riferimento
+> **125 kg** — stima registrata il 2026-08-05, calcolata alcuni mesi prima (vedi [[journal_2026_08_05_massimali]]). Da usare come ordine di grandezza per la pianificazione, non come 1RM certificato alla data.
 
 ## Programmi nel materiale
 
