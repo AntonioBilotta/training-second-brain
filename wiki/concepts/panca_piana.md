@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-06
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024]
 tags: [panca_piana, fondamentali, powerlifting, forza]
 ---
 
@@ -22,6 +22,10 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
   - Giornata C: board press 2 cm + panca piana 3 fermi in discesa.
 - **[[taper]]** — tabella "Taper avanzato Panca Piana" in [[aif_master_2020_12_taper]] su 4 settimane × 4 giornate (Lun/Mar/Gio/Ven).
 
+## Programmi personali svolti
+
+- [[programma_11_francesco_valente_2024]] ([[francesco_valente]], 2024-05-13, 9 settimane) — panca lavorata su 3-4 sedute/settimana con presa media parallele + fermo 3 sec + MAV con back-off. Delta 1RM personale: **116 → 120 kg** (+4, target raggiunto).
+
 ## Varianti tecniche citate
 
 - Fermo al petto 3 sec
@@ -39,3 +43,4 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
 - [[aif_master_2020_10_fase_estensiva]]
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
+- [[programma_11_francesco_valente_2024]]

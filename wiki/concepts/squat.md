@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-06
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, aif_2019_barbell_squat_routine, project_invictus_2022_powerlifting_metodo]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, aif_2019_barbell_squat_routine, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024]
 tags: [squat, fondamentali, powerlifting, forza]
 ---
 
@@ -23,6 +23,10 @@ Alzata fondamentale trattata trasversalmente nel materiale AIF Master 2020, con 
 
 - **[[barbell_squat_routine]]** ([[antonio_contenta]], [[aif]] blog ~2019) — programma su microciclo a 4 sedute + ciclo a 4 settimane con dinamica del volume (50 → 35 → 20 → 9 rip. allenanti) e incremento del carico (+7.5% settimanale, +5% al ripartire del ciclo). Fonte: [[aif_2019_barbell_squat_routine]].
 
+## Programmi personali svolti
+
+- [[programma_11_francesco_valente_2024]] ([[francesco_valente]], 2024-05-13, 9 settimane) — squat come seduta guida del lunedì, progressione a onde 60→82.5% ciclo 1 e 80→92% ciclo 2. Delta 1RM personale: **145 → 150 kg** (+5, target raggiunto).
+
 ## Varianti tecniche citate
 
 - Fermo in buca 2 sec
@@ -38,3 +42,4 @@ Alzata fondamentale trattata trasversalmente nel materiale AIF Master 2020, con 
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
 - [[aif_2019_barbell_squat_routine]]
+- [[programma_11_francesco_valente_2024]]

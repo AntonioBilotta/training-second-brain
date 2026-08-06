@@ -36,3 +36,9 @@ Touched pages: [[barbell_squat_routine_vs_tabella_di_prilepin]]
 Touched pages: [[project_invictus_2022_powerlifting_metodo]], [[davide_casappa]], [[project_invictus]], [[stacco_da_terra]], [[squat]], [[panca_piana]], [[index]]
 
 ## [2026-08-06] lint | 0 contradictions, 0 orphans, 0 missing xrefs, 0 stale claims, 0 missing pages, 9 knowledge gaps (info), 0 frontmatter issues; auto-repaired 0; 0 pending user approval — vault clean su 45 pagine. Analisi BSR vs Prilepin ora archiviata in wiki/analysis/
+
+## [2026-08-06] ingest | Programma 11 di Francesco Valente (2024): source page + entità coach + update 7 concept-page
+Touched pages: [[programma_11_francesco_valente_2024]], [[francesco_valente]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[microciclo]], [[modello_ciclico]], [[parametri_allenamento]], [[intensita_relativa]]
+
+## [2026-08-06] ingest | Programma 11: aggiunta program page dettagliata + nuova sezione Programs nell'index
+Touched pages: [[piano_programma_11_valente_2024]], [[programma_11_francesco_valente_2024]], [[francesco_valente]]

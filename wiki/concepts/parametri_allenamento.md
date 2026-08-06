@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-06
-related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, forge_2021_tabella_prilepin]
+related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, forge_2021_tabella_prilepin, programma_11_francesco_valente_2024]
 tags: [parametri, volume, intensita, frequenza]
 ---
 
@@ -41,3 +41,4 @@ Mezzi tecnici extra: isocinetiche, isometriche, variazione di angoli e range di 
 - [[aif_master_2020_10_fase_estensiva]]
 - [[aif_master_2020_11_fase_intensiva]]
 - [[forge_2021_tabella_prilepin]]
+- [[programma_11_francesco_valente_2024]]

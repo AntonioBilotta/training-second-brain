@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-04
-update_date: 2026-08-04
-related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper]
+update_date: 2026-08-06
+related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, programma_11_francesco_valente_2024]
 tags: [intensita_relativa, IR, autoregolazione]
 ---
 
@@ -37,3 +37,4 @@ Rapporto tra il **numero di ripetizioni fatte** e il **numero di ripetizioni pos
 - [[aif_master_2020_07_ciclico_vs_aciclico]]
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
+- [[programma_11_francesco_valente_2024]]

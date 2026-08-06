@@ -17,6 +17,7 @@ Quick links: [[overview]] · [[log]]
 - [[barbell_academy_roma]] — palestra/accademia a Roma fondata da Antonio Contenta; ambiente di sviluppo del Barbell Squat Routine · 2026-08-06
 - [[davide_casappa]] — autore divulgativo Project inVictus; introduzione al PL (regolamento gara + schede sample) · 2026-08-06
 - [[project_invictus]] — piattaforma italiana di divulgazione fitness/forza (projectinvictus.it) · 2026-08-06
+- [[francesco_valente]] — Coach personale dell'utente, attivo dalla primavera 2024. Redige programmi di powerlifting; ha scritto il [[programma_11_francesco_valente_2024]] come prima collaborazione documentata. · 2026-08-06
 
 ## Concepts
 
@@ -52,6 +53,10 @@ Quick links: [[overview]] · [[log]]
 
 - _(no entries yet)_
 
+## Programs
+
+- [[piano_programma_11_valente_2024]] — Struttura dettagliata del Programma 11 di Francesco Valente (2024-05-13, 9 settimane): progressione squat/panca/stacco, sedute tecniche, ausiliari, compliance (100% W1-W7, 98.4% W8, 94.5% W9). · 2026-08-06
+
 ## Sources
 
 ### AIF Master 2020 — Parma (ipertrofia e forza)
@@ -82,6 +87,7 @@ Quick links: [[overview]] · [[log]]
 - [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
 - [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane · 2026-08-06
 - [[project_invictus_2022_powerlifting_metodo]] — articolo Project inVictus (Casappa, 2022) — intro PL, regolamento gara, schede sample principianti/intermedi/avanzati · 2026-08-06
+- [[programma_11_francesco_valente_2024]] — Programma di powerlifting 9 settimane scritto da Francesco Valente (2024-05-13), primo programma della sua serie per l'utente. Verdetto positivo su squat (145→150) e panca (116→120), neutro su stacco regular (180 invariato). · 2026-08-06
 
 ## Analysis
 
