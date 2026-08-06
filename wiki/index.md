@@ -9,7 +9,10 @@ Quick links: [[overview]] · [[log]]
 
 ## Entities
 
-- [[aif]] — accademia/scuola di provenienza del MASTER PROGRAMMAZIONE 2020
+- [[aif]] — Accademia Italiana della Forza — scuola dietro il MASTER PROGRAMMAZIONE 2020 (Parma) · 2026-08-06
+- [[forge_powerlifting]] — organizzazione italiana di coaching e divulgazione powerlifting (forgepowerlifting.com) · 2026-08-06
+- [[andrea_becattini]] — autore/coach Forge Powerlifting; enfasi su personalizzazione vs formule universali · 2026-08-06
+- [[alexander_prilepin]] — allenatore sovietico di weightlifting; autore della tabella di Prilepin · 2026-08-06
 
 ## Concepts
 
@@ -27,6 +30,7 @@ Quick links: [[overview]] · [[log]]
 - [[panca_piana]] — fondamentale; tre giornate in intensiva + taper 4x4
 - [[stacco_da_terra]] — fondamentale; % molto leva-dipendenti
 - [[composizione_corporea]] — vocabolario canonico delle metriche di bilancia impedenziometrica
+- [[tabella_prilepin]] — tabella intensità/rep/volume dai dati weightlifting URSS; limiti nel PL/BB/calisthenics · 2026-08-06
 
 ## Goals
 
@@ -67,6 +71,10 @@ Quick links: [[overview]] · [[log]]
 ### Journal — Massimali
 
 - [[journal_2026_08_05_massimali]] — massimali stimati (calcolati mesi prima) — Squat 175, Panca 125, Stacco 190 kg · 2026-08-06
+
+### Articoli — Divulgazione
+
+- [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
 
 ## Analysis
 

@@ -14,3 +14,9 @@ Touched pages: [[overview]]. Nuovi file: .github/templates/{README,raw_program_r
 
 ## [2026-08-06] ingest | Journal 2026-08-05 massimali stimati (Squat 175 / Panca 125 / Stacco 190 kg, calcolati qualche mese prima)
 Touched pages: [[journal_2026_08_05_massimali]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[index]]
+
+## [2026-08-06] ingest | Articolo Forge Powerlifting (2021) — Tabella di Prilepin: riproduzione integrale + critica dell'applicabilità PL/BB/calisthenics; colma il rimando 'non riprodotta' in parametri_allenamento
+Touched pages: [[forge_2021_tabella_prilepin]], [[tabella_prilepin]], [[forge_powerlifting]], [[andrea_becattini]], [[alexander_prilepin]], [[parametri_allenamento]], [[index]]
+
+## [2026-08-06] meta | Espansione sigla AIF = Accademia Italiana della Forza (fonte: memoria utente, da consolidare con materiale scritto)
+Touched pages: [[aif]], [[index]]
