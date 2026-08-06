@@ -34,3 +34,5 @@ Touched pages: [[barbell_squat_routine_vs_tabella_di_prilepin]]
 
 ## [2026-08-06] ingest | Articolo Project inVictus (Casappa, 2022-07-12) — Powerlifting: metodo e schede. Prime info regolamento gara nel wiki (comandi giudice, criteri validità); introduce distinzione stance stacco classico vs sumo su [[stacco_da_terra]]; 3 schede sample principianti/intermedi/avanzati
 Touched pages: [[project_invictus_2022_powerlifting_metodo]], [[davide_casappa]], [[project_invictus]], [[stacco_da_terra]], [[squat]], [[panca_piana]], [[index]]
+
+## [2026-08-06] lint | 0 contradictions, 0 orphans, 0 missing xrefs, 0 stale claims, 0 missing pages, 9 knowledge gaps (info), 0 frontmatter issues; auto-repaired 0; 0 pending user approval — vault clean su 45 pagine. Analisi BSR vs Prilepin ora archiviata in wiki/analysis/
