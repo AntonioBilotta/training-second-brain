@@ -1,11 +1,11 @@
 ---
 type: program
 creation_date: 2026-08-06
-update_date: 2026-08-06
+update_date: 2026-08-08
 start_date: 2024-05-13
 duration_weeks: 9
 coach: francesco_valente
-related_sources: [programma_11_francesco_valente_2024]
+related_sources: [programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
 tags: [programma, powerlifting, francesco_valente, squat, panca_piana, stacco_da_terra, 2024]
 ---
 
@@ -143,8 +143,9 @@ Percentuale di righe (`Done=1`) rispetto al totale righe di ogni foglio nell'ODS
 
 - Coach: [[francesco_valente]]
 - Alzate: [[squat]] · [[panca_piana]] · [[stacco_da_terra]]
-- Concetti applicati: [[microciclo]] · [[modello_ciclico]] · [[parametri_allenamento]] · [[intensita_relativa]]
+- Concetti applicati: [[microciclo]] · [[modello_ciclico]] · [[parametri_allenamento]] · [[intensita_relativa]] · [[progressione_a_onde]]
 - Confronto metodologico: [[barbell_squat_routine]] (altro programma squat 4 sedute/settimana con logica diversa)
+- Programma successore della serie Valente: [[piano_programma_15_valente_2025]] · [[programma_15_francesco_valente_2025]]
 - Fonte bibliografica: [[programma_11_francesco_valente_2024]]
 
 ## Fonte

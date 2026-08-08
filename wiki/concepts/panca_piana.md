@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-04
-update_date: 2026-08-06
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024]
+update_date: 2026-08-08
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
 tags: [panca_piana, fondamentali, powerlifting, forza]
 ---
 
@@ -25,6 +25,7 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
 ## Programmi personali svolti
 
 - [[programma_11_francesco_valente_2024]] ([[francesco_valente]], 2024-05-13, 9 settimane) — panca lavorata su 3-4 sedute/settimana con presa media parallele + fermo 3 sec + MAV con back-off. Delta 1RM personale: **116 → 120 kg** (+4, target raggiunto).
+- [[programma_15_francesco_valente_2025]] ([[francesco_valente]], 2025-12-15, 9 settimane) — panca su 3 sedute/settimana (MAR principale, LUN complementare, GIO top-set + fermo). Introduzione di **cambio di impostazione scapolare** (più abduzione e meno depressione, consiglio ricevuto da Carola Garra in seminario). Delta 1RM personale: **125 → 115 kg** (−10, regressione tecnica attesa dal cambio ancora non consolidato).
 
 ## Varianti tecniche citate
 
@@ -44,3 +45,4 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
 - [[programma_11_francesco_valente_2024]]
+- [[programma_15_francesco_valente_2025]]

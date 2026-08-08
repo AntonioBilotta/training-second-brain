@@ -1,14 +1,14 @@
 ---
 type: entity
 creation_date: 2026-08-06
-update_date: 2026-08-06
+update_date: 2026-08-08
 related_sources: [aif_2019_barbell_squat_routine]
 tags: [antonio_contenta, coach, aif, barbell_academy_roma, powerlifting]
 ---
 
 # Antonio Contenta
 
-Allenatore italiano di powerlifting. Ruoli documentati nel materiale ingerito:
+Allenatore italiano di [[powerlifting]]. Ruoli documentati nel materiale ingerito:
 
 - **Vice-Presidente** di [[aif]] (Accademia Italiana Forza).
 - **Allenatore SS Lazio Powerlifting** (team di club).

@@ -1,9 +1,9 @@
 ---
 type: source
 creation_date: 2026-08-06
-update_date: 2026-08-06
+update_date: 2026-08-08
 source_date: 2019-03-01
-related_sources: []
+related_sources: [tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]
 tags:
   - articolo
   - aif
@@ -34,7 +34,7 @@ Programma di [[squat]] per powerlifting + ipertrofia, nato alla [[barbell_academ
 ## Punti chiave
 
 - Il programma nasce dall'osservazione che principianti/intermedi hanno "livello di atletismo basso"; un **boost metabolico** con ripetizioni medio-alte in seduta stressante genera adattamenti significativi se il movimento è tecnicamente pulito.
-- Struttura del **microciclo settimanale**: seduta 1 stressante, seduta 2 stimolante (tempi modificati / fermi isometrici), seduta 3 stimolante (ramping / MAV), seduta 4 rigenerante (pin o box). Applicazione esplicita del pattern [[alternanza_stressante_stimolante_rigenerante]].
+- Struttura del **microciclo settimanale**: seduta 1 stressante, seduta 2 stimolante (tempi modificati / fermi isometrici), seduta 3 stimolante ([[ramping]] / [[mav|MAV]]), seduta 4 rigenerante (pin o box). Applicazione esplicita del pattern [[alternanza_stressante_stimolante_rigenerante]].
 - **Seduta stressante (Seduta 1)** — 4 settimane:
 
   | Settimana | Schema | Rip. tot. | %1RM |
@@ -64,17 +64,18 @@ Programma di [[squat]] per powerlifting + ipertrofia, nato alla [[barbell_academ
 
 ## Menzioni bibliografiche / discussioni
 
-- Discussione preparatoria (chat WhatsApp) con **Ado Gruzza**, **Giuseppe Gargiulo**, **Alessio Erba** sul rapporto tra carichi pesanti/basse rip. (stile pesistica cinese) e carichi medi/medio-alte rip.
+- Discussione preparatoria (chat WhatsApp) con **[[ado_gruzza]]**, **Giuseppe Gargiulo**, **Alessio Erba** sul rapporto tra carichi pesanti/basse rip. (stile pesistica cinese) e carichi medi/medio-alte rip.
 - **SS Lazio Powerlifting** — team dove Contenta è allenatore.
 
 > [!note] Menzioni sotto-soglia
-> Le persone e organizzazioni citate solo una volta (Gruzza, Gargiulo, Erba, SS Lazio Powerlifting) non ricevono pagina wiki dedicata in questo ingest. Verranno promosse a entità se emergono in altri source (soglia ≥ 3 menzioni cross-source).
+> Le persone e organizzazioni citate solo una volta (Gargiulo, Erba, SS Lazio Powerlifting) non ricevono pagina wiki dedicata in questo ingest. Verranno promosse a entità se emergono in altri source (soglia ≥ 3 menzioni cross-source). Ado Gruzza è stato promosso a entità con l'ingest del suo articolo primario sul MAV (2026-08-08): vedi [[ado_gruzza]] e [[tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]].
 
 ## Entities
 
 - [[antonio_contenta]]
 - [[aif]]
 - [[barbell_academy_roma]]
+- [[ado_gruzza]]
 
 ## Concepts
 

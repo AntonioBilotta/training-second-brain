@@ -1,6 +1,6 @@
 ---
 type: index
-update_date: 2026-08-06
+update_date: 2026-08-08
 ---
 
 # Wiki Index — Strength training, Powerlifting, Conditioning, Iron Log
@@ -17,7 +17,8 @@ Quick links: [[overview]] · [[log]]
 - [[barbell_academy_roma]] — palestra/accademia a Roma fondata da Antonio Contenta; ambiente di sviluppo del Barbell Squat Routine · 2026-08-06
 - [[davide_casappa]] — autore divulgativo Project inVictus; introduzione al PL (regolamento gara + schede sample) · 2026-08-06
 - [[project_invictus]] — piattaforma italiana di divulgazione fitness/forza (projectinvictus.it) · 2026-08-06
-- [[francesco_valente]] — Coach personale dell'utente, attivo dalla primavera 2024. Redige programmi di powerlifting; ha scritto il [[programma_11_francesco_valente_2024]] come prima collaborazione documentata. · 2026-08-06
+- [[francesco_valente]] — Coach personale dell'utente, attivo dalla primavera 2024. Ha scritto Programma 11 (2024-05-13) e Programma 15 (2025-12-15) documentati nel vault. · 2026-08-08
+- [[ado_gruzza]] — Coach e autore RawTraining, ideatore del metodo MAV e del metodo distribuito; ex powerlifter agonista, allenatore squadra Parma. · 2026-08-08
 
 ## Concepts
 
@@ -31,11 +32,14 @@ Quick links: [[overview]] · [[log]]
 - [[taper]] — terza fase (specificità, -30% volume, calcolo su obiettivo)
 - [[modello_ciclico]] — schema ripetuto su 3-6 settimane
 - [[modello_aciclico]] — progressione naturale ~12 settimane, senza cicli
-- [[squat]] — fondamentale; tabelle per estensiva/intensiva/taper
-- [[panca_piana]] — fondamentale; tre giornate in intensiva + taper 4x4
-- [[stacco_da_terra]] — fondamentale; % molto leva-dipendenti
+- [[squat]] — fondamentale; tabelle per estensiva/intensiva/taper; programmi personali P11 (145→150) e P15 (160→175). · 2026-08-08
+- [[panca_piana]] — fondamentale; tre giornate in intensiva + taper 4x4; programmi personali P11 (116→120) e P15 (125→115 con cambio scapolare). · 2026-08-08
+- [[stacco_da_terra]] — fondamentale; % molto leva-dipendenti; programmi personali P11 (180 invariato) e P15 (190 validato pulito con % conservative su 185). · 2026-08-08
 - [[composizione_corporea]] — vocabolario canonico delle metriche di bilancia impedenziometrica
 - [[tabella_prilepin]] — tabella intensità/rep/volume dai dati weightlifting URSS; limiti nel PL/BB/calisthenics · 2026-08-06
+- [[powerlifting]] — Disciplina di forza sulle tre alzate (squat, panca, stacco); collega le fonti divulgative italiane e i programmi Valente. · 2026-08-08
+- [[mav]] — Miglior Alzata Veloce (Gruzza, 2015) — metodo ramping 'basato sul come, non sul quanto'; varianti base, con back-off, in maggiore/minore, MAV su MAV; usato nei programmi Valente come top-set del giovedì con % pre-assegnate + RPE. · 2026-08-08
+- [[ramping]] — modalità di gestione della serie in cui il carico sale a scatti brevi (3%) verso un top set di qualità, stop determinato dall'atleta; struttura sottostante del MAV. · 2026-08-08
 
 ## Goals
 
@@ -48,6 +52,7 @@ Quick links: [[overview]] · [[log]]
 - [[milestone]] — progressione aciclica non lineare guidata da sedute chiave
 - [[dente_di_sega]] — progressione aciclica con IR variabile ai salti di carico
 - [[barbell_squat_routine]] — programma squat 4×4 settimane; dinamica volume −30% + carico +7.5% (Contenta, AIF blog ~2019) · 2026-08-06
+- [[progressione_a_onde]] — Schema di progressione a onde su 3-5 settimane, variante applicata del modello ciclico; applicato in Programma 11 (doppia onda) e Programma 15 (onda singola con deload interno). · 2026-08-08
 
 ## Reflections
 
@@ -56,6 +61,7 @@ Quick links: [[overview]] · [[log]]
 ## Programs
 
 - [[piano_programma_11_valente_2024]] — Struttura dettagliata del Programma 11 di Francesco Valente (2024-05-13, 9 settimane): progressione squat/panca/stacco, sedute tecniche, ausiliari, compliance (100% W1-W7, 98.4% W8, 94.5% W9). · 2026-08-06
+- [[piano_programma_15_valente_2025]] — Struttura dettagliata del Programma 15 di Francesco Valente (2025-12-15, 9 settimane): progressione squat/panca/stacco a onde, box squat dalla sett. 6, ausiliari con rotazione W5→W6, compliance ~99%, confronto strutturale col Programma 11. · 2026-08-08
 
 ## Sources
 
@@ -85,9 +91,11 @@ Quick links: [[overview]] · [[log]]
 ### Articoli — Divulgazione
 
 - [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
-- [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane · 2026-08-06
+- [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane. Usa il metodo MAV nella seduta 3. · 2026-08-08
 - [[project_invictus_2022_powerlifting_metodo]] — articolo Project inVictus (Casappa, 2022) — intro PL, regolamento gara, schede sample principianti/intermedi/avanzati · 2026-08-06
 - [[programma_11_francesco_valente_2024]] — Programma di powerlifting 9 settimane scritto da Francesco Valente (2024-05-13), primo programma della sua serie per l'utente. Verdetto positivo su squat (145→150) e panca (116→120), neutro su stacco regular (180 invariato). · 2026-08-06
+- [[programma_15_francesco_valente_2025]] — Programma di powerlifting 9 settimane scritto da Francesco Valente (2025-12-15), quarto della serie Valente. Verdetto: squat +15 (160→175), stacco reg. validato pulito a 190, panca in regressione a 115 per cambio scapolare in corso. · 2026-08-08
+- [[tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]] — articolo Rawtraining (Ado Gruzza, 2015) — descrizione autoritativa del metodo MAV (Miglior Alzata Veloce): ramping basato sul come, varianti base/con back-off/in maggiore/in minore/MAV su MAV, 6 combinazioni riassuntive. · 2026-08-08
 
 ## Analysis
 

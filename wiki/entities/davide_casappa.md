@@ -1,14 +1,14 @@
 ---
 type: entity
 creation_date: 2026-08-06
-update_date: 2026-08-06
+update_date: 2026-08-08
 related_sources: [project_invictus_2022_powerlifting_metodo]
 tags: [davide_casappa, autore, powerlifting, project_invictus]
 ---
 
 # Davide Casappa
 
-Autore divulgativo che contribuisce alla piattaforma [[project_invictus]]. Nel materiale ingerito firma l'articolo di introduzione al powerlifting come sport di forza, regolamento di gara e primi schemi di allenamento a 3-4 giornate su base % 1RM.
+Autore divulgativo che contribuisce alla piattaforma [[project_invictus]]. Nel materiale ingerito firma l'articolo di introduzione al [[powerlifting]] come sport di forza, regolamento di gara e primi schemi di allenamento a 3-4 giornate su base % 1RM.
 
 ## Contributi al wiki
 
