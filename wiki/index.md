@@ -101,3 +101,4 @@ Quick links: [[overview]] · [[log]]
 
 - [[barbell_squat_routine_vs_tabella_di_prilepin]] — Verifica settimana per settimana della coerenza tra la BSR e la Tabella di Prilepin: piena aderenza solo alla settimana 3, scostamento intenzionale nelle settimane a volume alto. · 2026-08-06
 - [[programma_11_di_valente_vs_tabella_di_prilepin]] — Verifica settimana per settimana della coerenza tra il Programma 11 di Valente e la Tabella di Prilepin: 3 sett. pienamente compliant vs 1 del BSR, scostamenti concentrati agli estremi (W1-W2 boost metabolico, W8 picco intensivo). · 2026-08-06
+- [[programma_11_vs_programma_15_pattern_per_alzata]] — Confronto intra-coach cross-ciclo (Valente P11 2024 vs P15 2025): densità settimanale per alzata (stacco 2, squat 3, panca 4), lezione stacco P11→P15 su % conservative e rotazione tecnica, ipotesi predittiva sui cambi tecnici isolati · 2026-08-08

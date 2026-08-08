@@ -61,3 +61,6 @@ Touched pages: [[programma_15_francesco_valente_2025]], [[piano_programma_15_val
 
 ## [2026-08-08] other | Densificazione inbound coverage di [[powerlifting]] su follow-up del lint 2026-08-08: aggiunto wikilink alla prima occorrenza naturale in 6 entities (francesco_valente, aif, antonio_contenta, davide_casappa, project_invictus, ado_gruzza) + 1 source (programma_11_francesco_valente_2024). Da 2 a 9 inbound content-link. Nessun cambio semantico.
 Touched pages: [[powerlifting]], [[francesco_valente]], [[aif]], [[antonio_contenta]], [[davide_casappa]], [[project_invictus]], [[ado_gruzza]], [[programma_11_francesco_valente_2024]]
+
+## [2026-08-08] query | Archiviata analisi: Programma 11 vs Programma 15 pattern per alzata (confronto intra-coach cross-ciclo Valente 2024 vs 2025; densità settimanale per alzata stacco 2 / squat 3 / panca 4; lezione stacco su % conservative + rotazione tecnica start→lockout; ipotesi predittiva sui cambi tecnici isolati)
+Touched pages: [[programma_11_vs_programma_15_pattern_per_alzata]], [[index]]
