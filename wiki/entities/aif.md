@@ -2,7 +2,7 @@
 type: entity
 creation_date: 2026-08-04
 update_date: 2026-08-08
-related_sources: ['aif_master_2020_01_filosofia_programmazione', 'aif_master_2020_02_costruzione_microciclo', 'aif_master_2020_03_parametri_e_mezzi', 'aif_master_2020_04_fondamenti_programmazione', 'aif_master_2020_05_alternanza_stimoli', 'aif_master_2020_06_modelli_basilari_progressione', 'aif_master_2020_07_ciclico_vs_aciclico', 'aif_master_2020_08_avvio_senza_massimale', 'aif_master_2020_09_le_fasi_del_ciclo', 'aif_master_2020_10_fase_estensiva', 'aif_master_2020_11_fase_intensiva', 'aif_master_2020_12_taper', 'aif_2019_barbell_squat_routine']
+related_sources: ['aif_master_2020_01_filosofia_programmazione', 'aif_master_2020_02_costruzione_microciclo', 'aif_master_2020_03_parametri_e_mezzi', 'aif_master_2020_04_fondamenti_programmazione', 'aif_master_2020_05_alternanza_stimoli', 'aif_master_2020_06_modelli_basilari_progressione', 'aif_master_2020_07_ciclico_vs_aciclico', 'aif_master_2020_08_avvio_senza_massimale', 'aif_master_2020_09_le_fasi_del_ciclo', 'aif_master_2020_10_fase_estensiva', 'aif_master_2020_11_fase_intensiva', 'aif_master_2020_12_taper', 'aif_2019_barbell_squat_routine', 'aif_complemento_1_organizzazione_settimana']
 tags: [aif, accademia, formazione, powerlifting, forza]
 ---
 
@@ -31,3 +31,4 @@ Sigla di **Accademia Italiana della Forza**. Scuola/accademia italiana di formaz
 - [[aif_master_2020_10_fase_estensiva]]
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
+- [[aif_complemento_1_organizzazione_settimana]] (complemento al corso, 2026-08-08)

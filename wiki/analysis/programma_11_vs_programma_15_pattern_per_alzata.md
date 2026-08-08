@@ -1,7 +1,7 @@
 ---
 type: analysis
 creation_date: 2026-08-08
-update_date: 2026-08-08
+update_date: 2026-08-09
 related_sources: ["programma_11_francesco_valente_2024", "programma_15_francesco_valente_2025"]
 tags: ["confronto", "programma_11", "programma_15", "francesco_valente", "powerlifting", "pattern_atleta", "frequenza_settimanale", "squat", "panca_piana", "stacco_da_terra"]
 ---
@@ -25,7 +25,7 @@ Riferimenti: [[piano_programma_11_valente_2024]] · [[piano_programma_15_valente
 | Alzata | P11 | P15 |
 |---|---|---|
 | Squat | LUN principale + MAR complementare + GIO MAV/tecnica = **3 sedute** | LUN principale + GIO MAV/box squat + VEN front squat = **3 sedute** |
-| Panca | LUN piramide + MAR parallele + GIO top+back-off + VEN presa media f.3 = **4 sedute** | LUN complementare + MAR principale + GIO top-set = **3 sedute** |
+| Panca | LUN piramide + MAR paralimpica + GIO top+back-off + VEN presa media f.3 = **4 sedute** | LUN complementare + MAR principale + GIO top-set = **3 sedute** |
 | Stacco | MAR tecnico + VEN principale = **2 sedute** | MAR tecnico + VEN principale = **2 sedute** |
 
 ## Pattern per alzata
@@ -53,7 +53,7 @@ Nel P15 si abbassano contemporaneamente **tre assi**: frequenza (4 → 3 sedute)
 > La regressione è **multifattoriale** — non si può attribuirla a un singolo asse con n=2 cicli. Il coach l'ha marcata come "regressione attesa dal cambio scapole non ancora consolidato". Ma il segnale coerente è: la panca chiede alta densità (frequenza + volume + varianti), e nel P15 tutti gli assi sono stati abbassati insieme al cambio tecnico.
 
 > [!tip] Cosa funziona sulla panca
-> **Template a 4 sedute con molte varianti** (piramide + parallele + top set + fermo 3") come il P11. Se serve un cambio tecnico strutturale, farlo **senza abbattere frequenza e volume contemporaneamente**, o mettere in preventivo una fase di regressione tecnica.
+> **Template a 4 sedute con molte varianti** (piramide + paralimpica + top set + fermo 3") come il P11. Se serve un cambio tecnico strutturale, farlo **senza abbattere frequenza e volume contemporaneamente**, o mettere in preventivo una fase di regressione tecnica.
 
 ### Stacco — la lezione P11 → P15
 

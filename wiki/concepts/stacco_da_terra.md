@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-08
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, aif_complemento_1_organizzazione_settimana]
 tags: [stacco, deadlift, fondamentali, powerlifting, forza]
 ---
 
@@ -62,5 +62,6 @@ Da [[project_invictus_2022_powerlifting_metodo]]:
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
 - [[project_invictus_2022_powerlifting_metodo]]
+- [[aif_complemento_1_organizzazione_settimana]]
 - [[programma_11_francesco_valente_2024]]
 - [[programma_15_francesco_valente_2025]]

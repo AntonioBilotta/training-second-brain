@@ -1,7 +1,7 @@
 ---
 type: program
 creation_date: 2026-08-06
-update_date: 2026-08-08
+update_date: 2026-08-09
 start_date: 2024-05-13
 duration_weeks: 9
 coach: francesco_valente
@@ -30,7 +30,7 @@ Un [[microciclo]] a **4 sedute/settimana** (LUN/MAR/GIO/VEN):
 | Giorno | Focus principale | Focus secondario |
 |---|---|---|
 | **LUN** | Squat carico fisso (seduta stressante) | Panca piramide + top set |
-| **MAR** | Stacco carico fisso + Panca stretta (parallele) | Squat complementare |
+| **MAR** | Stacco carico fisso + Panca stretta (paralimpica) | Squat complementare |
 | **GIO** | Squat MAV + tecnica (fermi 2", d.3, sopra+sotto 3") | Panca MAV + back-off |
 | **VEN** | Stacco carico principale + tecnico (3" incassata/salita) | Panca presa media fermo 3" |
 
@@ -83,7 +83,7 @@ Panca lavorata **su 4 sedute/settimana** con ruoli diversi (top set, back-off, f
 
 **Sedute complementari panca ricorrenti**:
 - **LUN**: piramide 57.5→80 % + serie multiple al top (5-10 sedute)
-- **MAR**: panca parallele presa media 60-75 % × 3-5 rep
+- **MAR**: panca paralimpica presa media 60-75 % × 3-5 rep
 - **VEN**: panca presa media fermo 3" 65-79 % × 3-5 rep
 
 ## Stacco — carico principale (VEN) e tecnico (MAR)

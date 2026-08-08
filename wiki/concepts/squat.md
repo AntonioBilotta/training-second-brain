@@ -2,7 +2,7 @@
 type: concept
 creation_date: 2026-08-04
 update_date: 2026-08-08
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, aif_2019_barbell_squat_routine, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, aif_2019_barbell_squat_routine, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, aif_complemento_1_organizzazione_settimana]
 tags: [squat, fondamentali, powerlifting, forza]
 ---
 
@@ -43,5 +43,6 @@ Alzata fondamentale trattata trasversalmente nel materiale AIF Master 2020, con 
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
 - [[aif_2019_barbell_squat_routine]]
+- [[aif_complemento_1_organizzazione_settimana]]
 - [[programma_11_francesco_valente_2024]]
 - [[programma_15_francesco_valente_2025]]

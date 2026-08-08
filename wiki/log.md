@@ -64,3 +64,12 @@ Touched pages: [[powerlifting]], [[francesco_valente]], [[aif]], [[antonio_conte
 
 ## [2026-08-08] query | Archiviata analisi: Programma 11 vs Programma 15 pattern per alzata (confronto intra-coach cross-ciclo Valente 2024 vs 2025; densità settimanale per alzata stacco 2 / squat 3 / panca 4; lezione stacco su % conservative + rotazione tecnica start→lockout; ipotesi predittiva sui cambi tecnici isolati)
 Touched pages: [[programma_11_vs_programma_15_pattern_per_alzata]], [[index]]
+
+## [2026-08-08] ingest | AIF Complemento 1 (organizzazione settimanale S/S/R): source page + update microciclo, alternanza pattern, aif entity, squat, stacco
+Touched pages: [[aif_complemento_1_organizzazione_settimana]], [[microciclo]], [[alternanza_stressante_stimolante_rigenerante]], [[aif]], [[squat]], [[stacco_da_terra]]
+
+## [2026-08-08] query | Archiviato template ciclo 9 settimane derivato da pattern P11+P15 e vincoli AIF Sol 1 (matrice S/S/R squat 3 / panca 4 / stacco 2+1, base % conservative squat 175 / panca 115 / stacco 185, progressioni complete, vincoli non negoziabili, non validato da coach)
+Touched pages: [[template_ciclo_9_settimane_derivato_da_pattern_p11_p15_e_aif]], [[index]]
+
+## [2026-08-08] other | Repair terminologico: 'panca parallele' (espansione errata di 'panca para.') corretto in 'panca paralimpica' su 5 pagine (10 occorrenze). Allineamento con [[panca_piana]] e [[aif_master_2020_11_fase_intensiva]] che già usavano il termine corretto. 'Dip parallele' (esercizio diverso) preservato. Bump update_date sulle 5 pagine toccate
+Touched pages: [[piano_programma_11_valente_2024]], [[piano_programma_15_valente_2025]], [[programma_11_vs_programma_15_pattern_per_alzata]], [[template_ciclo_9_settimane_derivato_da_pattern_p11_p15_e_aif]], [[panca_piana]]

@@ -1,7 +1,7 @@
 ---
 type: program
 creation_date: 2026-08-08
-update_date: 2026-08-08
+update_date: 2026-08-09
 start_date: 2025-12-15
 duration_weeks: 9
 coach: francesco_valente
@@ -32,7 +32,7 @@ Un [[microciclo]] a **4 sedute/settimana** (LUN/MAR/GIO/VEN):
 
 | Giorno | Focus principale | Focus secondario |
 |---|---|---|
-| **LUN** | Squat carico fisso (seduta stressante) | Panca parallele / panca fermo 3" + dip + hyperextension |
+| **LUN** | Squat carico fisso (seduta stressante) | Panca paralimpica / panca fermo 3" + dip + hyperextension |
 | **MAR** | Panca carico fisso + Stacco tecnico (Inc. salita 3", poi 2cm+ginocchio) | Pull-up + bicipiti |
 | **GIO** | Squat MAV top-set + tecnica (fermo sopra+sotto, poi box squat) | Panca RPE + panca fermo 3" + pulley/push-up |
 | **VEN** | Stacco convenzionale + panca stretta | Ausiliari (front squat, military press, affondi, curl bilanciere) |
@@ -101,10 +101,10 @@ Panca lavorata su **3 sedute/settimana** (LUN complementare, MAR principale, GIO
 
 | Sett. | Esercizio | %1RM | Schema | Peso |
 |---|---|---|---|---|
-| 1 | Panca parallele | 70 % | 6 × 4 | 87.5 kg |
-| 2 | Panca parallele | 73 % | 6 × 4 | 91.25 kg |
-| 3 | Panca parallele | 76 % | 6 × 4 | 95 kg |
-| 4 | Panca parallele | 80 % | 6 × (3-4) | 100 kg |
+| 1 | Panca paralimpica | 70 % | 6 × 4 | 87.5 kg |
+| 2 | Panca paralimpica | 73 % | 6 × 4 | 91.25 kg |
+| 3 | Panca paralimpica | 76 % | 6 × 4 | 95 kg |
+| 4 | Panca paralimpica | 80 % | 6 × (3-4) | 100 kg |
 | 5 | Panca fermo 3" | 70 % | 4 × 4 | 87.5 kg |
 | 6 | Panca (risc. + serie) | 70 % | 4 × 7 | 87.5 kg |
 | 7 | Panca | 75 % | 4 × 7 | 93.75 kg |
