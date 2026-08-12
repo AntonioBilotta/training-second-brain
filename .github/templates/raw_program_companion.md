@@ -1,6 +1,27 @@
+---
+program_slug: <program_snake_case>          # es. valente_programma_16
+start_date: YYYY-MM-DD                       # primo giorno di lavoro del ciclo
+duration_weeks: <N>
+weekly_pattern:                              # mapping weekday -> giornata del piano
+  monday: <A|B|C|D|null>
+  tuesday: <A|B|C|D|null>
+  wednesday: <A|B|C|D|null>
+  thursday: <A|B|C|D|null>
+  friday: <A|B|C|D|null>
+  saturday: <A|B|C|D|null>
+  sunday: <A|B|C|D|null>
+coach: <coach_snake_case>
+tags:
+  - program
+  - companion
+---
+
 # <Nome del programma> — <Coach>
 
 <Riga di apertura discorsiva: chi ha scritto il programma, contesto della collaborazione, numero del programma nella serie personale.>
+
+> [!note] Perché il frontmatter
+> I campi `program_slug`, `start_date`, `duration_weeks`, `weekly_pattern` servono all'ingest dei workout LiftOff per derivare automaticamente `mesociclo`, `settimana` e `giornata` dal `date` del workout, senza doverli scrivere a mano. Vedi `.github/instructions/wiki-conventions.instructions.md` § *Pattern plan-vs-actual*.
 
 ## Quando
 
