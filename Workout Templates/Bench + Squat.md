@@ -6,4 +6,5 @@ exercises:
     targetSets: 5
   - name: Squat
     targetSets: 5
+program:
 ---

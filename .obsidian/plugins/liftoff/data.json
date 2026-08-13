@@ -1,0 +1,181 @@
+{
+  "settings": {
+    "workoutFolder": "Workouts",
+    "templateFolder": "Workout Templates",
+    "weightUnit": "kg",
+    "restTimerPresets": [
+      30,
+      60,
+      90,
+      120
+    ],
+    "defaultRestDuration": 90,
+    "defaultWorkDuration": 40,
+    "defaultRestIntervalDuration": 20,
+    "exerciseLibrary": [
+      {
+        "name": "Dip",
+        "exerciseType": "weight"
+      },
+      {
+        "name": "Romanian Deadlift",
+        "exerciseType": "weight"
+      },
+      {
+        "name": "Pullup",
+        "exerciseType": "weight"
+      },
+      {
+        "name": "dumbells row",
+        "exerciseType": "weight"
+      }
+    ]
+  },
+  "activeWorkout": {
+    "workout": {
+      "type": "workout",
+      "template": "Deadlift + Bench",
+      "date": "2026-08-12",
+      "start": "13:41",
+      "end": null,
+      "duration": null,
+      "exercises": [
+        {
+          "name": "Deadlift",
+          "exerciseType": "weight",
+          "sets": [
+            {
+              "weight": 90,
+              "reps": 6,
+              "unit": "kg",
+              "completed": true,
+              "setType": "warmup"
+            },
+            {
+              "weight": 110,
+              "reps": 6,
+              "unit": "kg",
+              "completed": true,
+              "setType": "warmup"
+            },
+            {
+              "weight": 120,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true,
+              "setType": "warmup"
+            },
+            {
+              "weight": 120,
+              "reps": 8,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 120,
+              "reps": 8,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 120,
+              "reps": 8,
+              "unit": "kg",
+              "completed": true
+            }
+          ]
+        },
+        {
+          "name": "Bench",
+          "exerciseType": "weight",
+          "sets": [
+            {
+              "weight": 60,
+              "reps": 8,
+              "unit": "kg",
+              "completed": true,
+              "setType": "warmup"
+            },
+            {
+              "weight": 70,
+              "reps": 7,
+              "unit": "kg",
+              "completed": true,
+              "setType": "warmup"
+            },
+            {
+              "weight": 80,
+              "reps": 6,
+              "unit": "kg",
+              "completed": true,
+              "setType": "working"
+            },
+            {
+              "weight": 80,
+              "reps": 6,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 85,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true,
+              "setType": "working"
+            },
+            {
+              "weight": 85,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true
+            }
+          ],
+          "note": "variante paralimpica, presa stretta, board"
+        },
+        {
+          "name": "Pullup",
+          "exerciseType": "weight",
+          "sets": [
+            {
+              "weight": 20,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 20,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 20,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true
+            },
+            {
+              "weight": 20,
+              "reps": 4,
+              "unit": "kg",
+              "completed": true
+            }
+          ]
+        },
+        {
+          "name": "dumbells row",
+          "exerciseType": "weight",
+          "sets": [
+            {
+              "weight": 0,
+              "reps": 0,
+              "unit": "kg",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    "startTimeMs": 1786534862350
+  }
+}
