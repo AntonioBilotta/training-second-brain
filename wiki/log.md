@@ -73,3 +73,9 @@ Touched pages: [[template_ciclo_9_settimane_derivato_da_pattern_p11_p15_e_aif]],
 
 ## [2026-08-08] other | Repair terminologico: 'panca parallele' (espansione errata di 'panca para.') corretto in 'panca paralimpica' su 5 pagine (10 occorrenze). Allineamento con [[panca_piana]] e [[aif_master_2020_11_fase_intensiva]] che già usavano il termine corretto. 'Dip parallele' (esercizio diverso) preservato. Bump update_date sulle 5 pagine toccate
 Touched pages: [[piano_programma_11_valente_2024]], [[piano_programma_15_valente_2025]], [[programma_11_vs_programma_15_pattern_per_alzata]], [[template_ciclo_9_settimane_derivato_da_pattern_p11_p15_e_aif]], [[panca_piana]]
+
+## [2026-09-13] query | Archiviata analisi: orientamento (non diagnosi) su dolore/tensione deltoide posteriore destro e scapola, ricorrente da 3+ anni, scatenato da panca piana; ipotesi principale discinesia scapolare da pec minor/trapezio superiore accorciati con overload compensatorio di trapezio superiore e deltoide posteriore; identificato possibile fattore contestuale nel cambio di impostazione scapolare in panca del Programma 15; piano di recupero e stretching proposti; voce diario preparata per l'utente (non scritta, raw/ è immutabile)
+Touched pages: [[orientamento_dolore_deltoide_posteriore_scapola_2026_09]], [[panca_piana]], [[piano_programma_15_valente_2025]], [[controllo_motorio]], [[index]]
+
+## [2026-09-13] ingest | Nota diario 2026-09-13 — infortunio deltoide posteriore destro/scapola: creata source page journal_2026_09_13_infortunio_deltoide_posteriore_dx; aggiornata panca_piana con nuovo callout fastidi ricorrenti; collegata alla pagina di analisi orientamento_dolore_deltoide_posteriore_scapola_2026_09 (related_sources popolato)
+Touched pages: [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]], [[panca_piana]], [[orientamento_dolore_deltoide_posteriore_scapola_2026_09]], [[index]]

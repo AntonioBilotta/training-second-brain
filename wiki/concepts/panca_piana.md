@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-04
-update_date: 2026-08-09
-related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
+update_date: 2026-09-13
+related_sources: [aif_master_2020_02_costruzione_microciclo, aif_master_2020_10_fase_estensiva, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, journal_2026_08_05_massimali, journal_2026_09_13_infortunio_deltoide_posteriore_dx, project_invictus_2022_powerlifting_metodo, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
 tags: [panca_piana, fondamentali, powerlifting, forza]
 ---
 
@@ -27,6 +27,11 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
 - [[programma_11_francesco_valente_2024]] ([[francesco_valente]], 2024-05-13, 9 settimane) — panca lavorata su 3-4 sedute/settimana con presa media paralimpica + fermo 3 sec + MAV con back-off. Delta 1RM personale: **116 → 120 kg** (+4, target raggiunto).
 - [[programma_15_francesco_valente_2025]] ([[francesco_valente]], 2025-12-15, 9 settimane) — panca su 3 sedute/settimana (MAR principale, LUN complementare, GIO top-set + fermo). Introduzione di **cambio di impostazione scapolare** (più abduzione e meno depressione, consiglio ricevuto da Carola Garra in seminario). Delta 1RM personale: **125 → 115 kg** (−10, regressione tecnica attesa dal cambio ancora non consolidato).
 
+## Fastidi ricorrenti segnalati
+
+> [!note] Tensione deltoide posteriore/scapola destra
+> Fastidio ricorrente da almeno 3 anni, scatenato principalmente dalla panca piana, che migliora con esercizi per la schiena (row, trazioni) — orientamento (non diagnosi): probabile discinesia scapolare da pec minor/trapezio superiore accorciati. Vedi [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]] e analisi completa in [[orientamento_dolore_deltoide_posteriore_scapola_2026_09]].
+
 ## Varianti tecniche citate
 
 - Fermo al petto 3 sec
@@ -46,3 +51,4 @@ Alzata fondamentale trattata con la maggiore ampiezza nel materiale AIF Master 2
 - [[aif_master_2020_12_taper]]
 - [[programma_11_francesco_valente_2024]]
 - [[programma_15_francesco_valente_2025]]
+- [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]]
