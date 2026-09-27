@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-04
-update_date: 2026-08-06
-related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, programma_11_francesco_valente_2024]
+update_date: 2026-09-27
+related_sources: [aif_master_2020_03_parametri_e_mezzi, aif_master_2020_04_fondamenti_programmazione, aif_master_2020_06_modelli_basilari_progressione, aif_master_2020_07_ciclico_vs_aciclico, aif_master_2020_11_fase_intensiva, aif_master_2020_12_taper, programma_11_francesco_valente_2024, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
 tags: [intensita_relativa, IR, autoregolazione]
 ---
 
@@ -23,6 +23,10 @@ Rapporto tra il **numero di ripetizioni fatte** e il **numero di ripetizioni pos
 - Critica al **DUP**: alternanza carichi minima e **no IR**, per questo la ricerca su DUP dà risposte poco significative ([[aif_master_2020_04_fondamenti_programmazione]]).
 - **Fase intensiva**: mantenere la stessa intensità sul 1RM alzando l'IR è la manovra tipica del passaggio settimane 1-3 → 4-6 ([[aif_master_2020_11_fase_intensiva]]).
 
+## IR bassa sui fondamentali, massima sui complementari (Vena)
+
+- Nell'[[allenamento_submassimale]] di [[matt_vena]] i fondamentali si lavorano tra RPE 4 e RPE 6 con la formula *80% − 2% per ripetizione* (singole 78% circa, doppie 76% circa, triple 74%), mentre i complementari vanno tutti a cedimento ([[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]). È un uso dell'IR opposto per esercizio: bassa sul gesto di gara, massima sugli ausiliari.
+
 ## Riferimenti incrociati
 
 - [[parametri_allenamento]]
@@ -38,3 +42,4 @@ Rapporto tra il **numero di ripetizioni fatte** e il **numero di ripetizioni pos
 - [[aif_master_2020_11_fase_intensiva]]
 - [[aif_master_2020_12_taper]]
 - [[programma_11_francesco_valente_2024]]
+- [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]

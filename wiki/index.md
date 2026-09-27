@@ -1,6 +1,6 @@
 ---
 type: index
-update_date: 2026-08-08
+update_date: 2026-09-27
 ---
 
 # Wiki Index — Strength training, Powerlifting, Conditioning, Iron Log
@@ -19,14 +19,15 @@ Quick links: [[overview]] · [[log]]
 - [[project_invictus]] — piattaforma italiana di divulgazione fitness/forza (projectinvictus.it) · 2026-08-06
 - [[francesco_valente]] — Coach personale dell'utente, attivo dalla primavera 2024. Ha scritto Programma 11 (2024-05-13) e Programma 15 (2025-12-15) documentati nel vault. · 2026-08-08
 - [[ado_gruzza]] — Coach e autore RawTraining, ideatore del metodo MAV e del metodo distribuito; ex powerlifter agonista, allenatore squadra Parma. · 2026-08-08
+- [[matt_vena]] — allenatore e atleta canadese di powerlifting (400 kg squat in allenamento, totale 950 kg nei -120 kg); metodo sub-massimale + cardio zona 2 · 2026-09-27
 
 ## Concepts
 
 - [[programmazione]] — definizione, obiettivo, macro-struttura ciclo/fasi/microcicli
 - [[microciclo]] — unità base settimanale (esercizi, ordine, frequenza)
 - [[parametri_allenamento]] — intensità, volume, frequenza, IR + sei mezzi metodologici
-- [[intensita_relativa]] — rapporto rip. fatte / rip. possibili; uso strategico
-- [[controllo_motorio]] — uno dei due "segreti della forza"; diagnostica delle carenze
+- [[intensita_relativa]] — rapporto rip. fatte / rip. possibili; uso strategico; IR bassa sui fondamentali e cedimento sui complementari (Vena) · 2026-09-27
+- [[controllo_motorio]] — uno dei due "segreti della forza"; diagnostica delle carenze; prospettiva sub-massimale di Vena (fatica che corrompe lo schema motorio) · 2026-09-27
 - [[fase_estensiva]] — prima fase del ciclo (controllo motorio + ipertrofia specifica)
 - [[fase_intensiva]] — seconda fase (progressione, zona 75-90%)
 - [[taper]] — terza fase (specificità, -30% volume, calcolo su obiettivo)
@@ -40,6 +41,8 @@ Quick links: [[overview]] · [[log]]
 - [[powerlifting]] — Disciplina di forza sulle tre alzate (squat, panca, stacco); collega le fonti divulgative italiane e i programmi Valente. · 2026-08-08
 - [[mav]] — Miglior Alzata Veloce (Gruzza, 2015) — metodo ramping 'basato sul come, non sul quanto'; varianti base, con back-off, in maggiore/minore, MAV su MAV; usato nei programmi Valente come top-set del giovedì con % pre-assegnate + RPE. · 2026-08-08
 - [[ramping]] — modalità di gestione della serie in cui il carico sale a scatti brevi (3%) verso un top set di qualità, stop determinato dall'atleta; struttura sottostante del MAV. · 2026-08-08
+- [[allenamento_submassimale]] — fondamentali a bassa intensità (RPE 4-6, 80% −2% per rip) per preservare lo schema motorio; dose sui complementari a cedimento; niente top set/back-off (Vena) · 2026-09-27
+- [[cardio_zona_2]] — conditioning a bassa intensità programmato come programma separato; capacità di lavoro, recupero, prevenzione infortuni (Vena) · 2026-09-27
 
 ## Goals
 
@@ -98,6 +101,7 @@ Quick links: [[overview]] · [[log]]
 - [[tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]] — articolo Rawtraining (Ado Gruzza, 2015) — descrizione autoritativa del metodo MAV (Miglior Alzata Veloce): ramping basato sul come, varianti base/con back-off/in maggiore/in minore/MAV su MAV, 6 combinazioni riassuntive. · 2026-08-08
 - [[aif_complemento_1_organizzazione_settimana]] — Complemento AIF 1 al corso: 3 principi per organizzare stressanti/stimolanti/rigeneranti nella settimana + 2 esempi di soluzioni a 4 sedute (LUN squat str, MAR o VEN stacco str). · 2026-08-08
 - [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]] — Nota diario: tensione/dolore deltoide posteriore destro e scapola, ricorrente da 3+ anni, scatenata dalla panca piana, migliora con row/trazioni; piano di recupero avviato (push-up plus, face pull, Y-T-W, stretching pec minor). · 2026-09-13
+- [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]] — video/podcast (rubrica coach internazionali, 2026) — metodo sub-massimale di Matt Vena: fondamentali RPE 4-6 con formula 80% −2%/rip, complementari a cedimento, blocco infinito +2,5/5 kg a settimana, nutrizione ciclica, cardio zona 2 · 2026-09-27
 
 ## Analysis
 

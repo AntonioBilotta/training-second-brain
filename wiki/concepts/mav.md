@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-08
-update_date: 2026-08-08
-related_sources: [tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025]
+update_date: 2026-09-27
+related_sources: [tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
 tags: [mav, ramping, metodologia, powerlifting, gruzza]
 ---
 
@@ -77,6 +77,11 @@ Due ramping nella stessa seduta (es. MAV 1 + MAV 3): raggiunto il 1MAV, si torna
 - **Differenza rispetto alla forma originale di Gruzza**: nei programmi Valente la % è **pre-assegnata dal coach**, mentre in Gruzza il carico è **scoperto dall'atleta** in base allo sticking point. L'RPE @8-@9 annotato nei fogli è la garanzia residua del "controllo" tipico del metodo originale. Si tratta di una **variante applicata** più che dell'implementazione letterale.
 - Nei fogli "Massimali" dei programmi Valente compaiono anche **tabelle di incremento MAV5/MAV3/MAV2** (+2-3 %, +3 %, +3-4 % settimanali) usate come riferimento per la progressione del carico principale.
 
+## Approccio contrapposto: niente top set (Vena)
+
+> [!tip] Prospettiva alternativa
+> [[matt_vena]] evita il concetto di top set e back-off: non vuole alzare l'intensità, andare oltre e poi dover tornare indietro, ma restare sempre nella zona intermedia con progressione lineare settimanale ([[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]). Condivide con il MAV l'enfasi sulla qualità del gesto, ma rinuncia al [[ramping]] verso un top set. Vedi [[allenamento_submassimale]].
+
 ## Cross-reference
 
 - Fonte primaria: [[tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]] ([[ado_gruzza]], 2015)
@@ -89,3 +94,4 @@ Due ramping nella stessa seduta (es. MAV 1 + MAV 3): raggiunto il 1MAV, si torna
 - [[tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere]]
 - [[programma_11_francesco_valente_2024]]
 - [[programma_15_francesco_valente_2025]]
+- [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]

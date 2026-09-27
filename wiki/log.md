@@ -79,3 +79,6 @@ Touched pages: [[orientamento_dolore_deltoide_posteriore_scapola_2026_09]], [[pa
 
 ## [2026-09-13] ingest | Nota diario 2026-09-13 — infortunio deltoide posteriore destro/scapola: creata source page journal_2026_09_13_infortunio_deltoide_posteriore_dx; aggiornata panca_piana con nuovo callout fastidi ricorrenti; collegata alla pagina di analisi orientamento_dolore_deltoide_posteriore_scapola_2026_09 (related_sources popolato)
 Touched pages: [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]], [[panca_piana]], [[orientamento_dolore_deltoide_posteriore_scapola_2026_09]], [[index]]
+
+## [2026-09-27] ingest | Video/podcast 'Meno intensità = più forza? Cosa possiamo imparare da Matt Vena' (raw/podcasts/AIF/Programma matt vena.md) (New + Update): source page, entity matt_vena, concetti allenamento_submassimale e cardio_zona_2; aggiornati controllo_motorio, intensita_relativa, mav con la prospettiva sub-massimale (approccio alternativo, nessuna contraddizione formale)
+Touched pages: [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]], [[matt_vena]], [[allenamento_submassimale]], [[cardio_zona_2]], [[controllo_motorio]], [[intensita_relativa]], [[mav]], [[index]]
