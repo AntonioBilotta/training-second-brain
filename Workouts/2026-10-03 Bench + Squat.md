@@ -46,7 +46,7 @@ exercises:
 # Bench + Squat — Oct 3, 2026
 
 ## Bench
-> MAV 3 con variante salita e discesa in 3 secondi, poi backoff con discesa in 3 secondi, poi MAV 3 senza varianti
+> MAV 3 con variante salita e discesa in 3 secondi, poi backoff con discesa in 3 secondi, poi MAV 2 senza varianti
 
 | Set | Weight | Reps |
 |-----|--------|------|
