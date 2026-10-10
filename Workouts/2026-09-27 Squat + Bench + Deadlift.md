@@ -41,7 +41,7 @@ exercises:
 # Squat + Bench + Deadlift — Sep 27, 2026
 
 ## Bench
-> Variante mignoli 81, board 4 cm, fermo al petto 2 secondi; MAV 5
+> Variante mignoli 81, board 4 cm, fermo al petto 2 secondi; MAV 5 + B.O.
 
 | Set | Weight | Reps |
 |-----|--------|------|
@@ -50,8 +50,8 @@ exercises:
 | 3   | 80 kg  | 5    |
 | 4   | 90 kg  | 5    |
 | 5   | 90 kg  | 3    |
-| 6   | 90 kg  | 0    |
-| 7   | 90 kg  | 0    |
+| 6   | 90 kg  | 3    |
+| 7   | 90 kg  | 3    |
 | 8   | 90 kg  | 3    |
 
 ## Deadlift
