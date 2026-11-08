@@ -104,6 +104,7 @@ Quick links: [[overview]] · [[log]]
 
 ### Articoli — Divulgazione
 
+- [[matt_vena_intermediate_powerlifting_program_boostcamp]] — programma Boostcamp v3.0 di Matt Vena (12 sett. × 4 giorni): microcicli 3 settimane (+1 rip/sett, poi +3 %), singola @6-8 + doppie 78 %, varianti con fermo/tempo; pubblica solo la settimana 1 · 2026-11-08
 - [[forge_2021_tabella_prilepin]] — articolo Forge — riproduzione tabella Prilepin + critica dell'applicabilità PL/BB/calisthenics · 2026-08-06
 - [[aif_2019_barbell_squat_routine]] — articolo AIF blog — Barbell Squat Routine di Antonio Contenta; microciclo alternanza + ciclo 4 settimane. Usa il metodo MAV nella seduta 3. · 2026-08-08
 - [[project_invictus_2022_powerlifting_metodo]] — articolo Project inVictus (Casappa, 2022) — intro PL, regolamento gara, schede sample principianti/intermedi/avanzati · 2026-08-06

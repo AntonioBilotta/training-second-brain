@@ -5,7 +5,7 @@ update_date: 2026-11-08
 start_date: 2026-11-09
 duration_weeks: 12
 coach: self
-related_sources: [self_vena_aif_2026, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
+related_sources: [self_vena_aif_2026, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, matt_vena_intermediate_powerlifting_program_boostcamp]
 tags: [programma, powerlifting, self_programming, matt_vena, submassimale, squat, panca_piana, stacco_da_terra, 2026, 2027]
 ---
 
@@ -15,6 +15,12 @@ Programma scritto dall'utente (self-programming) sul modello del programma inter
 
 > [!warning] Non validato da coach
 > Le scelte marcate *[adattamento]* nel companion non vengono da Vena né dalla wiki.
+
+> [!warning] Scostamento dal programma di Vena: tempo bench (giorno B)
+> Nel programma di Vena le 2 serie dopo la singola del tempo bench sono **back-off al 90 % della singola**, con discesa in 4 tempi ([[matt_vena_intermediate_powerlifting_program_boostcamp]]). Il companion prescrive invece 2 × 2 @RPE 6. Valori pratici equivalenti in molti casi, ma da allineare alla prossima revisione del piano (il companion è immutabile; i file del microciclo 2 si possono generare con la nuova indicazione).
+
+> [!note] Dettagli di esecuzione dalla fonte
+> Tempo squat: discesa 4 s + pausa 0,5 s. Squat con fermo: 1 s in buca. Panca con fermo lungo: 2 s. Presa stretta: 2-3 dita più stretta. Stacco con fermo: 1 pollice da terra, 1 s ([[matt_vena_intermediate_powerlifting_program_boostcamp]]).
 
 ## Massimali di riferimento (per il calcolo delle %)
 

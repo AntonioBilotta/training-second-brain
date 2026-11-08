@@ -2,7 +2,7 @@
 type: entity
 creation_date: 2026-09-27
 update_date: 2026-11-08
-related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, self_vena_aif_2026]
+related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, self_vena_aif_2026, matt_vena_intermediate_powerlifting_program_boostcamp]
 tags: [coach, atleta, powerlifting, canada, submassimale]
 ---
 
@@ -24,6 +24,10 @@ Allenatore e atleta canadese di [[powerlifting]], ha costruito un metodo che *"r
 > [!note] Posizione dichiarata
 > Vena non nega che esistano altri metodi efficaci (*"esistono persone che si allenano a intensità più alte, che vincono il mondiale"*), ma sostiene l'approccio sub-massimale come tendenzialmente migliore per la maggior parte delle persone ([[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]).
 
+## Programma pubblicato
+
+- *Matt Vena Intermediate Powerlifting Program* v3.0 su Boostcamp: 12 settimane × 4 giorni, microcicli di 3 settimane, varianti con fermo e tempo, complementari con prima serie a cedimento ([[matt_vena_intermediate_powerlifting_program_boostcamp]]).
+
 ## Cross-reference
 
 - Concetti: [[allenamento_submassimale]] · [[controllo_motorio]] · [[intensita_relativa]] · [[cardio_zona_2]]
@@ -34,3 +38,4 @@ Allenatore e atleta canadese di [[powerlifting]], ha costruito un metodo che *"r
 
 - [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]
 - [[self_vena_aif_2026]]
+- [[matt_vena_intermediate_powerlifting_program_boostcamp]]

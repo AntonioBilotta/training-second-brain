@@ -91,3 +91,6 @@ Touched pages: [[self_vena_aif_2026]], [[piano_self_vena_aif_2026]], [[squat]], 
 
 ## [2026-11-08] other | Cambio convenzione workout: LiftOff dismesso (plugin disattivato); i workout di programma sono file di seduta creati per microciclo da .github/scripts/genera_sedute.py (unica eccezione alla regola raw/ immutabile, solo creazione di file nuovi) e compilati da iPad; supportato il pattern di programma "native" (companion.md + programma.yaml); ingest per microciclo in journal_<program>_mc<N>. Aggiornati wiki-conventions.instructions.md, templates/README.md, raw_program_companion.md, CLAUDE.md, AGENTS.md, skill diagnosi-infortuni-powerlifting
 Touched pages: [[overview]], [[piano_self_vena_aif_2026]]
+
+## [2026-11-08] ingest | Matt Vena Intermediate Powerlifting Program v3.0 (Boostcamp, raw/articles/) (New + Update): source page; chiusa la nota "da verificare" su allenamento_submassimale (singola + doppie 78 %, microcicli 3 settimane confermati da fonte diretta); entità matt_vena aggiornata; nel piano self_vena_aif_2026 segnalato lo scostamento sul tempo bench (Vena: back-off al 90 % della singola) e aggiunti i dettagli di esecuzione delle varianti
+Touched pages: [[matt_vena_intermediate_powerlifting_program_boostcamp]], [[allenamento_submassimale]], [[matt_vena]], [[piano_self_vena_aif_2026]], [[index]]
