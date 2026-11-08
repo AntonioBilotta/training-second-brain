@@ -1,7 +1,7 @@
 ---
 type: source
 creation_date: 2026-08-04
-update_date: 2026-08-04
+update_date: 2026-11-08
 source_date: 2026-08-04
 related_sources: []
 tags:
@@ -15,8 +15,8 @@ tags:
 
 ## Provenienza
 
-- Screenshot bilancia: `raw/journal/2026/2026-08-04/IMG_E0D5EAB82E6E-1.jpeg`
-- Note contestuali: `raw/journal/2026/2026-08-04/check-bilancia`
+- Screenshot bilancia: `raw/journal/2026/da 2026-08-04 a 2026-10-10/IMG_E0D5EAB82E6E-1.jpeg`
+- Note contestuali: `raw/journal/2026/da 2026-08-04 a 2026-10-10/check-bilancia`
 - Rilevazione: **21:01 del 04/08/2026**, prima di cena, in un **rest day**.
 - Utente: Antonio Bilotta.
 

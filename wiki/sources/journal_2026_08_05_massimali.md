@@ -1,7 +1,7 @@
 ---
 type: source
 creation_date: 2026-08-06
-update_date: 2026-08-06
+update_date: 2026-11-08
 source_date: 2026-08-05
 related_sources: []
 tags:
@@ -17,7 +17,7 @@ tags:
 
 ## Provenienza
 
-- File sorgente: `raw/journal/2026/2026-08-05/massimali.md`
+- File sorgente: `raw/journal/2026/da 2026-08-04 a 2026-10-10/massimali.md`
 - Data annotazione: **2026-08-05**
 - Contesto: annotazione libera nel journal. L'utente riporta valori "calcolati qualche mese fa", quindi si tratta di **stime storiche** non di un test recente.
 

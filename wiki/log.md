@@ -94,3 +94,6 @@ Touched pages: [[overview]], [[piano_self_vena_aif_2026]]
 
 ## [2026-11-08] ingest | Matt Vena Intermediate Powerlifting Program v3.0 (Boostcamp, raw/articles/) (New + Update): source page; chiusa la nota "da verificare" su allenamento_submassimale (singola + doppie 78 %, microcicli 3 settimane confermati da fonte diretta); entità matt_vena aggiornata; nel piano self_vena_aif_2026 segnalato lo scostamento sul tempo bench (Vena: back-off al 90 % della singola) e aggiunti i dettagli di esecuzione delle varianti
 Touched pages: [[matt_vena_intermediate_powerlifting_program_boostcamp]], [[allenamento_submassimale]], [[matt_vena]], [[piano_self_vena_aif_2026]], [[index]]
+
+## [2026-11-08] other | Riorganizzazione raw/journal per periodo (fatta dall'utente): `da <inizio> a <fine> <programma>/` per ogni microciclo di programma, `da <inizio> a <fine>/` per i periodi senza programma. Aggiornati genera_sedute.py (scrive nella cartella del microciclo), convenzioni, CLAUDE.md, template, skill infortuni e i percorsi di provenienza nelle source page journal
+Touched pages: [[journal_2026_08_workout]], [[journal_2026_09_workout]], [[journal_2026_10_workout]], [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]], [[journal_2026_08_05_massimali]], [[journal_2026_08_04_check_bilancia]], [[overview]], [[piano_self_vena_aif_2026]]

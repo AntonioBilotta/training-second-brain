@@ -13,7 +13,7 @@ Pagina aggregata (granularità mensile concordata con l'utente) delle sedute Lif
 
 ## Provenienza
 
-- File sorgente (10 sedute): `raw/journal/2026/2026-08-04 Squat + Bench.md`, `2026-08-06 Deadlift + Bench.md`, `2026-08-08 Bench + Squat.md`, `2026-08-11 Squat + Bench.md`, `2026-08-13 Deadlift + Bench.md`, `2026-08-17 Squat + Bench.md`, `2026-08-19 Deadlift + Bench.md`, `2026-08-24 Squat + Bench.md`, `2026-08-26 Deadlift + Bench.md`, `2026-08-27 Bench + Squat.md`.
+- File sorgente (10 sedute): `raw/journal/2026/da 2026-08-04 a 2026-10-10/2026-08-04 Squat + Bench.md`, `2026-08-06 Deadlift + Bench.md`, `2026-08-08 Bench + Squat.md`, `2026-08-11 Squat + Bench.md`, `2026-08-13 Deadlift + Bench.md`, `2026-08-17 Squat + Bench.md`, `2026-08-19 Deadlift + Bench.md`, `2026-08-24 Squat + Bench.md`, `2026-08-26 Deadlift + Bench.md`, `2026-08-27 Bench + Squat.md`.
 - Generati dal plugin LiftOff. **Nessun campo `program:`**: per dichiarazione dell'utente (2026-11-08) nel periodo agosto–ottobre 2026 non seguiva un programma specifico ma *decideva cosa fare di volta in volta*. Non c'è quindi un piano in `raw/programs/` con cui fare plan-vs-actual.
 - Durata sedute: da 102 a 150 minuti.
 

@@ -47,7 +47,7 @@ Any evolution of structure (new page types, new folders, new conventions) must b
 I programmi seguono il pattern **plan-vs-actual**:
 
 - **Piano** → `raw/programs/<program>/`: `companion.md` + binario del coach (legacy import) oppure `companion.md` + `programma.yaml` (programma scritto dall'utente, es. [[piano_self_vena_aif_2026]]). Immutabile una volta iniziato.
-- **Esecuzione** → `raw/journal/YYYY/YYYY-MM-DD W<settimana> <giornata>.md`: file di seduta creati un microciclo alla volta da `.github/scripts/genera_sedute.py`, con serie da spuntare e campi `rpe::`/`note::`. Dettagli in `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*.
+- **Esecuzione** → `raw/journal/YYYY/da <inizio> a <fine> <programma>/YYYY-MM-DD W<settimana> <giornata>.md` (una cartella per microciclo): file di seduta creati un microciclo alla volta da `.github/scripts/genera_sedute.py`, con serie da spuntare e campi `rpe::`/`note::`. Dettagli in `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*.
 - I workout fino al 2026-10-10 vengono dal plugin LiftOff, dismesso il 2026-11-08.
 
 ## iPad + git

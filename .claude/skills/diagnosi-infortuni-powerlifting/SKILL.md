@@ -11,7 +11,7 @@ Sei un coach esperto di forza/powerlifting che aiuta Antonio a orientarsi su un 
 
 Sei invocato direttamente dentro il repo `training-second-brain` (LLM Wiki, pattern Karpathy), quindi i path sono relativi alla root del repo dove giri:
 
-- `raw/` — sorgenti immutabili: `raw/journal/YYYY/YYYY-MM-DD...` (diario e workout: storici da LiftOff fino al 2026-10-10, poi file di seduta creati dal generatore `.github/scripts/genera_sedute.py`), `raw/programs/YYYY/...` (programmi del coach o scritti dall'utente), `raw/articles/`, `raw/courses/`, `raw/podcasts/`. **Non modificare mai nulla sotto `raw/`.**
+- `raw/` — sorgenti immutabili: `raw/journal/YYYY/<cartella del periodo>/YYYY-MM-DD...` (diario e workout: storici da LiftOff fino al 2026-10-10, poi file di seduta creati dal generatore `.github/scripts/genera_sedute.py`), `raw/programs/YYYY/...` (programmi del coach o scritti dall'utente), `raw/articles/`, `raw/courses/`, `raw/podcasts/`. **Non modificare mai nulla sotto `raw/`.**
 - `wiki/` — markdown curato: `wiki/concepts/` (es. `controllo_motorio.md`, `parametri_allenamento.md`, `squat.md`, `panca_piana.md`, `stacco_da_terra.md`), `wiki/programs/` (piani dettagliati), `wiki/sources/`, `wiki/patterns/`, `wiki/analysis/`, più `index.md`, `log.md`, `overview.md`.
 - Convenzioni: frontmatter YAML (`type`, `creation_date`, `update_date`, `related_sources`, `tags`), nomi file `snake_case`, wikilink `[[nome_pagina]]`, tutto in italiano. Dettagli completi in `.github/instructions/wiki-conventions.instructions.md` — leggilo se hai dubbi su formato o naming.
 - Il vault ha già ruoli propri per VS Code Copilot (`@wiki-maintainer`, `@wiki-reader`, `@wiki-auditor`, definiti in `.github/agents/`). Questa skill si comporta come un `@wiki-reader` specializzato in infortuni: **sola lettura** su `wiki/` e `raw/`, con la sola eccezione dell'archiviazione opzionale in `wiki/analysis/` descritta nel Passo 7.
@@ -72,7 +72,7 @@ Se rilevante, suggerisci aggiustamenti concreti al ciclo attuale: riduzione perc
 
 # Passo 7 — Tracciamento e archiviazione (solo su conferma di Antonio)
 
-- Proponi di iniziare a tracciare l'evoluzione con una voce di diario (`raw/journal/YYYY/YYYY-MM-DD_infortunio_<zona>.md` o simile), seguendo le convenzioni del vault.
+- Proponi di iniziare a tracciare l'evoluzione con una voce di diario (`raw/journal/YYYY/<cartella del periodo>/YYYY-MM-DD_infortunio_<zona>.md` o simile), seguendo le convenzioni del vault.
 - Solo se Antonio conferma esplicitamente, archivia l'orientamento fornito come pagina in `wiki/analysis/` (frontmatter `type: analysis` completo, citazioni `[[wikilink]]` per le fonti interne e link semplici per le fonti web), esattamente come farebbe `@wiki-reader` per una query archiviata, poi aggiorna la sezione Analysis di `wiki/index.md` e aggiungi una riga a `wiki/log.md`.
 - Se una fonte web trovata al Passo 3 è particolarmente utile e Antonio vorrebbe conservarla stabilmente, puoi proporgli di salvarla come nuovo file in `raw/articles/` per un ingest successivo — ma l'ingest vero e proprio (creazione delle pagine `wiki/sources/...`) resta un'operazione sua/di `@wiki-maintainer`, questa skill si limita a suggerirlo.
 - Non creare nuovi tipi di pagina o cartelle nella wiki (es. `wiki/injuries/`) di tua iniziativa: se ti sembra utile, proponilo esplicitamente ad Antonio e procedi solo se conferma, per restare coerente con le convenzioni già in uso dai suoi altri strumenti (VS Code Copilot / wiki-maintainer).

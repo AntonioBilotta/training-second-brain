@@ -13,7 +13,7 @@ Pagina aggregata (granularità mensile) delle sedute LiftOff di ottobre 2026. Co
 
 ## Provenienza
 
-- File sorgente (6 sedute): `raw/journal/2026/2026-10-02 Deadlift + Bench.md`, `2026-10-03 Bench + Squat.md`, `2026-10-05 Squat + Bench.md`, `2026-10-06 Deadlift + Bench.md`, `2026-10-08 Bench + Squat.md`, `2026-10-10 Squat + Bench + Deadlift.md`.
+- File sorgente (6 sedute): `raw/journal/2026/da 2026-08-04 a 2026-10-10/2026-10-02 Deadlift + Bench.md`, `2026-10-03 Bench + Squat.md`, `2026-10-05 Squat + Bench.md`, `2026-10-06 Deadlift + Bench.md`, `2026-10-08 Bench + Squat.md`, `2026-10-10 Squat + Bench + Deadlift.md`.
 - Nessun campo `program:` (autoregolazione libera, vedi [[journal_2026_08_workout]]).
 - Durata sedute: da 99 a 127 minuti secondo il frontmatter. Per il 2026-10-08 il frontmatter riporta `duration: 120` mentre il corpo del file indica *"2h 32m"*.
 - **Ultima seduta registrata nel vault: 2026-10-10.**

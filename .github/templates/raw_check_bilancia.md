@@ -3,7 +3,7 @@ date: YYYY-MM-DD
 orario: HH:MM
 condizioni: <mattino_digiuno | sera_pre_cena | post_workout | altro>
 giorno_tipo: <rest_day | training_day | post_gara>
-screenshot: raw/journal/YYYY/YYYY-MM-DD/<nome_file>.jpeg
+screenshot: raw/journal/YYYY/<cartella del periodo>/<nome_file>.jpeg
 bilancia_modello: <es. Xiaomi Mi Body S400, Renpho Elis 1, ...>
 tags:
   - journal
@@ -52,7 +52,7 @@ tags:
 | Massa muscolare | | | | |
 | Massa magra | | | | |
 
-Data check precedente: `raw/journal/YYYY/YYYY-MM-DD/check_bilancia.md`.
+Data check precedente: `raw/journal/YYYY/<cartella del periodo>/YYYY-MM-DD_check_bilancia.md`.
 
 ## Interpretazione soggettiva
 

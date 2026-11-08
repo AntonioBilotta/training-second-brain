@@ -32,7 +32,7 @@ Non esistono i chat-agent `@wiki-maintainer/@wiki-reader/@wiki-auditor` fuori da
 
 ### Struttura `raw/`
 
-- `journal/YYYY/YYYY-MM-DD <titolo>.md` (o cartella `YYYY-MM-DD/` se più artefatti lo stesso giorno) — voci diario e workout. Workout di programma: `YYYY-MM-DD W<settimana> <giornata>.md`, creati dal generatore delle sedute e compilati da iPad. Workout fino al 2026-10-10: plugin **LiftOff** (dismesso).
+- `journal/YYYY/` — voci diario e workout raggruppati per periodo: `da <inizio> a <fine> <programma>/` = un microciclo di programma (sedute `YYYY-MM-DD W<settimana> <giornata>.md`, create dal generatore e compilate da iPad); `da <inizio> a <fine>/` = periodo senza programma (workout liberi, note, misure). Nomi file sempre con la data come prefisso. Workout fino al 2026-10-10: plugin **LiftOff** (dismesso).
 - `programs/YYYY/YYYY-MM-DD_coach_slug_programma/` — piani. Legacy import: `companion.md` + binario originale del coach. Native (scritto dall'utente): `companion.md` + `programma.yaml`.
 - `articles/`, `podcasts/`, `courses/`, `assets/`.
 - Template per popolare `raw/` in [`.github/templates/`](.github/templates/) (copiare, non editare in place).

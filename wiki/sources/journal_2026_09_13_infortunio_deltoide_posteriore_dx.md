@@ -1,7 +1,7 @@
 ---
 type: source
 creation_date: 2026-09-13
-update_date: 2026-09-13
+update_date: 2026-11-08
 source_date: 2026-09-13
 related_sources: []
 tags:
@@ -17,7 +17,7 @@ tags:
 
 ## Provenienza
 
-- Note: `raw/journal/2026/2026-09-13_infortunio_deltoide_posteriore_dx.md`
+- Note: `raw/journal/2026/da 2026-08-04 a 2026-10-10/2026-09-13_infortunio_deltoide_posteriore_dx.md`
 - Utente: Antonio Bilotta.
 
 ## Sintomi riportati

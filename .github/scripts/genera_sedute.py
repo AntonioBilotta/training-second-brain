@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Genera i file di seduta (raw/journal/YYYY/) di un microciclo a partire da programma.yaml.
+"""Genera i file di seduta di un microciclo a partire da programma.yaml.
+
+Cartella di uscita: raw/journal/<anno prima seduta>/da <prima data> a <ultima data> <programma>/
+dove <programma> è il nome della cartella del programma senza la data (es. self_vena_aif).
 
 Uso:  python3 .github/scripts/genera_sedute.py <cartella_programma> <microciclo> [--rigenera]
 Non sovrascrive un file esistente. Con --rigenera sovrascrive SOLO i file ancora
@@ -80,13 +83,21 @@ def main(prog_dir, mc, rigenera=False):
     start = cfg["start_date"]
     if isinstance(start, str):
         start = datetime.date.fromisoformat(start)
+    prog_name = pathlib.Path(prog_dir).resolve().name.split("_", 1)[1]
+    sedute = []
+    for wk_in_mc, settimana in enumerate(cfg["microcicli"][mc]):
+        lunedi = start + datetime.timedelta(weeks=settimana - 1)
+        for g, off in cfg["giorni"].items():
+            sedute.append((wk_in_mc, settimana, g, lunedi + datetime.timedelta(days=off)))
+    d0, d1 = min(s[3] for s in sedute), max(s[3] for s in sedute)
+    out_dir = root / "raw" / "journal" / str(d0.year) / f"da {d0.isoformat()} a {d1.isoformat()} {prog_name}"
     creati, saltati = [], []
     for wk_in_mc, settimana in enumerate(cfg["microcicli"][mc]):
         lunedi = start + datetime.timedelta(weeks=settimana - 1)
         for g, off in cfg["giorni"].items():
             d = lunedi + datetime.timedelta(days=off)
             gio = cfg["giornate"][g]
-            path = root / "raw" / "journal" / str(d.year) / f"{d.isoformat()} W{settimana} {g}.md"
+            path = out_dir / f"{d.isoformat()} W{settimana} {g}.md"
             if path.exists():
                 old = path.read_text(encoding="utf-8")
                 intatto = "stato: pianificata" in old and "- [x]" not in old.lower()
@@ -105,6 +116,7 @@ def main(prog_dir, mc, rigenera=False):
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(fm + head + "\n" + body + tail, encoding="utf-8")
             creati.append(path.name)
+    print("cartella:", out_dir.relative_to(root))
     print("creati:", *creati, sep="\n  ")
     if saltati:
         print("già esistenti (non toccati):", *saltati, sep="\n  ")
