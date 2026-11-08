@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-09-27
-update_date: 2026-09-27
-related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
+update_date: 2026-11-08
+related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, self_vena_aif_2026]
 tags: [conditioning, cardio, zona_2, capacita_di_lavoro, recupero]
 ---
 
@@ -22,7 +22,9 @@ Lavoro cardiovascolare a bassa intensità (zona 2) inserito come componente di c
 ## Cross-reference
 
 - [[allenamento_submassimale]] — il cardio è il terzo elemento del metodo Vena, accanto a fondamentali sub-massimali e complementari a cedimento.
+- Applicazione personale: [[piano_self_vena_aif_2026]] — zona 2 mer + sab, 30-45 min ([[self_vena_aif_2026]]).
 
 ## Fonti
 
 - [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]
+- [[self_vena_aif_2026]]

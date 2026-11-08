@@ -82,3 +82,9 @@ Touched pages: [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]], [[panca
 
 ## [2026-09-27] ingest | Video/podcast 'Meno intensità = più forza? Cosa possiamo imparare da Matt Vena' (raw/podcasts/AIF/Programma matt vena.md) (New + Update): source page, entity matt_vena, concetti allenamento_submassimale e cardio_zona_2; aggiornati controllo_motorio, intensita_relativa, mav con la prospettiva sub-massimale (approccio alternativo, nessuna contraddizione formale)
 Touched pages: [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]], [[matt_vena]], [[allenamento_submassimale]], [[cardio_zona_2]], [[controllo_motorio]], [[intensita_relativa]], [[mav]], [[index]]
+
+## [2026-11-08] batch-ingest | 26 workout LiftOff da raw/journal/2026/ (2026-08-04 → 2026-10-10), autoregolazione libera senza programma; aggregati per mese su accordo con l'utente (New + Update): 3 source page mensili; aggiornati squat, panca_piana (anche fastidi ricorrenti), stacco_da_terra, mav (nota utente su MAV su MAV)
+Touched pages: [[journal_2026_08_workout]], [[journal_2026_09_workout]], [[journal_2026_10_workout]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[mav]], [[index]]
+
+## [2026-11-08] ingest | Programma self-programming Vena + AIF 2026 (raw/programs/2026/2026-11-09_self_vena_aif/companion.md) (New): primo programma "native" del vault, gestito con regola doppia-pagina; decisione utente: workout del programma ingeriti aggregati per microciclo (3 settimane) ai checkpoint W3/W6/W9/W12
+Touched pages: [[self_vena_aif_2026]], [[piano_self_vena_aif_2026]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[matt_vena]], [[cardio_zona_2]], [[allenamento_submassimale]], [[index]]

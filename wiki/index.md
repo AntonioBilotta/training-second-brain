@@ -1,6 +1,6 @@
 ---
 type: index
-update_date: 2026-09-27
+update_date: 2026-11-08
 ---
 
 # Wiki Index — Strength training, Powerlifting, Conditioning, Iron Log
@@ -64,6 +64,7 @@ Quick links: [[overview]] · [[log]]
 ## Programs
 
 - [[piano_programma_11_valente_2024]] — Struttura dettagliata del Programma 11 di Francesco Valente (2024-05-13, 9 settimane): progressione squat/panca/stacco, sedute tecniche, ausiliari, compliance (100% W1-W7, 98.4% W8, 94.5% W9). · 2026-08-06
+- [[piano_self_vena_aif_2026]] — Struttura del programma self-programming Vena + AIF (2026-11-09, 12 settimane, in corso): giorno volume + giorno intensità per alzata, microcicli 3 settimane, basi 170/115/180, panca 4 · squat 2+1 · stacco 2 · 2026-11-08
 - [[piano_programma_15_valente_2025]] — Struttura dettagliata del Programma 15 di Francesco Valente (2025-12-15, 9 settimane): progressione squat/panca/stacco a onde, box squat dalla sett. 6, ausiliari con rotazione W5→W6, compliance ~99%, confronto strutturale col Programma 11. · 2026-08-08
 
 ## Sources
@@ -86,6 +87,16 @@ Quick links: [[overview]] · [[log]]
 ### Journal — Check bilancia
 
 - [[journal_2026_08_04_check_bilancia]] — screenshot bilancia impedenziometrica, sera rest day, 87,7 kg / 16,8 % grasso / BMR 1946 kcal
+
+### Programmi — self-programming
+
+- [[self_vena_aif_2026]] — companion del programma Vena + AIF 2026 (native, non validato da coach); modello Matt Vena Intermediate PL Program v3.0 adattato al rientro · 2026-11-08
+
+### Journal — Workout (LiftOff, aggregati per mese)
+
+- [[journal_2026_08_workout]] — 10 sedute agosto 2026 in autoregolazione libera (no programma); 3 template a rotazione; squat MAV 2 a 150 × 2 · 2026-11-08
+- [[journal_2026_09_workout]] — 10 sedute settembre 2026; stop 09-01→09-15; quarto template tecnico dal 09-20; panca autoregolata a RPE; face pull/V-push up dopo nota spalla · 2026-11-08
+- [[journal_2026_10_workout]] — 6 sedute ottobre 2026 (ultima 10-10); top set periodo: squat 150 × 1, panca 120 × 1, stacco 155 × 2 · 2026-11-08
 
 ### Journal — Massimali
 

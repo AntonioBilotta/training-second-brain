@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-09-27
-update_date: 2026-09-27
-related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
+update_date: 2026-11-08
+related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, self_vena_aif_2026]
 tags: [submassimale, intensita, rpe, ipertrofia, complementari, progressione_lineare]
 ---
 
@@ -50,6 +50,10 @@ Passando dall'80-85% al 70-75% di intensità media, *"se della dose allenante es
 - In termini di [[intensita_relativa]], RPE 4-6 corrisponde a serie lontane dal cedimento (IR bassa) sui fondamentali, compensate da IR massima (cedimento) sui complementari.
 - Il [[mav]] condivide l'obiettivo della qualità del gesto (stop al primo sticking point) ma lo persegue con un ramping fino a un top set, cioè proprio il meccanismo che Vena evita.
 
+> [!note] Programma strutturato di Vena vs podcast
+> Il companion di [[self_vena_aif_2026]] riporta la struttura della *Matt Vena Intermediate Powerlifting Program v3.0* (Boostcamp): nel giorno di intensità c'è **una singola a RPE 6-8 prima delle doppie al 78 %**, e la progressione è a microcicli di 3 settimane (+1 rip/settimana, poi +3 %), più lenta dei +5 kg/settimana citati nel podcast. Non è una contraddizione formale (la singola fa da termometro, non è un top set seguito da back-off), ma va verificata su una fonte diretta: la pagina Boostcamp non è ancora in `raw/`.
+
 ## Fonti
 
 - [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]
+- [[self_vena_aif_2026]]

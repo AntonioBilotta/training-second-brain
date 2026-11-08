@@ -1,8 +1,8 @@
 ---
 type: concept
 creation_date: 2026-08-08
-update_date: 2026-09-27
-related_sources: [tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
+update_date: 2026-11-08
+related_sources: [tutto_quello_che_volevate_sapere_sul_mav_e_non_avete_mai_osato_chiedere, programma_11_francesco_valente_2024, programma_15_francesco_valente_2025, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, journal_2026_09_workout, journal_2026_10_workout]
 tags: [mav, ramping, metodologia, powerlifting, gruzza]
 ---
 
@@ -76,6 +76,7 @@ Due ramping nella stessa seduta (es. MAV 1 + MAV 3): raggiunto il 1MAV, si torna
 - [[piano_programma_11_valente_2024]] e [[piano_programma_15_valente_2025]] etichettano come "MAV" i top-set del giovedì a percentuali predefinite (77-100 %) con schema × rep + RPE target.
 - **Differenza rispetto alla forma originale di Gruzza**: nei programmi Valente la % è **pre-assegnata dal coach**, mentre in Gruzza il carico è **scoperto dall'atleta** in base allo sticking point. L'RPE @8-@9 annotato nei fogli è la garanzia residua del "controllo" tipico del metodo originale. Si tratta di una **variante applicata** più che dell'implementazione letterale.
 - Nei fogli "Massimali" dei programmi Valente compaiono anche **tabelle di incremento MAV5/MAV3/MAV2** (+2-3 %, +3 %, +3-4 % settimanali) usate come riferimento per la progressione del carico principale.
+- Nel periodo in autoregolazione **agosto–ottobre 2026** il MAV è usato nella forma originale (carico scoperto dall'atleta), anche come **MAV su MAV** nella stessa seduta (es. MAV 3 con variante + back-off + MAV 3 o MAV 1 senza varianti) ([[journal_2026_09_workout]] · [[journal_2026_10_workout]]). Il 2026-09-18 l'utente annota: *"forse serve più recupero oppure fare MAV su MAV mi spegne"* — ipotesi personale non verificata.
 
 ## Approccio contrapposto: niente top set (Vena)
 
@@ -95,3 +96,5 @@ Due ramping nella stessa seduta (es. MAV 1 + MAV 3): raggiunto il 1MAV, si torna
 - [[programma_11_francesco_valente_2024]]
 - [[programma_15_francesco_valente_2025]]
 - [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]
+- [[journal_2026_09_workout]]
+- [[journal_2026_10_workout]]

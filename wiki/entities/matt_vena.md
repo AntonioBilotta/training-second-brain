@@ -1,8 +1,8 @@
 ---
 type: entity
 creation_date: 2026-09-27
-update_date: 2026-09-27
-related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]
+update_date: 2026-11-08
+related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, self_vena_aif_2026]
 tags: [coach, atleta, powerlifting, canada, submassimale]
 ---
 
@@ -28,7 +28,9 @@ Allenatore e atleta canadese di [[powerlifting]], ha costruito un metodo che *"r
 
 - Concetti: [[allenamento_submassimale]] · [[controllo_motorio]] · [[intensita_relativa]] · [[cardio_zona_2]]
 - Contrasto metodologico: [[mav]] (top set + back-off, evitati da Vena)
+- Applicazione personale: [[piano_self_vena_aif_2026]] ([[self_vena_aif_2026]]), modellato sul suo programma intermedio pubblicato su Boostcamp (v3.0).
 
 ## Fonti
 
 - [[meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena]]
+- [[self_vena_aif_2026]]
