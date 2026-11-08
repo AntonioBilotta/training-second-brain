@@ -16,11 +16,8 @@ Programma scritto dall'utente (self-programming) sul modello del programma inter
 > [!warning] Non validato da coach
 > Le scelte marcate *[adattamento]* nel companion non vengono da Vena né dalla wiki.
 
-> [!warning] Scostamento dal programma di Vena: tempo bench (giorno B)
-> Nel programma di Vena le 2 serie dopo la singola del tempo bench sono **back-off al 90 % della singola**, con discesa in 4 tempi ([[matt_vena_intermediate_powerlifting_program_boostcamp]]). Il companion prescrive invece 2 × 2 @RPE 6. Valori pratici equivalenti in molti casi, ma da allineare alla prossima revisione del piano (il companion è immutabile; i file del microciclo 2 si possono generare con la nuova indicazione).
-
-> [!note] Dettagli di esecuzione dalla fonte
-> Tempo squat: discesa 4 s + pausa 0,5 s. Squat con fermo: 1 s in buca. Panca con fermo lungo: 2 s. Presa stretta: 2-3 dita più stretta. Stacco con fermo: 1 pollice da terra, 1 s ([[matt_vena_intermediate_powerlifting_program_boostcamp]]).
+> [!note] Revisione 2026-11-08, prima dell'inizio del ciclo
+> Decisa dall'utente e registrata nel companion ([[self_vena_aif_2026]]): esecuzione delle varianti esplicitata; tempo bench con 2 × 2 **al 90 % della singola** come Vena ([[matt_vena_intermediate_powerlifting_program_boostcamp]]); ordine AIF con i fondamentali sempre prima dei complementari ([[aif_master_2020_02_costruzione_microciclo]]), contro l'ordine di Vena; complementari rifatti.
 
 ## Massimali di riferimento (per il calcolo delle %)
 
@@ -35,13 +32,28 @@ Programma scritto dall'utente (self-programming) sul modello del programma inter
 | Giorno | Vena | Squat | Panca | Stacco |
 |---|---|---|---|---|
 | **A — LUN** | Day 1 | Volume + tempo squat | Larsen press | — |
-| **B — MAR** | Day 2 | — | Tempo bench (singola @6 + 2 × 2 @RPE 6) | Volume + stacco rumeno 2 × 6 @RPE 6 |
+| **B — MAR** | Day 2 | — | Tempo bench (singola @6 + 2 × 2 al 90 % della singola) | Volume + stacco rumeno 2 × 6 @RPE 6 |
 | **C — GIO** | Day 3 | Intensità + fermo in buca | Intensità + fermo lungo | — |
 | **D — VEN** | Day 4 | High bar 2 × 6 @RPE 5 (opzionale) | Volume + presa stretta | Intensità + variante con fermo |
 
 `weekly_pattern`: monday A · tuesday B · thursday C · friday D (mer/sab cardio zona 2).
 
 Esposizioni settimanali: panca 4 · squat 2 (+1) · stacco 2, coerenti con la densità per alzata emersa in [[programma_11_vs_programma_15_pattern_per_alzata]].
+
+## Esecuzione delle varianti
+
+| Esercizio | Esecuzione | Fonte |
+|---|---|---|
+| Tempo squat | discesa 4" costante, pausa 0,5" in buca, salita normale | Vena (salita: adattamento) |
+| Squat fermo in buca | fermo 1" | Vena |
+| Larsen press | piedi sollevati, gambe tese, nessuna spinta delle gambe, tocco al petto senza fermo | da confermare dall'utente |
+| Tempo bench | discesa 3-4", salita normale; singola @6 + 2 × 2 al 90 % della singola | Vena + utente |
+| Panca fermo lungo | fermo 2" al petto | Vena |
+| Panca presa stretta | 2-3 dita più stretta della presa di gara | Vena |
+| Stacco fermo | 1 cm da terra per 1" (W1-6) → al ginocchio per 1" (W7-11) | utente |
+| Stacco rumeno | cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata | Vena (discesa: adattamento) |
+
+Ordine nella seduta (AIF): fondamentali e loro varianti → complementari.
 
 ## Progressione — microcicli di 3 settimane
 
@@ -87,13 +99,22 @@ Esposizioni settimanali: panca 4 · squat 2 (+1) · stacco 2, coerenti con la de
 
 ## Ausiliari
 
-Prima serie a cedimento (@10) + 2-3 serie @8, 8-10 ripetizioni (W1: prima serie @8-9).
+Regole (revisione 2026-11-08): schiena nei giorni di stacco (B, D: poi c'è riposo prima del successivo giorno di gambe, logica di Vena), spinte negli altri (A, C); tricipiti 1 volta a settimana; niente isolamento per squat e stacco (Vena), salvo il bulgarian split squat scelto dall'utente; esercizi per la spalla 🩹 inclusi, mai a cedimento.
 
-- **A**: curl EZ · bulgarian split squat
-- **B**: cable row · iliac pulldown / lat machine · tricipiti al cavo
-- **C**: tricipiti al cavo · seal row
-- **D**: estensioni tricipiti sopra la testa · rematore chest supported 30°
-- **Spalla destra** (A, C, D, mai a cedimento): face pull, push-up plus, Y-T-W, stretching attivo pettorale minore — vedi [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]].
+| Giorno | Esercizio | Schema |
+|---|---|---|
+| A | Bulgarian split squat | 3 × 8-10 per gamba @8 |
+| A | Panca inclinata manubri | 1 a cedimento + 2 @8, 8-10 rip |
+| A | Curl EZ | 1 a cedimento + 2 @8, 8-10 rip |
+| B | Trazioni (o lat machine) | 1 a cedimento + 2 @8, 8-10 rip |
+| B | Pulley basso | 1 a cedimento + 2 @8, 8-10 rip |
+| B | Face pull 🩹 | 3 × 12-15 @7-8 |
+| C | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip |
+| C | Push-up plus 🩹 | 3 × 10-12 |
+| D | Seal row (o chest supported 30°) | 1 a cedimento + 2 @8, 8-10 rip |
+| D | Y-T-W 🩹 | 3 × 10 per forma |
+
+W1: la serie a cedimento si ferma a @8-9 (rientro). Esercizi 🩹 dal piano di recupero in [[journal_2026_09_13_infortunio_deltoide_posteriore_dx]].
 
 ## Conditioning
 

@@ -1,5 +1,6 @@
 # Dati strutturati del programma self_vena_aif_2026, letti da .github/scripts/genera_sedute.py.
 # Carichi = tabelle "Carichi (kg)" di companion.md (una colonna per microciclo MC1..MC4).
+# Revisione 2026-11-08: esecuzione delle varianti, ordine AIF, complementari rifatti.
 program: self_vena_aif_2026
 start_date: 2026-11-09
 giorni: {A: 0, B: 1, C: 3, D: 4}          # offset dal lunedì della settimana
@@ -17,38 +18,36 @@ giornate:
     titolo: Squat volume · Larsen press
     blocchi:
       - {nome: "Squat — volume", alzata: squat, tipo: volume, serie: 3, carichi: [115, 120, 125, 130], risc: true}
-      - {nome: "Tempo squat", tipo: fisso, serie: 3, reps: 2, carichi: [110, 115, 120, 125]}
-      - {nome: "Larsen press", alzata: panca, tipo: larsen, serie: 3, carichi: [70, 75, 77.5, 80], risc: true}
-      - {nome: "Curl EZ", tipo: compl, serie_ced: 1, serie_8: 3}
-      - {nome: "Bulgarian split squat", tipo: compl, serie_ced: 1, serie_8: 2}
-      - {nome: "Spalla dx", tipo: spalla}
+      - {nome: "Tempo squat", tipo: fisso, serie: 3, reps: 2, carichi: [110, 115, 120, 125], esecuzione: "discesa 4\" a velocità costante (non accelerare verso la buca), pausa 0,5\" in buca, salita normale"}
+      - {nome: "Larsen press", alzata: panca, tipo: larsen, serie: 3, carichi: [70, 75, 77.5, 80], risc: true, esecuzione: "piedi sollevati da terra, gambe tese, nessuna spinta delle gambe; tocco al petto senza fermo"}
+      - {nome: "Bulgarian split squat", tipo: serie, serie: 3, reps: "8-10 per gamba", rpe: "@8 (niente cedimento)", esecuzione: "piede posteriore su panca, manubri in mano"}
+      - {nome: "Panca inclinata manubri", tipo: compl}
+      - {nome: "Curl EZ", tipo: compl}
   B:
     titolo: Stacco volume · Tempo bench
     blocchi:
       - {nome: "Stacco — volume", alzata: stacco, tipo: volume, serie: 3, carichi: [122.5, 127.5, 132.5, 137.5], risc: true}
-      - {nome: "Tempo bench", alzata: panca, tipo: tempo_bench}
-      - {nome: "Stacco rumeno", tipo: rpe, serie: 2, reps: 6, rpe: 6}
-      - {nome: "Cable row", tipo: compl, serie_ced: 1, serie_8: 2}
-      - {nome: "Iliac pulldown / lat machine", tipo: compl, serie_ced: 1, serie_8: 2}
-      - {nome: "Tricipiti al cavo", tipo: compl, serie_ced: 1, serie_8: 3}
+      - {nome: "Tempo bench", alzata: panca, tipo: tempo_bench, esecuzione: "discesa 3-4\", salita normale; singola @6, poi 2 × 2 al 90 % della singola"}
+      - {nome: "Stacco rumeno", tipo: rpe, serie: 2, reps: 6, rpe: 6, esecuzione: "cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata"}
+      - {nome: "Trazioni (o lat machine)", tipo: compl}
+      - {nome: "Pulley basso", tipo: compl}
+      - {nome: "Face pull 🩹", tipo: serie, serie: 3, reps: "12-15", rpe: "@7-8, mai a cedimento"}
   C:
     titolo: Panca intensità · Squat intensità
     blocchi:
       - {nome: "Panca — intensità", alzata: panca, tipo: intensita, serie: 3, carichi: [85, 90, 92.5, 97.5], risc: true}
-      - {nome: "Panca fermo lungo", tipo: fisso, serie: 3, reps: 2, carichi: [80, 85, 87.5, 92.5]}
-      - {nome: "Tricipiti al cavo", tipo: compl, serie_ced: 1, serie_8: 3}
+      - {nome: "Panca fermo lungo", tipo: fisso, serie: 3, reps: 2, carichi: [80, 85, 87.5, 92.5], esecuzione: "fermo 2\" al petto (circa 4 tempi)"}
       - {nome: "Squat — intensità", alzata: squat, tipo: intensita, serie: 3, carichi: [127.5, 132.5, 137.5, 142.5], risc: true}
-      - {nome: "Squat fermo in buca", tipo: fisso, serie: 3, reps: 2, carichi: [120, 125, 130, 135]}
-      - {nome: "Seal row", tipo: compl, serie_ced: 1, serie_8: 2}
-      - {nome: "Spalla dx", tipo: spalla}
+      - {nome: "Squat fermo in buca", tipo: fisso, serie: 3, reps: 2, carichi: [120, 125, 130, 135], esecuzione: "fermo 1\" in buca (sotto carico conta circa 2 tempi per secondo)"}
+      - {nome: "Tricipiti al cavo", tipo: compl}
+      - {nome: "Push-up plus 🩹", tipo: serie, serie: 3, reps: "10-12", rpe: "mai a cedimento", esecuzione: "in alto spingi ancora il pavimento: scapole aperte, fermo 1-2\""}
   D:
     titolo: Panca volume · Stacco intensità
     blocchi:
       - {nome: "Panca — volume", alzata: panca, tipo: volume, serie: 3, carichi: [77.5, 82.5, 85, 87.5], risc: true}
-      - {nome: "Panca presa stretta", tipo: volume, serie: 3, carichi: [75, 80, 82.5, 85]}
-      - {nome: "Estensioni tricipiti sopra la testa", tipo: compl, serie_ced: 1, serie_8: 3}
+      - {nome: "Panca presa stretta", tipo: volume, serie: 3, carichi: [75, 80, 82.5, 85], esecuzione: "presa 2-3 dita più stretta della presa di gara"}
       - {nome: "Stacco — intensità", alzata: stacco, tipo: intensita, serie: 3, carichi: [135, 140, 145, 150], risc: true}
       - {nome: "Stacco fermo", tipo: stacco_fermo, serie: 2, reps: 2, carichi: [127.5, 132.5, 137.5, 142.5]}
-      - {nome: "Rematore chest supported 30°", tipo: compl, serie_ced: 1, serie_8: 2}
-      - {nome: "Squat high bar (opzionale)", tipo: rpe, serie: 2, reps: 6, rpe: 5, indicativo: 90}
-      - {nome: "Spalla dx", tipo: spalla}
+      - {nome: "Squat high bar (opzionale)", tipo: rpe, serie: 2, reps: 6, rpe: 5, indicativo: 90, esecuzione: "bilanciere alto, esecuzione normale"}
+      - {nome: "Seal row (o rematore chest supported 30°)", tipo: compl}
+      - {nome: "Y-T-W 🩹", tipo: serie, serie: 3, reps: "10 per forma", rpe: "corpo libero o 1-2 kg, mai a cedimento"}

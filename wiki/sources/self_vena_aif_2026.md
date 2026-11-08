@@ -3,7 +3,7 @@ type: source
 creation_date: 2026-11-08
 update_date: 2026-11-08
 source_date: 2026-11-09
-related_sources: [meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, journal_2026_08_workout, journal_2026_09_workout, journal_2026_10_workout, programma_15_francesco_valente_2025]
+related_sources: [matt_vena_intermediate_powerlifting_program_boostcamp, aif_master_2020_02_costruzione_microciclo, meno_intensita_piu_forza_cosa_possiamo_imparare_da_matt_vena, journal_2026_08_workout, journal_2026_09_workout, journal_2026_10_workout, programma_15_francesco_valente_2025]
 tags: [programma, powerlifting, self_programming, matt_vena, submassimale, squat, panca_piana, stacco_da_terra, cardio, plan_vs_actual, 2026]
 ---
 
@@ -24,7 +24,8 @@ tags: [programma, powerlifting, self_programming, matt_vena, submassimale, squat
 - Adattamenti dichiarati: partenza al **68 %** con 3 × 5 → 6 → 7 sul giorno di volume (Vena W1: 3 × 4 al 73 %); doppie al 75 % nel primo microciclo, poi allineate a Vena (78 %); freno di sicurezza (doppie oltre RPE 7 → −5 %).
 - Basi di calcolo: squat **170**, panca **115**, stacco regular **180** kg.
 - Innesti dai pattern personali e AIF: panca 4 esposizioni, squat 2 + 1 opzionale (high bar venerdì), stacco 2; squat guida il lunedì; variante dello stacco che passa da fermo 1 cm (W1-6) a fermo al ginocchio (W7-11).
-- Complementari alla Vena (prima serie @10, le altre @8); esercizi per la spalla destra mai a cedimento; cardio zona 2 come programma separato; nutrizione ciclica di Vena non applicata.
+- Complementari (revisione 2026-11-08): dopo tutti i fondamentali (ordine AIF); schiena nei giorni di stacco, spinte negli altri; tricipiti 1 volta a settimana; bulgarian split squat il lunedì; prima serie a cedimento e le altre @8 (Vena); esercizi per la spalla destra inclusi e mai a cedimento. Cardio zona 2 come programma separato; nutrizione ciclica di Vena non applicata.
+- Revisione 2026-11-08 anche sull'esecuzione: tempi e fermi delle varianti esplicitati, tempo bench con 2 × 2 al 90 % della singola, stacco con fermo a 1 cm.
 - W12: taper e test facoltativo con salti a RPE 6 → 8 → 10.
 
 ## Entities

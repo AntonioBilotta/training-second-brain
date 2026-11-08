@@ -37,6 +37,8 @@ def blocco(cfg, b, mc, wk_in_mc, settimana):
     i = mc - 1
     t = b["tipo"]
     lines = [f"## {b['nome']}"]
+    if b.get("esecuzione"):
+        lines += [f"*Esecuzione:* {b['esecuzione']}", ""]
     c = b.get("carichi", [None] * 4)[i] if b.get("carichi") else None
     if b.get("risc") and c:
         lines += riscaldamento(cfg, c, b.get("alzata"))
@@ -56,22 +58,22 @@ def blocco(cfg, b, mc, wk_in_mc, settimana):
     elif t == "stacco_fermo":
         var = "fermo a 1 cm da terra" if settimana <= 6 else "fermo al ginocchio"
         lines[0] += f" — {var}"
+        lines[1:1] = [f"*Esecuzione:* {var} per 1\", poi completa l'alzata", ""]
         lines += [f"- [ ] {kg(c)} × {b['reps']}"] * b["serie"]
     elif t == "tempo_bench":
         lines += ["- [ ] bilanciere × 10 *(risc.)*", "- [ ] riscaldamento a salire *(risc.)*",
-                  "- [ ] singola @6 → kg:: ", "- [ ] 2 @RPE 6 → kg:: ", "- [ ] 2 @RPE 6 → kg:: "]
+                  "- [ ] singola @6 → kg:: ", "- [ ] 2 al 90 % della singola → kg:: ", "- [ ] 2 al 90 % della singola → kg:: "]
     elif t == "rpe":
         ind = f" (indicativo {kg(b['indicativo'])})" if b.get("indicativo") else ""
         lines += [f"- [ ] {b['reps']} @RPE {b['rpe']}{ind} → kg:: "] * b["serie"]
     elif t == "compl":
         ced = "@8-9 (rientro)" if settimana == 1 else "@10 cedimento"
-        lines += [f"- [ ] 8-10 {ced} → kg:: "] * b["serie_ced"]
-        lines += ["- [ ] 8-10 @8 → kg:: "] * b["serie_8"]
-    elif t == "spalla":
-        lines[0] += " (mai a cedimento)"
-        lines += ["- [ ] face pull", "- [ ] push-up plus", "- [ ] Y-T-W", "- [ ] stretching pettorale minore"]
+        lines += [f"- [ ] 8-10 {ced} → kg:: "] * b.get("serie_ced", 1)
+        lines += ["- [ ] 8-10 @8 → kg:: "] * b.get("serie_8", 2)
+    elif t == "serie":
+        lines += [f"- [ ] {b['reps']} {b['rpe']} → kg:: "] * b["serie"]
     lines.append("")
-    if t not in ("compl", "spalla"):
+    if t not in ("compl", "serie"):
         lines.append("rpe:: ")
     lines.append("note:: ")
     return "\n".join(lines)

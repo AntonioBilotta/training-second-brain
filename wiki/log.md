@@ -100,3 +100,6 @@ Touched pages: [[journal_2026_08_workout]], [[journal_2026_09_workout]], [[journ
 
 ## [2026-11-08] other | Rinominati su richiesta dell'utente i file senza data nella cartella del periodo ago-ott 2026: check-bilancia.md → 2026-08-04_check_bilancia.md, massimali.md → 2026-08-05_massimali.md; aggiornati i percorsi di provenienza
 Touched pages: [[journal_2026_08_04_check_bilancia]], [[journal_2026_08_05_massimali]]
+
+## [2026-11-08] ingest | Revisione del programma self_vena_aif_2026 prima dell'inizio (companion + programma.yaml aggiornati dall'utente/Claude su richiesta): esecuzione delle varianti, tempo bench al 90 % della singola, stacco fermo 1 cm, ordine AIF fondamentali → complementari, complementari rifatti (schiena nei giorni di stacco, spinte negli altri, bulgarian il lunedì, spalla inclusa); MC1 rigenerato
+Touched pages: [[piano_self_vena_aif_2026]], [[self_vena_aif_2026]]

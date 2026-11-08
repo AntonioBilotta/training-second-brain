@@ -51,6 +51,19 @@ dopo il periodo di autoregolazione libera di agosto-ottobre 2026.
 | Panca 4 · squat 3 · stacco 2 esposizioni | Pattern P11/P15 + workout ago-ott 2026 |
 | Squat guida il lunedì; stacco pesante non il giorno prima dello squat pesante | AIF Complemento 1, Soluzione 1 |
 | Stacco: base conservativa + variante con fermo che passa dalla partenza al bloccaggio finale a metà ciclo | Lezione P11 → P15 |
+| Ordine nella seduta: prima tutti i fondamentali e le loro varianti, poi i complementari | AIF — schema base (Master 2020, costruzione microciclo); scelta dell'utente, contro l'ordine di Vena |
+| Schiena nei giorni di stacco (poi c'è riposo prima del successivo giorno di gambe), spinte negli altri | Vena (schiena al day 2) + scelta dell'utente |
+| Esercizi per la spalla dentro i complementari, mai a cedimento | Piano di recupero del 2026-09-13 + scelta dell'utente |
+
+## Revisione 2026-11-08 (prima dell'inizio del ciclo)
+
+Modifiche decise dall'utente prima della prima seduta:
+
+- Aggiunta la sezione *Esecuzione delle varianti* (tempi di discesa, fermi, prese).
+- Tempo bench: discesa 3-4"; dopo la singola 2 × 2 **al 90 % della singola** (come Vena), non più a RPE.
+- Stacco con fermo a **1 cm** da terra per 1" (W1-6), poi fermo al ginocchio 1" (W7-11).
+- Ordine AIF: fondamentali sempre prima dei complementari.
+- Complementari rifatti: meno esercizi, tricipiti 1 volta a settimana, schiena nei giorni di stacco, spinte negli altri, esercizi per la spalla inclusi, bulgarian split squat il lunedì.
 
 ## Massimali di calcolo
 
@@ -71,6 +84,23 @@ dopo il periodo di autoregolazione libera di agosto-ottobre 2026.
 
 Esposizioni: panca 4 · squat 2 (+1 opzionale) · stacco 2. Lo squat high bar del venerdì
 riprende la terza esposizione dello squat che ha funzionato su di me: 2 × 6 @RPE 5, circa 90 kg.
+
+## Esecuzione delle varianti
+
+| Esercizio | Esecuzione | Fonte |
+|---|---|---|
+| Squat, panca, stacco (gara) | Esecuzione di gara | — |
+| Tempo squat | Discesa **4"** a velocità costante (non accelerare verso la buca), pausa **0,5"** in buca, salita normale | Vena (salita: *[adattamento]*) |
+| Squat fermo in buca | Fermo **1"** in buca (sotto carico conta circa 2 tempi per secondo) | Vena |
+| Squat high bar | Bilanciere alto, esecuzione normale | — |
+| Larsen press | Piedi sollevati da terra, gambe tese, nessuna spinta delle gambe, glutei sulla panca; tocco al petto senza fermo | *[da confermare]* esecuzione standard; Vena: meno spinta delle gambe, ROM un po' più ampio |
+| Tempo bench | Discesa **3-4"**, salita normale; singola @6, poi 2 × 2 al 90 % della singola | Vena + utente (discesa) |
+| Panca fermo lungo | Fermo **2"** al petto (circa 4 tempi) | Vena |
+| Panca presa stretta | Presa **2-3 dita più stretta** della presa di gara | Vena |
+| Stacco fermo (W1-6) | Fermo a **1 cm** da terra per **1"**, poi completa | utente |
+| Stacco fermo (W7-11) | Fermo **al ginocchio** per **1"**, poi completa | utente / P15 |
+| Stacco rumeno | Cerniera "pura" (ginocchia leggermente flesse e ferme), discesa controllata | Vena (discesa: *[adattamento]*) |
+| Bulgarian split squat | Piede posteriore su panca, manubri in mano | — |
 
 ## Progressione — microcicli di 3 settimane
 
@@ -102,7 +132,7 @@ riprende la terza esposizione dello squat che ha funzionato su di me: 2 × 6 @RP
 | | MC1 | MC2 | MC3 | MC4 |
 |---|---|---|---|---|
 | A — Larsen press 3 × 6/7/8 (Vena 66 %) | 70 | 75 | 77,5 | 80 |
-| B — tempo bench: singola @6 + 2 × 2 @RPE 6 | a RPE | a RPE | a RPE | a RPE |
+| B — tempo bench: singola @6 + 2 × 2 al 90 % della singola | a RPE | a RPE | a RPE | a RPE |
 | C — singola @RPE + 3 × 2 | 85 | 90 | 92,5 | 97,5 |
 | C — fermo lungo 3 × 2 | 80 | 85 | 87,5 | 92,5 |
 | D — volume 3 × 5/6/7 | 77,5 | 82,5 | 85 | 87,5 |
