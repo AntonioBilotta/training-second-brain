@@ -16,7 +16,7 @@ tags:
 ## Provenienza
 
 - Screenshot bilancia: `raw/journal/2026/da 2026-08-04 a 2026-10-10/IMG_E0D5EAB82E6E-1.jpeg`
-- Note contestuali: `raw/journal/2026/da 2026-08-04 a 2026-10-10/check-bilancia`
+- Note contestuali: `raw/journal/2026/da 2026-08-04 a 2026-10-10/2026-08-04_check_bilancia.md`
 - Rilevazione: **21:01 del 04/08/2026**, prima di cena, in un **rest day**.
 - Utente: Antonio Bilotta.
 

@@ -17,7 +17,7 @@ tags:
 
 ## Provenienza
 
-- File sorgente: `raw/journal/2026/da 2026-08-04 a 2026-10-10/massimali.md`
+- File sorgente: `raw/journal/2026/da 2026-08-04 a 2026-10-10/2026-08-05_massimali.md`
 - Data annotazione: **2026-08-05**
 - Contesto: annotazione libera nel journal. L'utente riporta valori "calcolati qualche mese fa", quindi si tratta di **stime storiche** non di un test recente.
 
