@@ -7,7 +7,7 @@ This vault is an **LLM Wiki** following the [Karpathy pattern](.github/karpathy_
 
 ## Layout
 
-- `raw/` — **immutable** source material. Only the user writes here. **Never** modify anything under `raw/`.
+- `raw/` — **immutable** source material. Only the user writes here. **Never** modify anything under `raw/`. Sole exception: on the user's request, `.github/scripts/genera_sedute.py` **creates** blank session files in `raw/journal/` (see `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*).
 - `wiki/` — LLM-maintained markdown: `entities/`, `concepts/`, `sources/`, `analysis/`, plus domain-specific folders, and the navigation files `index.md`, `log.md`, `overview.md`.
 - `.github/` — schema and roles (see below).
 

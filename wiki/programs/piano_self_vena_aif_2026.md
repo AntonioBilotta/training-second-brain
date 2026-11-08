@@ -95,7 +95,7 @@ Prima serie a cedimento (@10) + 2-3 serie @8, 8-10 ripetizioni (W1: prima serie 
 
 ## Log di esecuzione (plan vs actual)
 
-Workout LiftOff in `raw/journal/2026/` e `raw/journal/2027/` con `program: self_vena_aif_2026`; RPE annotato nelle note degli esercizi. Ingest aggregato **per microciclo** (decisione utente 2026-11-08), ai checkpoint W3 / W6 / W9 / W12.
+File di seduta `YYYY-MM-DD W<settimana> <giornata>.md` in `raw/journal/2026/` e `raw/journal/2027/`, creati un microciclo alla volta dal generatore `.github/scripts/genera_sedute.py` a partire da `programma.yaml` e compilati da iPad (serie spuntate, `rpe::`, `note::`, `stato`). MC1 generato il 2026-11-08. Ingest aggregato **per microciclo** (decisione utente 2026-11-08) in `journal_self_vena_aif_2026_mc<N>`, ai checkpoint W3 / W6 / W9 / W12.
 
 | Microciclo | Sedute | Aderenza | Note |
 |---|---|---|---|

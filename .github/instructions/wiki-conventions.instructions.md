@@ -11,6 +11,9 @@ These conventions apply to every file inside `wiki/` (LLM-maintained markdown) a
 
 **Never modify anything under `raw/`.** It is the user's immutable source of truth. Read from `raw/`; write only to `wiki/`.
 
+> [!important] Unica eccezione: il generatore delle sedute
+> Su richiesta esplicita dell'utente, `.github/scripts/genera_sedute.py` può **creare** in `raw/journal/` i file di seduta di un microciclo (vuoti, da compilare). Non modifica mai un file esistente, salvo `--rigenera` sui soli file ancora intatti (`stato: pianificata`, nessuna serie spuntata). Una volta creato, il file è dell'utente come ogni altro file in `raw/`. Vedi *Generatore delle sedute* sotto.
+
 ## Wiki page format
 
 Every page under `wiki/` (except `index.md` and `log.md`) must start with YAML frontmatter:
@@ -57,9 +60,11 @@ This wiki may contain personal or sensitive information. Treat all pages as pers
 ### `raw/` subfolders
 
 - `journal/` — voci diario datate. Due pattern ammessi:
-  - **File singolo** (default per giornate con un solo artefatto, tipicamente generato dal plugin **LiftOff** per iPad/Obsidian): `raw/journal/YYYY/YYYY-MM-DD <titolo>.md` oppure `raw/journal/YYYY/YYYY-MM-DD_<slug>.md`. La maggior parte delle giornate usa questo pattern.
+  - **File singolo** (default per giornate con un solo artefatto): `raw/journal/YYYY/YYYY-MM-DD <titolo>.md` oppure `raw/journal/YYYY/YYYY-MM-DD_<slug>.md`. I workout di un programma si chiamano `YYYY-MM-DD W<settimana> <giornata>.md` e sono creati dal generatore delle sedute. I workout storici fino al 2026-10-10 sono stati prodotti dal plugin **LiftOff** (dismesso il 2026-11-08) e restano nel loro formato originale.
   - **Cartella per giornata** (solo quando servono più artefatti nello stesso giorno): `raw/journal/YYYY/YYYY-MM-DD/` che contiene uno o più `.md` per tipo di entry (`workout.md`, `check_bilancia.md`, `sonno.md`, ecc.) più eventuali allegati binari (screenshot, foto).
-- `programs/` — **piani di allenamento**, raggruppati per anno di inizio: `raw/programs/YYYY/YYYY-MM-DD_coach_slug_programma/`. Solo il pattern **legacy import** è supportato: programma ricevuto in formato monolitico (ODS/PDF/foglio del coach). Struttura: `companion.md` (metadati + verdetto a posteriori + retest inline + `weekly_pattern` per la derivazione della giornata dai workout) + il binario originale (`.ods`, `.pdf`, ecc.) con il nome originale del file. Programmi scritti ex-novo nel wiki (pattern "native") non sono coperti dal vault: se emerge il bisogno, si valuta caso per caso.
+- `programs/` — **piani di allenamento**, raggruppati per anno di inizio: `raw/programs/YYYY/YYYY-MM-DD_coach_slug_programma/`. Due pattern supportati:
+  - **Legacy import** — programma ricevuto da un coach in formato monolitico (ODS/PDF/foglio). Struttura: `companion.md` (metadati + verdetto a posteriori + retest inline + `weekly_pattern`) + il binario originale (`.ods`, `.pdf`, ecc.) con il nome originale del file.
+  - **Native** — programma scritto dall'utente (es. `raw/programs/2026/2026-11-09_self_vena_aif/`). Struttura: `companion.md` (piano in prosa e tabelle, stessi campi frontmatter del legacy, `coach: self`) + `programma.yaml` (gli stessi carichi in forma strutturata, letti dal generatore delle sedute). Nessun binario. Il companion dichiara se il programma non è validato da un coach.
 - `articles/` — articoli divulgativi o scientifici singoli (un file per articolo).
 - `podcasts/` — appunti/trascrizioni di episodi podcast (un file per episodio).
 - `courses/` — materiale strutturato di corsi, manuali o programmi multi-scheda. Un sottofolder per corso, con nome `snake_case` (es. `raw/courses/programmazione_forza_<autore>/`). Ogni sottofolder può contenere più file (PDF, note, slide) e opzionalmente un `README.md` con metadati del corso (autore, data, argomenti, licenza).
@@ -74,34 +79,57 @@ I seed per popolare `raw/` senza dover ricordare a memoria frontmatter e sezioni
 | `raw_program_companion.md` | `raw/programs/YYYY/<program>/companion.md` | Programma legacy import (fonte esterna). |
 | `raw_check_bilancia.md` | `raw/journal/YYYY/YYYY-MM-DD/check_bilancia.md` oppure `raw/journal/YYYY/YYYY-MM-DD_check_bilancia.md` | Quando misuri la composizione corporea. |
 
-I workout non hanno template: sono generati dal plugin **LiftOff** (Obsidian) direttamente in `raw/journal/`. Al frontmatter LiftOff basta aggiungere manualmente il campo `program: <program_snake_case>` per abilitare il collegamento al piano (vedi *Pattern plan-vs-actual* sotto); `mesociclo`, `settimana` e `giornata` sono derivabili al momento dell'ingest da `date` + `program.weekly_pattern`.
+I workout non hanno template da copiare: li crea il **generatore delle sedute** (sezione sotto) a partire dal `programma.yaml` del programma in corso. Per un workout fuori programma si crea a mano un file singolo in `raw/journal/` con lo stesso formato.
 
 La modifica di un template va discussa nel plan e riflessa in questa istruzione + nelle pagine wiki già ingerite che ne dipendono.
+
+### Generatore delle sedute
+
+Script: `.github/scripts/genera_sedute.py`. Si lancia sul Mac (o da Claude), mai su iPad.
+
+```bash
+python3 .github/scripts/genera_sedute.py raw/programs/YYYY/<program> <microciclo> [--rigenera]
+```
+
+- Crea i file di **un microciclo alla volta** in `raw/journal/YYYY/YYYY-MM-DD W<settimana> <giornata>.md`, con date calcolate da `start_date` + `giorni` di `programma.yaml`.
+- Non sovrascrive mai un file esistente. `--rigenera` riscrive solo i file intatti (`stato: pianificata`, nessuna `- [x]`): serve quando, a un checkpoint, cambiano i carichi del microciclo successivo.
+- Si genera il microciclo N+1 al checkpoint di fine microciclo N, insieme all'ingest del microciclo N.
+
+**Formato del file di seduta**
+
+- Frontmatter: `type: workout`, `program`, `date` (pianificata), `settimana`, `microciclo`, `giornata`, `stato` (`pianificata` | `fatta` | `spostata` | `saltata`), `data_effettiva`, `durata_min`.
+- Corpo: una sezione `##` per esercizio con righe-checkbox (`- [ ] 115 × 5`, riscaldamento marcato *(risc.)*), seguite da una riga vuota e dai campi `rpe::` e `note::`; in fondo `## Note seduta`.
+
+**Cosa fa l'utente (da iPad)**
+
+- Spunta le serie fatte (`- [x]`).
+- Se cambia carico o ripetizioni, **corregge il numero sulla riga** (es. `- [x] 112,5 × 5`): il piano resta nel companion, lo scostamento si calcola all'ingest.
+- Compila `rpe::`, `note::`, `stato`, `durata_min`. Se sposta la seduta: `stato: spostata` + `data_effettiva`. **Non rinomina né sposta il file.**
+
+**Sincronizzazione git (Mac ↔ iPad)**
+
+- I file si generano sul Mac → commit + push → pull su iPad prima di allenarsi.
+- Dopo la generazione un file di seduta si modifica **solo da iPad**; il Mac scrive solo in `wiki/` e crea file nuovi. Così non ci sono conflitti di merge.
 
 ### Pattern plan-vs-actual (programmi di allenamento)
 
 Il flusso di allenamento è separato in due layer che rimangono sincronizzati tramite frontmatter:
 
-- **Plan** → `raw/programs/<program>/{companion.md, <binario originale>}` — prescrizioni target del coach, immutabili una volta ricevuto il ciclo. Il `companion.md` porta anche un campo `weekly_pattern` che mappa i giorni della settimana alle giornate del piano (es. `monday: A, tuesday: B, thursday: C, friday: D`), necessario per derivare la giornata di un workout dal suo `date`.
-- **Actual** → `raw/journal/YYYY/YYYY-MM-DD <titolo>.md` (o cartella se più file) — esecuzione reale generata da LiftOff, con carichi/serie effettivi e note di seduta.
+- **Plan** → `raw/programs/<program>/{companion.md, <binario originale> | programma.yaml}` — prescrizioni target, immutabili una volta iniziato il ciclo. Il `companion.md` porta anche un campo `weekly_pattern` che mappa i giorni della settimana alle giornate del piano (es. `monday: A, tuesday: B, thursday: C, friday: D`), necessario per derivare la giornata di un workout dal suo `date`.
+- **Actual** → `raw/journal/YYYY/YYYY-MM-DD W<settimana> <giornata>.md` — file creato dal generatore e compilato dall'utente: serie spuntate, carichi corretti, RPE, note.
 
-Il workout referenzia il piano tramite **due campi frontmatter esplicitati dall'utente**:
+Nei file creati dal generatore `program`, `settimana`, `microciclo` e `giornata` sono **già scritti** nel frontmatter: non vanno derivati. Una seduta spostata resta legata alla sua giornata; la data reale è in `data_effettiva`.
 
-- `program: <program_snake_case>` — obbligatorio, indica di che ciclo fa parte la seduta.
-- `giornata: <A|B|C|D>` — opzionale, override esplicito quando la seduta è shiftata rispetto al `weekly_pattern` (es. seduta del lunedì eseguita di martedì).
-
-Gli altri due campi sono **derivati automaticamente al momento dell'ingest**:
-
-- `mesociclo` → dal `date` del workout confrontato con i range del piano.
-- `settimana` → `(date - program.start_date) / 7 + 1`.
-- `giornata` → se assente nel frontmatter, dal `weekday(date)` letto dal `program.weekly_pattern`.
+Per i workout scritti a mano o storici (LiftOff) vale ancora la derivazione all'ingest: `program:` obbligatorio; `settimana` = `(date - program.start_date) / 7 + 1`; `giornata` dal `weekday(date)` letto dal `weekly_pattern`, salvo override esplicito `giornata:`.
 
 Questa separazione permette a `@wiki-reader` di rispondere a query che incrociano piano ed esecuzione (es. *aderenza al target*, *scostamenti sistematici*, *milestone raggiunti/mancati*).
 
 Ingest tipico:
 
 - All'arrivo di un programma monolitico da coach esterno: `/wiki-ingest raw/programs/YYYY/<program>/companion.md` → source page + program detail (vedi regola doppia-pagina sotto).
-- Dopo ogni seduta (LiftOff): aggiungi `program:` al frontmatter e `giornata:` solo se la seduta è shiftata, poi `/wiki-ingest raw/journal/YYYY/YYYY-MM-DD <titolo>.md` → nuova source page journal.
+- Programma native: `/wiki-ingest raw/programs/YYYY/<program>/companion.md` → stesse due pagine.
+- A ogni checkpoint di fine microciclo: ingest delle sedute del microciclo **aggregate in una sola source page** `wiki/sources/journal_<program>_mc<N>.md`, aggiornamento della tabella plan-vs-actual nella program detail, poi generazione del microciclo successivo.
+- Workout fuori programma: ingest aggregato per mese (`wiki/sources/journal_YYYY_MM_workout.md`), come per i workout storici ago-ott 2026.
 
 ### Regola doppia-pagina per programmi
 

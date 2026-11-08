@@ -1,7 +1,7 @@
 ---
 type: overview
 creation_date: 2026-08-04
-update_date: 2026-08-05
+update_date: 2026-11-08
 related_sources: []
 tags: []
 ---
@@ -44,20 +44,15 @@ Any evolution of structure (new page types, new folders, new conventions) must b
 
 ## Flusso allenamento (piano ↔ esecuzione)
 
-I programmi di allenamento seguono il pattern **plan-vs-actual**:
+I programmi seguono il pattern **plan-vs-actual**:
 
-- **Piano** → `raw/programs/<program>/` con `README.md` (metadati) + `mesociclo_XX.md` (target settimana × giornata). Immutabile una volta bloccato; le modifiche si tracciano nel diario dentro `README.md`.
-- **Esecuzione** → `raw/journal/YYYY/YYYY-MM-DD/workout.md`, che referenzia il piano via frontmatter (`program`, `mesociclo`, `settimana`, `giornata`) e contiene carichi/serie/RPE reali + note di seduta.
+- **Piano** → `raw/programs/<program>/`: `companion.md` + binario del coach (legacy import) oppure `companion.md` + `programma.yaml` (programma scritto dall'utente, es. [[piano_self_vena_aif_2026]]). Immutabile una volta iniziato.
+- **Esecuzione** → `raw/journal/YYYY/YYYY-MM-DD W<settimana> <giornata>.md`: file di seduta creati un microciclo alla volta da `.github/scripts/genera_sedute.py`, con serie da spuntare e campi `rpe::`/`note::`. Dettagli in `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*.
+- I workout fino al 2026-10-10 vengono dal plugin LiftOff, dismesso il 2026-11-08.
 
-Seed frontmatter e struttura pronti in `.github/templates/` (`raw_program_readme.md`, `raw_mesociclo.md`, `raw_workout.md`, `raw_check_bilancia.md`). Copia il template, sostituisci i placeholder, poi ingesta col comando `/wiki-ingest raw/...`.
+## iPad + git
 
-## iPad + git (Working Copy + Obsidian iOS)
-
-Setup consigliato per compilare `workout.md` durante la seduta:
-
-1. **Working Copy** (App Store, one-time) clona il repo su iPad ed espone la cartella a `File.app` come Files Provider.
-2. **Obsidian iOS** (free) apre la stessa cartella come vault: wikilink, callout e tabelle funzionano come su desktop.
-3. Prima della seduta: **Pull** da Working Copy. A fine seduta: **Commit + Push**. Automabile con `Shortcuts.app` (mappabili anche su tasto laterale iPad).
+Obsidian iOS è collegato al repo remoto con un plugin git. Il Mac genera le sedute e fa push; l'iPad fa pull prima di allenarsi, compila il file della seduta e fa commit + push. Un file di seduta, una volta generato, si modifica solo da iPad.
 
 ## Life areas tracked
 

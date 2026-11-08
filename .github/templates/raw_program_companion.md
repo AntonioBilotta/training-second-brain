@@ -21,7 +21,7 @@ tags:
 <Riga di apertura discorsiva: chi ha scritto il programma, contesto della collaborazione, numero del programma nella serie personale.>
 
 > [!note] Perché il frontmatter
-> I campi `program_slug`, `start_date`, `duration_weeks`, `weekly_pattern` servono all'ingest dei workout LiftOff per derivare automaticamente `mesociclo`, `settimana` e `giornata` dal `date` del workout, senza doverli scrivere a mano. Vedi `.github/instructions/wiki-conventions.instructions.md` § *Pattern plan-vs-actual*.
+> I campi `program_slug`, `start_date`, `duration_weeks`, `weekly_pattern` servono all'ingest dei workout per derivare automaticamente `mesociclo`, `settimana` e `giornata` dal `date` del workout, senza doverli scrivere a mano. Vedi `.github/instructions/wiki-conventions.instructions.md` § *Pattern plan-vs-actual*.
 
 ## Quando
 

@@ -88,3 +88,6 @@ Touched pages: [[journal_2026_08_workout]], [[journal_2026_09_workout]], [[journ
 
 ## [2026-11-08] ingest | Programma self-programming Vena + AIF 2026 (raw/programs/2026/2026-11-09_self_vena_aif/companion.md) (New): primo programma "native" del vault, gestito con regola doppia-pagina; decisione utente: workout del programma ingeriti aggregati per microciclo (3 settimane) ai checkpoint W3/W6/W9/W12
 Touched pages: [[self_vena_aif_2026]], [[piano_self_vena_aif_2026]], [[squat]], [[panca_piana]], [[stacco_da_terra]], [[matt_vena]], [[cardio_zona_2]], [[allenamento_submassimale]], [[index]]
+
+## [2026-11-08] other | Cambio convenzione workout: LiftOff dismesso (plugin disattivato); i workout di programma sono file di seduta creati per microciclo da .github/scripts/genera_sedute.py (unica eccezione alla regola raw/ immutabile, solo creazione di file nuovi) e compilati da iPad; supportato il pattern di programma "native" (companion.md + programma.yaml); ingest per microciclo in journal_<program>_mc<N>. Aggiornati wiki-conventions.instructions.md, templates/README.md, raw_program_companion.md, CLAUDE.md, AGENTS.md, skill diagnosi-infortuni-powerlifting
+Touched pages: [[overview]], [[piano_self_vena_aif_2026]]
