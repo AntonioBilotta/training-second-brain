@@ -46,7 +46,7 @@ Esposizioni settimanali: panca 4 · squat 2 (+1) · stacco 2, coerenti con la de
 |---|---|---|
 | Tempo squat | discesa 4" costante, pausa 0,5" in buca, salita normale | Vena (salita: adattamento) |
 | Squat fermo in buca | fermo 1" | Vena |
-| Larsen press | piedi sollevati, gambe tese, nessuna spinta delle gambe, tocco al petto senza fermo | da confermare dall'utente |
+| Larsen press | piedi sollevati, gambe tese, nessuna spinta delle gambe, tocco al petto senza fermo | utente |
 | Tempo bench | discesa 3-4", salita normale; singola @6 + 2 × 2 al 90 % della singola | Vena + utente |
 | Panca fermo lungo | fermo 2" al petto | Vena |
 | Panca presa stretta | 2-3 dita più stretta della presa di gara | Vena |
@@ -99,7 +99,7 @@ Ordine nella seduta (AIF): fondamentali e loro varianti → complementari.
 
 ## Ausiliari
 
-Regole (revisione 2026-11-08): schiena nei giorni di stacco (B, D: poi c'è riposo prima del successivo giorno di gambe, logica di Vena), spinte negli altri (A, C); tricipiti 1 volta a settimana; niente isolamento per squat e stacco (Vena), salvo il bulgarian split squat scelto dall'utente; esercizi per la spalla 🩹 inclusi, mai a cedimento.
+Regole (revisione 2026-11-08): schiena nei giorni di stacco (B, D: poi c'è riposo prima del successivo giorno di gambe, logica di Vena), spinte negli altri (A, C); tricipiti 1 volta a settimana; niente isolamento per squat e stacco (Vena), salvo il bulgarian split squat scelto dall'utente; spinta verticale (military press o lento manubri) il giovedì, scelta dell'utente; esercizi per la spalla 🩹 inclusi, mai a cedimento.
 
 | Giorno | Esercizio | Schema |
 |---|---|---|
@@ -109,8 +109,8 @@ Regole (revisione 2026-11-08): schiena nei giorni di stacco (B, D: poi c'è ripo
 | B | Trazioni (o lat machine) | 1 a cedimento + 2 @8, 8-10 rip |
 | B | Pulley basso | 1 a cedimento + 2 @8, 8-10 rip |
 | B | Face pull 🩹 | 3 × 12-15 @7-8 |
+| C | Military press (o lento manubri) | 1 a cedimento tecnico + 2 @8, 6-10 rip |
 | C | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip |
-| C | Push-up plus 🩹 | 3 × 10-12 |
 | D | Seal row (o chest supported 30°) | 1 a cedimento + 2 @8, 8-10 rip |
 | D | Y-T-W 🩹 | 3 × 10 per forma |
 

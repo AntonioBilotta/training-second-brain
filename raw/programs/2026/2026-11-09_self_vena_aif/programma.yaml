@@ -39,8 +39,8 @@ giornate:
       - {nome: "Panca fermo lungo", tipo: fisso, serie: 3, reps: 2, carichi: [80, 85, 87.5, 92.5], esecuzione: "fermo 2\" al petto (circa 4 tempi)"}
       - {nome: "Squat — intensità", alzata: squat, tipo: intensita, serie: 3, carichi: [127.5, 132.5, 137.5, 142.5], risc: true}
       - {nome: "Squat fermo in buca", tipo: fisso, serie: 3, reps: 2, carichi: [120, 125, 130, 135], esecuzione: "fermo 1\" in buca (sotto carico conta circa 2 tempi per secondo)"}
+      - {nome: "Military press (o lento manubri)", tipo: serie, serie: 1, reps: "6-10", rpe: "a cedimento tecnico", extra: ["6-10 @8", "6-10 @8"]}
       - {nome: "Tricipiti al cavo", tipo: compl}
-      - {nome: "Push-up plus 🩹", tipo: serie, serie: 3, reps: "10-12", rpe: "mai a cedimento", esecuzione: "in alto spingi ancora il pavimento: scapole aperte, fermo 1-2\""}
   D:
     titolo: Panca volume · Stacco intensità
     blocchi:

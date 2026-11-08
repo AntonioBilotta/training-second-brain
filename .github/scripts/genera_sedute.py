@@ -72,6 +72,7 @@ def blocco(cfg, b, mc, wk_in_mc, settimana):
         lines += ["- [ ] 8-10 @8 → kg:: "] * b.get("serie_8", 2)
     elif t == "serie":
         lines += [f"- [ ] {b['reps']} {b['rpe']} → kg:: "] * b["serie"]
+        lines += [f"- [ ] {x} → kg:: " for x in b.get("extra", [])]
     lines.append("")
     if t not in ("compl", "serie"):
         lines.append("rpe:: ")

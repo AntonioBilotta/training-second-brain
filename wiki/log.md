@@ -103,3 +103,6 @@ Touched pages: [[journal_2026_08_04_check_bilancia]], [[journal_2026_08_05_massi
 
 ## [2026-11-08] ingest | Revisione del programma self_vena_aif_2026 prima dell'inizio (companion + programma.yaml aggiornati dall'utente/Claude su richiesta): esecuzione delle varianti, tempo bench al 90 % della singola, stacco fermo 1 cm, ordine AIF fondamentali → complementari, complementari rifatti (schiena nei giorni di stacco, spinte negli altri, bulgarian il lunedì, spalla inclusa); MC1 rigenerato
 Touched pages: [[piano_self_vena_aif_2026]], [[self_vena_aif_2026]]
+
+## [2026-11-08] ingest | Ritocco del programma self_vena_aif_2026 prima dell'inizio: Larsen press confermata (piedi sollevati, gambe tese, tocco senza fermo); giorno C: aggiunta military press (o lento manubri), tolto push-up plus; MC1 rigenerato
+Touched pages: [[piano_self_vena_aif_2026]], [[self_vena_aif_2026]]

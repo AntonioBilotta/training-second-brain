@@ -153,18 +153,27 @@ Una seduta moderata per mantenere la tecnica, una leggera, poi un **test** con s
 a RPE 6 → 8 → 10, usando come guida le singole del ciclo. Il test è facoltativo:
 in alternativa si fa la seduta moderata, si ricalcolano le basi dalle singole @8 e si riparte con un nuovo ciclo.
 
-## Complementari (Vena: prima serie @10 a cedimento, le altre @8)
+## Complementari (dopo tutti i fondamentali)
 
-Schema: **1 serie a cedimento + 2-3 serie @8**, 8-10 ripetizioni. In W1 la prima serie
-si ferma a @8-9 per il rientro *[adattamento]*.
+Regole: schiena nei giorni di stacco (B, D), spinte negli altri (A, C); tricipiti una volta
+a settimana (la panca li lavora già 4 volte); niente isolamento per squat e stacco (Vena),
+tranne il bulgarian split squat del lunedì, aggiunto per scelta dell'utente.
 
-- **A**: curl EZ (1+3) · bulgarian split squat (1+2)
-- **B**: cable row (1+2) · iliac pulldown / lat machine (1+2) · tricipiti al cavo (1+3)
-- **C**: tricipiti al cavo (1+3) · seal row (1+2)
-- **D**: estensioni tricipiti sopra la testa (1+3) · rematore chest supported 30° (1+2)
+| Giorno | Esercizio | Schema |
+|---|---|---|
+| A — LUN | Bulgarian split squat | 3 × 8-10 per gamba @8 (niente cedimento) *[adattamento]* |
+| A — LUN | Panca inclinata manubri | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
+| A — LUN | Curl EZ | 1 a cedimento + 2 @8, 8-10 rip |
+| B — MAR | Trazioni (o lat machine) | 1 a cedimento + 2 @8, 8-10 rip |
+| B — MAR | Pulley basso | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
+| B — MAR | Face pull 🩹 | 3 × 12-15 @7-8 |
+| C — GIO | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
+| C — GIO | Push-up plus 🩹 | 3 × 10-12, fermo 1-2" in alto con le scapole aperte |
+| D — VEN | Seal row (o rematore chest supported 30°) | 1 a cedimento + 2 @8, 8-10 rip |
+| D — VEN | Y-T-W 🩹 | 3 × 10 per forma, a corpo libero o 1-2 kg |
 
-**Spalla destra (sedute A, C, D; MAI a cedimento)**: face pull, push-up plus, Y-T-W,
-stretching attivo pettorale minore, dal piano di recupero del 2026-09-13.
+- In W1 la serie "a cedimento" si ferma a @8-9 per il rientro *[adattamento]*.
+- 🩹 = esercizi del piano di recupero della spalla destra (2026-09-13): **mai a cedimento**. Altro lavoro per la spalla si decide di volta in volta.
 
 ## Cardio zona 2 — programma separato
 
