@@ -106,3 +106,6 @@ Touched pages: [[piano_self_vena_aif_2026]], [[self_vena_aif_2026]]
 
 ## [2026-11-08] ingest | Ritocco del programma self_vena_aif_2026 prima dell'inizio: Larsen press confermata (piedi sollevati, gambe tese, tocco senza fermo); giorno C: aggiunta military press (o lento manubri), tolto push-up plus; MC1 rigenerato
 Touched pages: [[piano_self_vena_aif_2026]], [[self_vena_aif_2026]]
+
+## [2026-11-08] ingest | Riordino complementari del programma self_vena_aif_2026 su decisione dell'utente (esperienza personale): stacco rumeno al lunedì con tetto RPE 6 come primer per lo stacco del martedì; bulgarian al martedì (DOMS); tricipiti al martedì; face pull al giovedì; MC1 rigenerato
+Touched pages: [[piano_self_vena_aif_2026]]

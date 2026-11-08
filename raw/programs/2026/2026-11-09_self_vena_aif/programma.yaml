@@ -15,23 +15,23 @@ rpe_singola: [6, 7, 8]
 riscaldamento: [[0.45, 5], [0.65, 3], [0.8, 2]]   # frazioni del primo carico allenante
 giornate:
   A:
-    titolo: Squat volume · Larsen press
+    titolo: Squat volume · Larsen press · Stacco rumeno
     blocchi:
       - {nome: "Squat — volume", alzata: squat, tipo: volume, serie: 3, carichi: [115, 120, 125, 130], risc: true}
       - {nome: "Tempo squat", tipo: fisso, serie: 3, reps: 2, carichi: [110, 115, 120, 125], esecuzione: "discesa 4\" a velocità costante (non accelerare verso la buca), pausa 0,5\" in buca, salita normale"}
       - {nome: "Larsen press", alzata: panca, tipo: larsen, serie: 3, carichi: [70, 75, 77.5, 80], risc: true, esecuzione: "piedi sollevati da terra, gambe tese, nessuna spinta delle gambe; tocco al petto senza fermo"}
-      - {nome: "Bulgarian split squat", tipo: serie, serie: 3, reps: "8-10 per gamba", rpe: "@8 (niente cedimento)", esecuzione: "piede posteriore su panca, manubri in mano"}
       - {nome: "Panca inclinata manubri", tipo: compl}
+      - {nome: "Stacco rumeno", tipo: rpe, serie: 2, reps: 6, rpe: 6, esecuzione: "cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata; mai sopra RPE 6 (primer per lo stacco di domani)"}
       - {nome: "Curl EZ", tipo: compl}
   B:
     titolo: Stacco volume · Tempo bench
     blocchi:
       - {nome: "Stacco — volume", alzata: stacco, tipo: volume, serie: 3, carichi: [122.5, 127.5, 132.5, 137.5], risc: true}
       - {nome: "Tempo bench", alzata: panca, tipo: tempo_bench, esecuzione: "discesa 3-4\", salita normale; singola @6, poi 2 × 2 al 90 % della singola"}
-      - {nome: "Stacco rumeno", tipo: rpe, serie: 2, reps: 6, rpe: 6, esecuzione: "cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata"}
       - {nome: "Trazioni (o lat machine)", tipo: compl}
       - {nome: "Pulley basso", tipo: compl}
-      - {nome: "Face pull 🩹", tipo: serie, serie: 3, reps: "12-15", rpe: "@7-8, mai a cedimento"}
+      - {nome: "Bulgarian split squat", tipo: serie, serie: 3, reps: "8-10 per gamba", rpe: "@8 (niente cedimento)", esecuzione: "piede posteriore su panca, manubri in mano"}
+      - {nome: "Tricipiti al cavo", tipo: compl}
   C:
     titolo: Panca intensità · Squat intensità
     blocchi:
@@ -40,7 +40,7 @@ giornate:
       - {nome: "Squat — intensità", alzata: squat, tipo: intensita, serie: 3, carichi: [127.5, 132.5, 137.5, 142.5], risc: true}
       - {nome: "Squat fermo in buca", tipo: fisso, serie: 3, reps: 2, carichi: [120, 125, 130, 135], esecuzione: "fermo 1\" in buca (sotto carico conta circa 2 tempi per secondo)"}
       - {nome: "Military press (o lento manubri)", tipo: serie, serie: 1, reps: "6-10", rpe: "a cedimento tecnico", extra: ["6-10 @8", "6-10 @8"]}
-      - {nome: "Tricipiti al cavo", tipo: compl}
+      - {nome: "Face pull 🩹", tipo: serie, serie: 3, reps: "12-15", rpe: "@7-8, mai a cedimento"}
   D:
     titolo: Panca volume · Stacco intensità
     blocchi:

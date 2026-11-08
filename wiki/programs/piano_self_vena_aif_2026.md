@@ -32,7 +32,7 @@ Programma scritto dall'utente (self-programming) sul modello del programma inter
 | Giorno | Vena | Squat | Panca | Stacco |
 |---|---|---|---|---|
 | **A — LUN** | Day 1 | Volume + tempo squat | Larsen press | — |
-| **B — MAR** | Day 2 | — | Tempo bench (singola @6 + 2 × 2 al 90 % della singola) | Volume + stacco rumeno 2 × 6 @RPE 6 |
+| **B — MAR** | Day 2 | — | Tempo bench (singola @6 + 2 × 2 al 90 % della singola) | Volume |
 | **C — GIO** | Day 3 | Intensità + fermo in buca | Intensità + fermo lungo | — |
 | **D — VEN** | Day 4 | High bar 2 × 6 @RPE 5 (opzionale) | Volume + presa stretta | Intensità + variante con fermo |
 
@@ -51,7 +51,7 @@ Esposizioni settimanali: panca 4 · squat 2 (+1) · stacco 2, coerenti con la de
 | Panca fermo lungo | fermo 2" al petto | Vena |
 | Panca presa stretta | 2-3 dita più stretta della presa di gara | Vena |
 | Stacco fermo | 1 cm da terra per 1" (W1-6) → al ginocchio per 1" (W7-11) | utente |
-| Stacco rumeno | cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata | Vena (discesa: adattamento) |
+| Stacco rumeno | cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata; mai sopra RPE 6 | Vena (discesa: adattamento); tetto RPE: utente |
 
 Ordine nella seduta (AIF): fondamentali e loro varianti → complementari.
 
@@ -99,18 +99,19 @@ Ordine nella seduta (AIF): fondamentali e loro varianti → complementari.
 
 ## Ausiliari
 
-Regole (revisione 2026-11-08): schiena nei giorni di stacco (B, D: poi c'è riposo prima del successivo giorno di gambe, logica di Vena), spinte negli altri (A, C); tricipiti 1 volta a settimana; niente isolamento per squat e stacco (Vena), salvo il bulgarian split squat scelto dall'utente; spinta verticale (military press o lento manubri) il giovedì, scelta dell'utente; esercizi per la spalla 🩹 inclusi, mai a cedimento.
+Regole (revisione 2026-11-08): trazioni e row nei giorni di stacco (B, D: poi c'è riposo prima del successivo giorno di gambe, logica di Vena), spinte negli altri (A, C), tricipiti al martedì dopo il tempo bench. Riordino dell'utente basato sulla propria esperienza: **stacco rumeno al lunedì**, trattato come complementare, a RPE 6 come pre-sessione per lo stacco del martedì; **bulgarian al martedì** perché gli lascia DOMS difficili da smaltire il giorno dopo (il mercoledì è senza pesi). Diverge da Vena, che mette il rumeno al day 2 ([[matt_vena_intermediate_powerlifting_program_boostcamp]]); tricipiti 1 volta a settimana; niente isolamento per squat e stacco (Vena), salvo il bulgarian split squat scelto dall'utente; spinta verticale (military press o lento manubri) il giovedì, scelta dell'utente; esercizi per la spalla 🩹 inclusi, mai a cedimento.
 
 | Giorno | Esercizio | Schema |
 |---|---|---|
-| A | Bulgarian split squat | 3 × 8-10 per gamba @8 |
 | A | Panca inclinata manubri | 1 a cedimento + 2 @8, 8-10 rip |
+| A | Stacco rumeno | 2 × 6, mai sopra RPE 6 (primer per lo stacco del martedì) |
 | A | Curl EZ | 1 a cedimento + 2 @8, 8-10 rip |
 | B | Trazioni (o lat machine) | 1 a cedimento + 2 @8, 8-10 rip |
 | B | Pulley basso | 1 a cedimento + 2 @8, 8-10 rip |
-| B | Face pull 🩹 | 3 × 12-15 @7-8 |
+| B | Bulgarian split squat | 3 × 8-10 per gamba @8 |
+| B | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip |
 | C | Military press (o lento manubri) | 1 a cedimento tecnico + 2 @8, 6-10 rip |
-| C | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip |
+| C | Face pull 🩹 | 3 × 12-15 @7-8 |
 | D | Seal row (o chest supported 30°) | 1 a cedimento + 2 @8, 8-10 rip |
 | D | Y-T-W 🩹 | 3 × 10 per forma |
 

@@ -63,7 +63,9 @@ Modifiche decise dall'utente prima della prima seduta:
 - Tempo bench: discesa 3-4"; dopo la singola 2 × 2 **al 90 % della singola** (come Vena), non più a RPE.
 - Stacco con fermo a **1 cm** da terra per 1" (W1-6), poi fermo al ginocchio 1" (W7-11).
 - Ordine AIF: fondamentali sempre prima dei complementari.
-- Complementari rifatti: meno esercizi, tricipiti 1 volta a settimana, schiena nei giorni di stacco, spinte negli altri, esercizi per la spalla inclusi, bulgarian split squat il lunedì.
+- Complementari rifatti: meno esercizi, tricipiti 1 volta a settimana, trazioni e row nei giorni di stacco, spinte negli altri, esercizi per la spalla inclusi (face pull, Y-T-W), military press (o lento manubri) il giovedì.
+- Larsen press: esecuzione confermata (piedi sollevati, gambe tese, tocco senza fermo).
+- Riordino deciso dall'utente in base alla propria esperienza: **stacco rumeno al lunedì** (tenuto a RPE 6 fa quasi da pre-sessione per lo stacco del martedì), **bulgarian split squat al martedì** (gli lascia DOMS difficili da smaltire il giorno dopo: il mercoledì è senza pesi), tricipiti al martedì, face pull al giovedì. Diverge da Vena, che mette il rumeno al day 2.
 
 ## Massimali di calcolo
 
@@ -77,8 +79,8 @@ Modifiche decise dall'utente prima della prima seduta:
 
 | Giorno | Vena | Squat | Panca | Stacco |
 |---|---|---|---|---|
-| **A — LUN** | Day 1 | **Volume** + tempo squat | Larsen press | — |
-| **B — MAR** | Day 2 | — | Tempo bench (singola + doppie) | **Volume** + stacco rumeno |
+| **A — LUN** | Day 1 | **Volume** + tempo squat | Larsen press | Stacco rumeno (primer per il martedì) |
+| **B — MAR** | Day 2 | — | Tempo bench (singola + doppie) | **Volume** |
 | **C — GIO** | Day 3 | **Intensità** + fermo in buca | **Intensità** + fermo lungo | — |
 | **D — VEN** | Day 4 | *High bar leggero (opzionale)* | **Volume** + presa stretta | **Intensità** + variante con fermo |
 
@@ -93,13 +95,13 @@ riprende la terza esposizione dello squat che ha funzionato su di me: 2 × 6 @RP
 | Tempo squat | Discesa **4"** a velocità costante (non accelerare verso la buca), pausa **0,5"** in buca, salita normale | Vena (salita: *[adattamento]*) |
 | Squat fermo in buca | Fermo **1"** in buca (sotto carico conta circa 2 tempi per secondo) | Vena |
 | Squat high bar | Bilanciere alto, esecuzione normale | — |
-| Larsen press | Piedi sollevati da terra, gambe tese, nessuna spinta delle gambe, glutei sulla panca; tocco al petto senza fermo | *[da confermare]* esecuzione standard; Vena: meno spinta delle gambe, ROM un po' più ampio |
+| Larsen press | Piedi sollevati da terra, gambe tese, nessuna spinta delle gambe, glutei sulla panca; tocco al petto senza fermo | utente (confermata); Vena: meno spinta delle gambe, ROM un po' più ampio |
 | Tempo bench | Discesa **3-4"**, salita normale; singola @6, poi 2 × 2 al 90 % della singola | Vena + utente (discesa) |
 | Panca fermo lungo | Fermo **2"** al petto (circa 4 tempi) | Vena |
 | Panca presa stretta | Presa **2-3 dita più stretta** della presa di gara | Vena |
 | Stacco fermo (W1-6) | Fermo a **1 cm** da terra per **1"**, poi completa | utente |
 | Stacco fermo (W7-11) | Fermo **al ginocchio** per **1"**, poi completa | utente / P15 |
-| Stacco rumeno | Cerniera "pura" (ginocchia leggermente flesse e ferme), discesa controllata | Vena (discesa: *[adattamento]*) |
+| Stacco rumeno | Cerniera "pura" (ginocchia leggermente flesse e ferme), discesa controllata; **mai sopra RPE 6** (primer per lo stacco del giorno dopo) | Vena (discesa: *[adattamento]*); tetto RPE: utente |
 | Bulgarian split squat | Piede posteriore su panca, manubri in mano | — |
 
 ## Progressione — microcicli di 3 settimane
@@ -143,7 +145,7 @@ riprende la terza esposizione dello squat che ha funzionato su di me: 2 × 6 @RP
 | | MC1 | MC2 | MC3 | MC4 |
 |---|---|---|---|---|
 | B — volume 3 × 5/6/7 | 122,5 | 127,5 | 132,5 | 137,5 |
-| B — stacco rumeno 2 × 6 @RPE 6 | a RPE | a RPE | a RPE | a RPE |
+| A — stacco rumeno 2 × 6 @RPE 6 (tetto) | a RPE | a RPE | a RPE | a RPE |
 | D — singola @RPE + 3 × 2 | 135 | 140 | 145 | 150 |
 | D — fermo 2 × 2: **fermo 1 cm** (W1-6) → **fermo al ginocchio** (W7-11) | 127,5 | 132,5 | 137,5 | 142,5 |
 
@@ -155,20 +157,21 @@ in alternativa si fa la seduta moderata, si ricalcolano le basi dalle singole @8
 
 ## Complementari (dopo tutti i fondamentali)
 
-Regole: schiena nei giorni di stacco (B, D), spinte negli altri (A, C); tricipiti una volta
+Regole: trazioni e row nei giorni di stacco (B, D), spinte negli altri (A, C), con i tricipiti al martedì dopo il tempo bench; tricipiti una volta
 a settimana (la panca li lavora già 4 volte); niente isolamento per squat e stacco (Vena),
-tranne il bulgarian split squat del lunedì, aggiunto per scelta dell'utente.
+tranne il bulgarian split squat del martedì, aggiunto per scelta dell'utente. Spinta verticale
+(military press o lento manubri) il giovedì, per scelta dell'utente.
 
 | Giorno | Esercizio | Schema |
 |---|---|---|
-| A — LUN | Bulgarian split squat | 3 × 8-10 per gamba @8 (niente cedimento) *[adattamento]* |
 | A — LUN | Panca inclinata manubri | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
 | A — LUN | Curl EZ | 1 a cedimento + 2 @8, 8-10 rip |
 | B — MAR | Trazioni (o lat machine) | 1 a cedimento + 2 @8, 8-10 rip |
 | B — MAR | Pulley basso | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
-| B — MAR | Face pull 🩹 | 3 × 12-15 @7-8 |
-| C — GIO | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
-| C — GIO | Push-up plus 🩹 | 3 × 10-12, fermo 1-2" in alto con le scapole aperte |
+| B — MAR | Bulgarian split squat | 3 × 8-10 per gamba @8 (niente cedimento) *[adattamento]* |
+| B — MAR | Tricipiti al cavo | 1 a cedimento + 2 @8, 8-10 rip (Vena) |
+| C — GIO | Military press (o lento manubri) | 1 a cedimento tecnico + 2 @8, 6-10 rip |
+| C — GIO | Face pull 🩹 | 3 × 12-15 @7-8 |
 | D — VEN | Seal row (o rematore chest supported 30°) | 1 a cedimento + 2 @8, 8-10 rip |
 | D — VEN | Y-T-W 🩹 | 3 × 10 per forma, a corpo libero o 1-2 kg |
 
