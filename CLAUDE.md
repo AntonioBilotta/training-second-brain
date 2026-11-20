@@ -6,7 +6,7 @@ Questa vault è una **LLM Wiki** (pattern Karpathy, vedi [`.github/karpathy_llm_
 
 ## Layout
 
-- `raw/` — sorgenti **immutabili**. Scrive solo l'utente. **Non modificare mai** nulla sotto `raw/`. Unica eccezione: su richiesta dell'utente, `.github/scripts/genera_sedute.py` **crea** i file di seduta di un microciclo in `raw/journal/` (mai modifiche a file esistenti, salvo `--rigenera` su file intatti).
+- `raw/` — sorgenti **immutabili**. Scrive solo l'utente. **Non modificare mai** nulla sotto `raw/`. Unica eccezione: su richiesta dell'utente, `.github/scripts/genera_sedute.py` **crea** i file di seduta di un microciclo in `raw/journal/` (mai modifiche a file esistenti, salvo `--rigenera` su file intatti). Formato e regole: `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*.
 - `wiki/` — markdown LLM-maintained: `entities/`, `concepts/`, `sources/`, `analysis/`, `programs/`, più `index.md`, `log.md`, `overview.md`.
 - `vault_path` autoritativo per le skill `wiki-*`: `/Users/antoniobilotta/Vaults/training-second-brain` (non rilevarlo camminando il filesystem).
 
@@ -33,14 +33,14 @@ Non esistono i chat-agent `@wiki-maintainer/@wiki-reader/@wiki-auditor` fuori da
 ### Struttura `raw/`
 
 - `journal/YYYY/` — voci diario e workout raggruppati per periodo: `da <inizio> a <fine> <programma>/` = un microciclo di programma (sedute `YYYY-MM-DD W<settimana> <giornata>.md`, create dal generatore e compilate da iPad); `da <inizio> a <fine>/` = periodo senza programma (workout liberi, note, misure). Nomi file sempre con la data come prefisso. Workout fino al 2026-10-10: plugin **LiftOff** (dismesso).
-- `programs/YYYY/YYYY-MM-DD_coach_slug_programma/` — piani. Legacy import: `companion.md` + binario originale del coach. Native (scritto dall'utente): `companion.md` + `programma.yaml`.
+- `programs/YYYY/YYYY-MM-DD_coach_slug_programma/` — piani. Legacy import: `companion.md` + binario originale del coach. Native (scritto dall'utente): `companion.md` + `programma.yaml` (formato `training-program/v1`; per `self_vena_aif` la versione in uso è `programma.v2.yaml`).
 - `articles/`, `podcasts/`, `courses/`, `assets/`.
 - Template per popolare `raw/` in [`.github/templates/`](.github/templates/) (copiare, non editare in place).
 
 ### Pattern plan-vs-actual
 
-- **Plan** → `raw/programs/<program>/{companion.md, binario | programma.yaml}`, immutabile una volta iniziato. `companion.md` porta `weekly_pattern` (weekday → giornata A/B/C/D).
-- **Actual** → file di seduta in `raw/journal/`, creati dal generatore con `program`/`settimana`/`microciclo`/`giornata` già nel frontmatter. L'utente da iPad spunta le serie, corregge il numero sulla riga se cambia carico/rip, compila `rpe::`/`note::`/`stato`; seduta spostata → `stato: spostata` + `data_effettiva`, senza rinominare il file. Per workout storici/manuali i campi si derivano all'ingest da `date` + piano.
+- **Plan** → `raw/programs/<program>/{companion.md, binario | programma.yaml | programma.v2.yaml}`, immutabile una volta iniziato. `companion.md` porta `weekly_pattern` (weekday → giornata A/B/C/D).
+- **Actual** → file di seduta in `raw/journal/`, creati dal generatore con `program`/`week`/`microcycle`/`day` già nel frontmatter (MC1 di `self_vena_aif`: formato checklist con `settimana`/`microciclo`/`giornata`). L'utente da iPad scrive `x` nella colonna ✓ delle serie fatte, corregge le celle se cambia carico/rip/RPE, compila `note::`/`status`; seduta spostata → `status: moved` + `actual_date`, senza rinominare il file. Per workout storici/manuali i campi si derivano all'ingest da `date` + piano.
 - **Ciclo di lavoro**: a ogni checkpoint di fine microciclo → ingest aggregato in `wiki/sources/journal_<program>_mc<N>.md` + aggiornamento plan-vs-actual nella program detail + generazione del microciclo successivo (Mac → push; iPad → pull). Dettagli: `.github/instructions/wiki-conventions.instructions.md` § *Generatore delle sedute*.
 
 ### Regola doppia-pagina per i programmi

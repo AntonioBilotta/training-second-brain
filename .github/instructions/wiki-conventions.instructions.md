@@ -12,7 +12,7 @@ These conventions apply to every file inside `wiki/` (LLM-maintained markdown) a
 **Never modify anything under `raw/`.** It is the user's immutable source of truth. Read from `raw/`; write only to `wiki/`.
 
 > [!important] Unica eccezione: il generatore delle sedute
-> Su richiesta esplicita dell'utente, `.github/scripts/genera_sedute.py` può **creare** in `raw/journal/` i file di seduta di un microciclo (vuoti, da compilare). Non modifica mai un file esistente, salvo `--rigenera` sui soli file ancora intatti (`stato: pianificata`, nessuna serie spuntata). Una volta creato, il file è dell'utente come ogni altro file in `raw/`. Vedi *Generatore delle sedute* sotto.
+> Su richiesta esplicita dell'utente, `.github/scripts/genera_sedute.py` può **creare** in `raw/journal/` i file di seduta di un microciclo (vuoti, da compilare). Non modifica mai un file esistente, salvo `--rigenera` sui soli file ancora intatti (`status: planned`, nessuna serie segnata nella colonna ✓). Una volta creato, il file è dell'utente come ogni altro file in `raw/`. Vedi *Generatore delle sedute* sotto.
 
 ## Wiki page format
 
@@ -65,7 +65,7 @@ This wiki may contain personal or sensitive information. Treat all pages as pers
   - Ogni file ha la **data come prefisso del nome** (`YYYY-MM-DD <titolo>.md` o `YYYY-MM-DD_<slug>.md`), così resta riconoscibile anche fuori dalla sua cartella.
 - `programs/` — **piani di allenamento**, raggruppati per anno di inizio: `raw/programs/YYYY/YYYY-MM-DD_coach_slug_programma/`. Due pattern supportati:
   - **Legacy import** — programma ricevuto da un coach in formato monolitico (ODS/PDF/foglio). Struttura: `companion.md` (metadati + verdetto a posteriori + retest inline + `weekly_pattern`) + il binario originale (`.ods`, `.pdf`, ecc.) con il nome originale del file.
-  - **Native** — programma scritto dall'utente (es. `raw/programs/2026/2026-11-09_self_vena_aif/`). Struttura: `companion.md` (piano in prosa e tabelle, stessi campi frontmatter del legacy, `coach: self`) + `programma.yaml` (gli stessi carichi in forma strutturata, letti dal generatore delle sedute). Nessun binario. Il companion dichiara se il programma non è validato da un coach.
+  - **Native** — programma scritto dall'utente (es. `raw/programs/2026/2026-11-09_self_vena_aif/`). Struttura: `companion.md` (piano in prosa e tabelle, stessi campi frontmatter del legacy, `coach: self`) + `programma.yaml` (il programma in forma strutturata, formato `training-program/v1`, letto dal generatore delle sedute). Il programma `self_vena_aif` ha anche `programma.v2.yaml`: la conversione nel formato nuovo, usata dal MC2; `programma.yaml` resta il piano originale. Nessun binario. Il companion dichiara se il programma non è validato da un coach.
 - `articles/` — articoli divulgativi o scientifici singoli (un file per articolo).
 - `podcasts/` — appunti/trascrizioni di episodi podcast (un file per episodio).
 - `courses/` — materiale strutturato di corsi, manuali o programmi multi-scheda. Un sottofolder per corso, con nome `snake_case` (es. `raw/courses/programmazione_forza_<autore>/`). Ogni sottofolder può contenere più file (PDF, note, slide) e opzionalmente un `README.md` con metadati del corso (autore, data, argomenti, licenza).
@@ -80,32 +80,35 @@ I seed per popolare `raw/` senza dover ricordare a memoria frontmatter e sezioni
 | `raw_program_companion.md` | `raw/programs/YYYY/<program>/companion.md` | Programma legacy import (fonte esterna). |
 | `raw_check_bilancia.md` | `raw/journal/YYYY/<cartella del periodo>/YYYY-MM-DD_check_bilancia.md` | Quando misuri la composizione corporea. |
 
-I workout non hanno template da copiare: li crea il **generatore delle sedute** (sezione sotto) a partire dal `programma.yaml` del programma in corso. Per un workout fuori programma si crea a mano un file singolo in `raw/journal/` con lo stesso formato.
+I workout non hanno template da copiare: li crea il **generatore delle sedute** (sezione sotto) a partire dal programma strutturato del programma in corso. Per un workout fuori programma si crea a mano un file singolo in `raw/journal/` con lo stesso formato.
 
 La modifica di un template va discussa nel plan e riflessa in questa istruzione + nelle pagine wiki già ingerite che ne dipendono.
 
 ### Generatore delle sedute
 
-Script: `.github/scripts/genera_sedute.py`. Si lancia sul Mac (o da Claude), mai su iPad.
+Script: `.github/scripts/genera_sedute.py`. Si lancia sul Mac (o da Claude), mai su iPad. Richiede PyYAML. Specifica dei formati: progetto TrainingApp, `docs/formats.md` (programma `training-program/v1`, seduta `training-session/v1`).
 
 ```bash
 python3 .github/scripts/genera_sedute.py raw/programs/YYYY/<program> <microciclo> [--rigenera]
 ```
 
-- Crea i file di **un microciclo alla volta** nella cartella `raw/journal/YYYY/da <prima seduta> a <ultima seduta> <programma>/` (`YYYY-MM-DD W<settimana> <giornata>.md`), con date calcolate da `start_date` + `giorni` di `programma.yaml`.
-- Non sovrascrive mai un file esistente. `--rigenera` riscrive solo i file intatti (`stato: pianificata`, nessuna `- [x]`): serve quando, a un checkpoint, cambiano i carichi del microciclo successivo.
+- Legge `programma.v2.yaml` se c'è, altrimenti `programma.yaml`; il file deve dichiarare `format: training-program/v1` e viene validato prima di generare.
+- Crea i file di **un microciclo alla volta** nella cartella `raw/journal/YYYY/da <prima seduta> a <ultima seduta> <programma>/` (`YYYY-MM-DD W<settimana> <giornata>.md`). Il microciclo è il numero progressivo attraverso i blocchi del programma: in `self_vena_aif` MC1-MC4 sono l'accumulo, MC5 il taper e test (W12).
+- Non sovrascrive mai un file esistente. `--rigenera` riscrive solo i file intatti (`status: planned`, nessuna ✓): serve quando, a un checkpoint, cambiano i carichi del microciclo successivo.
 - Si genera il microciclo N+1 al checkpoint di fine microciclo N, insieme all'ingest del microciclo N.
+- `genera_sedute_v1.py` è il vecchio generatore (formato a checklist, `programma.yaml` originale): non si usa più, resta per riferimento.
 
-**Formato del file di seduta**
+**Formato del file di seduta** (`training-session/v1`, dal MC2 di `self_vena_aif`)
 
-- Frontmatter: `type: workout`, `program`, `date` (pianificata), `settimana`, `microciclo`, `giornata`, `stato` (`pianificata` | `fatta` | `spostata` | `saltata`), `data_effettiva`, `durata_min`.
-- Corpo: una sezione `##` per esercizio con righe-checkbox (`- [ ] 115 × 5`, riscaldamento marcato *(risc.)*), seguite da una riga vuota e dai campi `rpe::` e `note::`; in fondo `## Note seduta`.
+- Frontmatter: `type: workout`, `format: training-session/v1`, `program`, `date` (pianificata), `week`, `microcycle`, `day`, `kind: max_test` (solo sedute di test), `optional: true` (solo sedute facoltative), `status` (`planned` | `done` | `moved` | `skipped`), `actual_date` (ISO), `duration_min` (intero).
+- Corpo: una sezione `##` per esercizio con una tabella `| # | Kg | % | Rip | RPE | ✓ |` già compilata con il previsto (`R1`, `R2`… = riscaldamento; `%` = % del massimale, informativa), poi `note::`; in fondo `## Note seduta`.
+- Il MC1 di `self_vena_aif` è nel formato precedente (checklist v1: `- [x] 115 × 5`, *(risc.)*, `rpe::` per esercizio, chiavi `settimana`/`giornata`/`stato`); l'ingest deve leggere entrambi.
 
 **Cosa fa l'utente (da iPad)**
 
-- Spunta le serie fatte (`- [x]`).
-- Se cambia carico o ripetizioni, **corregge il numero sulla riga** (es. `- [x] 112,5 × 5`): il piano resta nel companion, lo scostamento si calcola all'ingest.
-- Compila `rpe::`, `note::`, `stato`, `durata_min`. Se sposta la seduta: `stato: spostata` + `data_effettiva`. **Non rinomina né sposta il file.**
+- Scrive `x` nella colonna ✓ quando fa la serie.
+- Se cambia carico, ripetizioni o RPE **corregge la cella**; una cella non toccata vale "eseguita come prevista". Nelle serie a RPE compila `Kg`; un intervallo di ripetizioni non corretto (`8-10`) vale il minimo.
+- Compila `note::`, `status`, `actual_date`, `durata_min`. Se sposta la seduta: `status: moved` + `actual_date`. **Non rinomina né sposta il file.**
 
 **Sincronizzazione git (Mac ↔ iPad)**
 
@@ -116,10 +119,10 @@ python3 .github/scripts/genera_sedute.py raw/programs/YYYY/<program> <microciclo
 
 Il flusso di allenamento è separato in due layer che rimangono sincronizzati tramite frontmatter:
 
-- **Plan** → `raw/programs/<program>/{companion.md, <binario originale> | programma.yaml}` — prescrizioni target, immutabili una volta iniziato il ciclo. Il `companion.md` porta anche un campo `weekly_pattern` che mappa i giorni della settimana alle giornate del piano (es. `monday: A, tuesday: B, thursday: C, friday: D`), necessario per derivare la giornata di un workout dal suo `date`.
-- **Actual** → `raw/journal/YYYY/da <inizio> a <fine> <programma>/YYYY-MM-DD W<settimana> <giornata>.md` — file creato dal generatore e compilato dall'utente: serie spuntate, carichi corretti, RPE, note.
+- **Plan** → `raw/programs/<program>/{companion.md, <binario originale> | programma.yaml | programma.v2.yaml}` — prescrizioni target, immutabili una volta iniziato il ciclo. Il `companion.md` porta anche un campo `weekly_pattern` che mappa i giorni della settimana alle giornate del piano (es. `monday: A, tuesday: B, thursday: C, friday: D`), necessario per derivare la giornata di un workout dal suo `date`.
+- **Actual** → `raw/journal/YYYY/da <inizio> a <fine> <programma>/YYYY-MM-DD W<settimana> <giornata>.md` — file creato dal generatore e compilato dall'utente: serie segnate, celle corrette, RPE, note.
 
-Nei file creati dal generatore `program`, `settimana`, `microciclo` e `giornata` sono **già scritti** nel frontmatter: non vanno derivati. Una seduta spostata resta legata alla sua giornata; la data reale è in `data_effettiva`.
+Nei file creati dal generatore `program`, `week`, `microcycle` e `day` (nel MC1: `settimana`, `microciclo`, `giornata`) sono **già scritti** nel frontmatter: non vanno derivati. Una seduta spostata resta legata alla sua giornata; la data reale è in `actual_date` (MC1: `data_effettiva`).
 
 Per i workout scritti a mano o storici (LiftOff) vale ancora la derivazione all'ingest: `program:` obbligatorio; `settimana` = `(date - program.start_date) / 7 + 1`; `giornata` dal `weekday(date)` letto dal `weekly_pattern`, salvo override esplicito `giornata:`.
 
