@@ -1,0 +1,260 @@
+# Programma self_vena_aif_2026 nel formato training-program/v1 (specifica: progetto TrainingApp,
+# docs/formats.md), letto da .github/scripts/genera_sedute.py. Sostituisce programma.yaml dal MC2:
+# tutti i carichi in % (le % dichiarate nel companion), blocco taper e test per la W12 (bozza
+# approvata il 2026-11-20). programma.yaml resta come piano originale, immutabile.
+format: training-program/v1
+id: self_vena_aif_2026
+title: Programma Vena + AIF 2026
+start_date: 2026-11-09
+weeks: 12
+training_maxes:               # base di calcolo delle %, valori iniziali dell'utente che importa
+  squat: 170
+  bench: 115
+  deadlift: 180
+rounding: 2.5
+
+warmups:
+  barbell:
+    empty_bar_reps: 10
+    steps:
+      - {pct: 45, reps: 5}
+      - {pct: 65, reps: 3}
+      - {pct: 80, reps: 2}
+  floor:
+    steps:
+      - {pct: 45, reps: 5}
+      - {pct: 65, reps: 3}
+      - {pct: 80, reps: 2}
+
+blocks:
+  - name: accumulation
+    microcycles:
+      - [1, 2, 3]
+      - [4, 5, 6]
+      - [7, 8, 9]
+      - [10, 11]
+    schedule:
+      A: monday
+      B: tuesday
+      C: thursday
+      D: friday
+    days:
+      A:
+        title: Squat volume · Larsen press · Stacco rumeno
+        exercises:
+          - exercise: squat
+            label: Squat — volume
+            warmup: barbell
+            sets:
+              - {count: 3, reps: {per_week: [5, 6, 7]}, load: {pct: {per_microcycle: [68, 71, 74, 77]}}}
+          - exercise: squat
+            variant: tempo
+            label: Tempo squat
+            execution: discesa 4" a velocità costante (non accelerare verso la buca), pausa 0,5" in buca, salita normale
+            sets:
+              - {count: 3, reps: 2, load: {pct: {per_microcycle: [65, 68, 71, 74]}}}
+          - exercise: bench
+            variant: larsen
+            label: Larsen press
+            warmup: barbell
+            execution: piedi sollevati da terra, gambe tese, nessuna spinta delle gambe; tocco al petto senza fermo
+            sets:
+              - {count: 3, reps: {per_week: [6, 7, 8]}, load: {pct: {per_microcycle: [61, 64, 67, 70]}}}
+          - exercise: incline_db_press
+            label: Panca inclinata manubri
+            sets: &accessory
+              - {count: 1, reps: 8-10, load: {rpe: 8-9}, weeks: "1"}
+              - {count: 1, reps: 8-10, load: {rpe: 10}, weeks: 2-11}
+              - {count: 2, reps: 8-10, load: {rpe: 8}}
+          - exercise: romanian_deadlift
+            label: Stacco rumeno
+            execution: cerniera pura, ginocchia leggermente flesse e ferme, discesa controllata; mai sopra RPE 6 (primer per lo stacco di domani)
+            sets:
+              - {count: 2, reps: 6, load: {rpe: 6}}
+          - exercise: ez_curl
+            label: Curl EZ
+            sets: *accessory
+
+      B:
+        title: Stacco volume · Tempo bench
+        exercises:
+          - exercise: deadlift
+            label: Stacco — volume
+            warmup: floor
+            sets:
+              - {count: 3, reps: {per_week: [5, 6, 7]}, load: {pct: {per_microcycle: [68, 71, 74, 77]}}}
+          - exercise: bench
+            variant: tempo
+            label: Tempo bench
+            warmup: barbell
+            execution: discesa 3-4", salita normale
+            sets:
+              - {id: top, count: 1, reps: 1, load: {rpe: 6}}
+              - {count: 2, reps: 2, load: {of: top, pct: 90}}
+          - exercise: pull_up
+            alternatives: [lat_pulldown]
+            bodyweight: true
+            label: Trazioni (o lat machine)
+            sets: *accessory
+          - exercise: low_cable_row
+            label: Pulley basso
+            sets: *accessory
+          - exercise: bulgarian_split_squat
+            per_side: true
+            label: Bulgarian split squat
+            execution: piede posteriore su panca, manubri in mano; niente cedimento
+            sets:
+              - {count: 3, reps: 8-10, load: {rpe: 8}}
+          - exercise: cable_triceps
+            label: Tricipiti al cavo
+            sets: *accessory
+
+      C:
+        title: Panca intensità · Squat intensità
+        exercises:
+          - exercise: bench
+            label: Panca — intensità
+            warmup: barbell
+            note: "Freno: se le doppie superano RPE 7, −5 % in questa seduta."
+            sets: &intensity
+              - {id: top, count: 1, reps: 1, load: {rpe: {per_week: [6, 7, 8]}}}
+              - {count: 3, reps: 2, load: {pct: {per_microcycle: [75, 78, 81, 84]}}}
+          - exercise: bench
+            variant: paused
+            label: Panca fermo lungo
+            execution: fermo 2" al petto (circa 4 tempi)
+            sets:
+              - {count: 3, reps: 2, load: {pct: {per_microcycle: [71, 74, 77, 80]}}}
+          - exercise: squat
+            label: Squat — intensità
+            warmup: barbell
+            note: "Freno: se le doppie superano RPE 7, −5 % in questa seduta."
+            sets: *intensity
+          - exercise: squat
+            variant: paused
+            label: Squat fermo in buca
+            execution: fermo 1" in buca (sotto carico conta circa 2 tempi per secondo)
+            sets:
+              - {count: 3, reps: 2, load: {pct: {per_microcycle: [71, 74, 77, 80]}}}
+          - exercise: military_press
+            alternatives: [db_shoulder_press]
+            label: Military press (o lento manubri)
+            execution: prima serie a cedimento tecnico
+            sets:
+              - {count: 1, reps: 6-10, load: {rpe: 10}}
+              - {count: 2, reps: 6-10, load: {rpe: 8}}
+          - exercise: face_pull
+            label: Face pull 🩹
+            execution: mai a cedimento
+            sets:
+              - {count: 3, reps: 12-15, load: {rpe: 7-8}}
+
+      D:
+        title: Panca volume · Stacco intensità
+        exercises:
+          - exercise: bench
+            label: Panca — volume
+            warmup: barbell
+            sets:
+              - {count: 3, reps: {per_week: [5, 6, 7]}, load: {pct: {per_microcycle: [68, 71, 74, 77]}}}
+          - exercise: bench
+            variant: close_grip
+            label: Panca presa stretta
+            execution: presa 2-3 dita più stretta della presa di gara
+            sets:
+              - {count: 3, reps: {per_week: [5, 6, 7]}, load: {pct: {per_microcycle: [66, 69, 72, 75]}}}
+          - exercise: deadlift
+            label: Stacco — intensità
+            warmup: floor
+            note: "Freno: se le doppie superano RPE 7, −5 % in questa seduta."
+            sets: *intensity
+          - exercise: deadlift
+            variant: paused
+            weeks: 1-6
+            label: Stacco fermo — fermo a 1 cm da terra
+            execution: fermo a 1 cm da terra per 1", poi completa l'alzata
+            sets:
+              - {count: 2, reps: 2, load: {pct: {per_microcycle: [71, 74, 77, 80]}}}
+          - exercise: deadlift
+            variant: paused
+            weeks: 7-11
+            label: Stacco fermo — fermo al ginocchio
+            execution: fermo al ginocchio per 1", poi completa l'alzata
+            sets:
+              - {count: 2, reps: 2, load: {pct: {per_microcycle: [71, 74, 77, 80]}}}
+          - exercise: squat
+            variant: high_bar
+            optional: true
+            label: Squat high bar
+            execution: bilanciere alto, esecuzione normale
+            sets:
+              - {count: 2, reps: 6, load: {rpe: 5, hint_kg: 90}}
+          - exercise: seal_row
+            alternatives: [chest_supported_row]
+            label: Seal row (o rematore chest supported 30°)
+            sets: *accessory
+          - exercise: ytw_raise
+            label: Y-T-W 🩹
+            execution: per forma, corpo libero o 1-2 kg, mai a cedimento
+            sets:
+              - {count: 3, reps: 10}
+
+  - name: taper
+    title: Taper e test
+    microcycles:
+      - [12]
+    schedule:
+      M: monday
+      L: thursday
+      T: saturday
+    days:
+      M:
+        title: Taper — seduta moderata
+        exercises:
+          - exercise: squat
+            label: Squat
+            warmup: barbell
+            sets: &taper_moderate
+              - {id: top, count: 1, reps: 1, load: {rpe: 7}}
+              - {count: 2, reps: 2, load: {pct: 75}}
+          - exercise: bench
+            label: Panca
+            warmup: barbell
+            sets: *taper_moderate
+          - exercise: deadlift
+            label: Stacco
+            warmup: floor
+            sets: *taper_moderate
+      L:
+        title: Taper — seduta leggera
+        exercises:
+          - exercise: squat
+            label: Squat
+            warmup: barbell
+            sets: &taper_light
+              - {count: 2, reps: 3, load: {pct: 60}}
+          - exercise: bench
+            label: Panca
+            warmup: barbell
+            sets: *taper_light
+      T:
+        title: Test dei massimali
+        kind: max_test
+        optional: true
+        note: "Facoltativo: in alternativa si fa la seduta moderata, si ricalcolano le basi dalle singole @8 e si riparte con un nuovo ciclo."
+        exercises:
+          - exercise: squat
+            label: Squat
+            warmup: barbell
+            sets: &max_test
+              - {count: 1, reps: 1, load: {rpe: 6}}
+              - {count: 1, reps: 1, load: {rpe: 8}}
+              - {count: 1, reps: 1, load: {rpe: 10}}
+          - exercise: bench
+            label: Panca
+            warmup: barbell
+            sets: *max_test
+          - exercise: deadlift
+            label: Stacco
+            warmup: floor
+            sets: *max_test
