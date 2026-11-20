@@ -108,7 +108,7 @@ python3 .github/scripts/genera_sedute.py raw/programs/YYYY/<program> <microciclo
 
 - Scrive `x` nella colonna ✓ quando fa la serie.
 - Se cambia carico, ripetizioni o RPE **corregge la cella**; una cella non toccata vale "eseguita come prevista". Nelle serie a RPE compila `Kg`; un intervallo di ripetizioni non corretto (`8-10`) vale il minimo.
-- Compila `note::`, `status`, `actual_date`, `durata_min`. Se sposta la seduta: `status: moved` + `actual_date`. **Non rinomina né sposta il file.**
+- Compila `note::`, `status`, `actual_date`, `duration_min`. Se sposta la seduta: `status: moved` + `actual_date`. **Non rinomina né sposta il file.**
 
 **Sincronizzazione git (Mac ↔ iPad)**
 
